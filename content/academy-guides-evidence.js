@@ -155,5 +155,278 @@ module.exports=[
     related:['push-ups','monkey-bars','swiss-ladder','beginner'],
     products:['wall-pull-up-bar','resistance-bands'],
     sources:['ace-progressions','ace-pull-up-moves','acsm-2026','youdas-2010','ace-pull-up','dickie-2017']
+  },
+  {
+    slug:'beginner', reviewed:'2026-11-27',
+    title:t('كاليستنكس للمبتدئين: كيف تبدأ من الصفر في البيت','Calisthenics for Beginners: How to Start from Zero at Home'),
+    description:t('ما هو الكاليستنكس وكيف تبدأه في البيت: أربع حركات أساسية، جدول أسبوعي للمبتدئين، ومتى تتقدم، بحسب توصيات منظمة الصحة العالمية وACSM وNHS.','What calisthenics is and how to start at home: four basic movements, a beginner weekly plan and when to progress, based on WHO, ACSM and NHS guidance.'),
+    tags:[t('مبتدئ','Beginner'),t('تمارين بوزن الجسم','Bodyweight training'),t('في البيت','At home')],
+    lead:t('الكاليستنكس تدريب قوة تستخدم فيه وزن جسمك بدل الأوزان. تبدأه بأربع حركات: دفع وسحب ورجلين وجذع، وتجعل كل حركة أسهل أو أصعب بتغيير زاوية جسمك. لا تحتاج أن تشتري شيئًا في الأسبوع الأول.','Calisthenics is strength training that uses your body weight instead of weights. You start with four movements, a push, a pull, a leg exercise and a trunk hold, and make each easier or harder by changing your body angle. You need to buy nothing in week one.'),
+    summary:[
+      t('الكاليستنكس يبني القوة فعلًا: تدريب الضغط المتدرج 3 أيام أسبوعيًا لـ4 أسابيع رفع القوة بشكل مشابه لتمرين البنش برس {{kotarsky-2018}}.','Calisthenics really builds strength: progressive push-up training 3 days a week for 4 weeks raised strength much like bench-press training {{kotarsky-2018}}.'),
+      t('تمرّن على كل العضلات الكبرى يومين في الأسبوع على الأقل {{nhs-adults}} {{acsm-2026}}، وأضف 150–300 دقيقة نشاطًا هوائيًا متوسطًا أسبوعيًا مثل المشي السريع {{who-2020}}.','Train all major muscle groups on at least 2 days a week {{nhs-adults}} {{acsm-2026}}, and add 150–300 minutes of moderate aerobic activity such as brisk walking each week {{who-2020}}.'),
+      t('أربع حركات تكفي للبداية: ضغط، وسحب، وقرفصاء، وبلانك. كل واحدة لها نسخة أسهل للمبتدئ {{ace-progressions}}.','Four movements are enough to start: a push-up, a pull, a squat and a plank. Each has an easier beginner version {{ace-progressions}}.'),
+      t('2–3 مجموعات لكل حركة تكفي، ولا حاجة للتمرين حتى العجز {{acsm-2026}}.','2–3 sets per movement are enough, and you do not need to train to failure {{acsm-2026}}.'),
+      t('قاعدة وثبة: عندما تكمل أعلى رقم في النطاق بشكل نظيف في جلستين متتاليتين، انتقل للنسخة الأصعب.','WATHBA rule: once you hit the top of the rep range cleanly in two sessions in a row, move to the harder version.')
+    ],
+    images:{
+      hero:{file:'dheeb-beginner-hero',character:'dheeb',pose:'standing calmly front view with arms relaxed, as if welcoming a beginner.',alt:t('ذيب يستقبل المبتدئين في أكاديمية وثبة','Dheeb welcoming beginners to WATHBA Academy')},
+      muscles:{file:'muscles-beginner',character:'dheeb',pose:'standing front view in a relaxed athletic stance, arms slightly away from the body so the chest, arms, abdomen and legs are all visible.',red:{strong:'chest, back of the upper arms, abdominal muscles, front of the thighs and the buttocks',light:'shoulders and calves'},alt:t('ذيب واقفًا، والعضلات التي تعمل في تمارين البداية ملوّنة بالأحمر','Dheeb standing with the muscles used in the starter exercises shaded red')},
+      mistake:{file:'sakhr-squat-heels-up',character:'sakhr',pose:'side view in a bodyweight squat showing a clear mistake: heels lifted off the floor, back rounded forward, knees pushed far past the toes.',alt:t('صخر يرفع كعبيه ويقوّس ظهره في القرفصاء، وهذا خطأ شائع','Sakhr lifting his heels and rounding his back in a squat, a common mistake')},
+      closing:{file:'sakhr-plank',character:'sakhr',pose:'side view holding a forearm plank, body in one straight line from head to heels.',alt:t('صخر يثبت في تمرين البلانك','Sakhr holding a plank')}
+    },
+    muscles:{
+      primary:[t('الدفع: الصدر والترايسبس ومقدمة الكتف في الضغط {{ace-push-up}}','Push: chest, triceps and front shoulders in the push-up {{ace-push-up}}'),t('الرجلان: الفخذان والأرداف في القرفصاء {{ace-squat}}','Legs: thighs and glutes in the squat {{ace-squat}}'),t('السحب: الظهر والبايسبس في العقلة والتعلق {{ace-pull-up}}','Pull: back and biceps in pull-ups and hangs {{ace-pull-up}}')],
+      secondary:[t('الجذع: البطن وأسفل الظهر تحافظ على استقامة الجسم في كل الحركات {{ace-push-up}} {{ace-squat}}','Trunk: abdominals and low back keep the body straight in every movement {{ace-push-up}} {{ace-squat}}'),t('القبضة والساعد في حركات التعلق','Grip and forearms in hanging movements')],
+      note:t('هذه هي مجموعات العضلات الكبرى التي توصي NHS بتدريبها يومين في الأسبوع: الرجلان والوركان والظهر والبطن والصدر والكتفان والذراعان {{nhs-adults}}.','These are the major muscle groups the NHS recommends training twice a week: legs, hips, back, abdomen, chest, shoulders and arms {{nhs-adults}}.')
+    },
+    sections:[
+      section('what',t('ما هو الكاليستنكس؟','What is calisthenics?'),
+        t('الكاليستنكس تدريب قوة يكون فيه وزن جسمك هو المقاومة. تغيّر الصعوبة بزاوية الجسم ونقطة الارتكاز: الضغط على الحائط أخف من الضغط على الركبتين، وهذا أخف من الضغط الكامل {{ebben-2011}}.','Calisthenics is strength training where your body weight is the resistance. You change the difficulty with body angle and points of support: a wall push-up is lighter than a knee push-up, which is lighter than a full push-up {{ebben-2011}}.'),
+        t('وهو ليس تمرينًا خفيفًا: الضغط بحمل مضبوط مرتين أسبوعيًا لمدة 8 أسابيع زاد حجم الصدر والترايسبس وقوتهما بقدر مشابه للبنش برس {{kikuchi-2017}}.','Nor is it light training: push-ups at a matched load twice a week for 8 weeks grew the chest and triceps and their strength about as much as the bench press {{kikuchi-2017}}.')),
+      section('four',t('الحركات الأربع الأساسية','The four basic movements'),
+        t('الدفع: ابدأ بضغط الحائط ثم الضغط على سطح مرتفع، واخفض السطح تدريجيًا {{nhs-strength}} {{ace-progressions}}. التفاصيل في دليل تمارين الضغط.','Push: start with wall press-ups, then incline push-ups, lowering the surface over time {{nhs-strength}} {{ace-progressions}}. Details are in the push-up guide.'),
+        t('الرجلان: القرفصاء بوزن الجسم. ادفع الوركين للخلف وللأسفل، وانزل حتى يصبح الفخذان موازيين للأرض تقريبًا أو حتى يبدأ كعباك بالارتفاع، والركبتان على خط إصبع القدم الثاني {{ace-squat}}. إذا صعبت، اجلس على كرسي وقم منه ببطء {{nhs-strength}}.','Legs: the bodyweight squat. Push your hips back and down and lower until your thighs are about parallel or your heels start to lift, knees tracking over the second toe {{ace-squat}}. If that is hard, sit down onto a chair and stand up slowly {{nhs-strength}}.'),
+        t('السحب: التعلق من بار ثابت ثم السحب المساعد، كما في دليل أول عقلة {{ace-progressions}}. لا ترتجل نقطة تعليق على باب أو أثاث.','Pull: hang from a solid bar, then assisted pulls, as in the first pull-up guide {{ace-progressions}}. Never improvise a hanging point on a door or furniture.'),
+        t('الجذع: البلانك هو أول خطوة في سلسلة الضغط عند ACE {{ace-progressions}}. ابدأ على الركبتين إذا لزم، وأبقِ الجسم خطًا واحدًا.','Trunk: the plank is the first step in the ACE push-up chain {{ace-progressions}}. Start on your knees if needed, keeping your body in one line.'))
+    ],
+    ladderNote:t('كل حركة لها نسخة سهلة وأصعب. المقادير للمبتدئ، والأرقام غير المرتبطة بمصدر وعمود «انتقل عندما» قواعد عملية من وثبة.','Each movement has an easy and a harder version. Doses are for beginners; numbers without a source and the “Move on when” column are WATHBA working rules.'),
+    levels:[
+      level(t('الجلوس والوقوف من كرسي','Sit-to-stand'),t('5 تكرارات، كلما أبطأ كان أفضل {{nhs-strength}}','5 reps, the slower the better {{nhs-strength}}'),t('قم بقوة رجليك لا يديك، واجلس ببطء {{nhs-strength}}.','Stand using your legs, not your arms, and sit slowly {{nhs-strength}}.'),t('تكمل 3 × 10 ببطء دون استعمال اليدين.','You complete 3 × 10 slowly without using your hands.')),
+      level(t('القرفصاء بوزن الجسم','Bodyweight squat'),t('2–3 × 8–12','2–3 × 8–12'),t('الوركان للخلف، والفخذان قرب الموازاة، والظهر مستقيم {{ace-squat}}.','Hips back, thighs near parallel, back flat {{ace-squat}}.'),t('تكمل 3 × 15 بالشكل نفسه.','You complete 3 × 15 with the same form.')),
+      level(t('ضغط الحائط ثم المائل','Wall, then incline push-up'),t('3 × 5–10 {{nhs-strength}}','3 × 5–10 {{nhs-strength}}'),t('اخفض السطح تدريجيًا كلما تقدمت {{ace-progressions}}.','Lower the surface as you improve {{ace-progressions}}.'),t('تكمل 3 × 10 على سطح بارتفاع الركبة.','You complete 3 × 10 on a knee-height surface.')),
+      level(t('البلانك','Plank'),t('2–3 × 15–30 ثانية','2–3 × 15–30 seconds'),t('جسم مستقيم من الرأس للكعبين، دون هبوط الوركين.','A straight line from head to heels without the hips sagging.'),t('تثبت 3 × 45 ثانية، ثم انتقل لثبات وضع الضغط {{ace-progressions}}.','You hold 3 × 45 seconds; then move to a push-up-position plank {{ace-progressions}}.')),
+      level(t('التعلق من بار ثابت','Hang from a solid bar'),t('3 × 10–30 ثانية','3 × 10–30 seconds'),t('الكتفان مشدودان للأسفل بعيدًا عن الأذنين {{ace-pull-up}}.','Shoulders drawn down away from the ears {{ace-pull-up}}.'),t('تتعلق 30 ثانية ثلاث مرات، ثم ابدأ دليل أول عقلة.','You hang 30 seconds three times; then start the first pull-up guide.'))
+    ],
+    program:[
+      t('ابدأ بجلستين في الأسبوع على يومين غير متتاليين، وكل جلسة تشمل الحركات الأربع. هذا يحقق توصية تدريب كل العضلات الكبرى يومين أسبوعيًا {{nhs-adults}} {{acsm-2026}}. أضف جلسة ثالثة بعد شهر إذا كان تعافيك جيدًا.','Start with two sessions a week on non-consecutive days, each covering all four movements. That meets the advice to train every major muscle group twice a week {{nhs-adults}} {{acsm-2026}}. Add a third session after a month if you recover well.'),
+      t('الراحة 60–120 ثانية بين المجموعات قاعدة من وثبة. سجّل تمرينك: الحركة والتكرارات ومدى صعوبتها، وزد تكرارًا واحدًا عندما تستطيع.','Resting 60–120 seconds between sets is a WATHBA rule. Log each session: the movement, the reps and how hard it felt, and add one rep when you can.')
+    ],
+    week:[
+      day(t('الأحد','Sunday'),t('إحماء 5 دقائق، ثم 2–3 مجموعات من كل حركة: قرفصاء، ضغط، تعلق أو سحب، بلانك.','5-minute warm-up, then 2–3 sets of each movement: squat, push-up, hang or pull, plank.')),
+      day(t('الإثنين','Monday'),t('مشي سريع 30 دقيقة {{who-2020}}.','30 minutes of brisk walking {{who-2020}}.')),
+      day(t('الأربعاء','Wednesday'),t('نفس جلسة الأحد، وحاول زيادة تكرار واحد في حركة أو اثنتين.','The same session as Sunday, trying to add one rep to one or two movements.')),
+      day(t('الخميس أو الجمعة','Thursday or Friday'),t('مشي أو نشاط هوائي آخر لتكمل 150 دقيقة في الأسبوع {{who-2020}}.','A walk or other aerobic activity to reach 150 minutes for the week {{who-2020}}.'))
+    ],
+    mistakes:[
+      mistake(t('البدء بالمهارات الصعبة.','Starting with hard skills.'),t('ابدأ بالنسخة السهلة من كل حركة وتقدّم خطوة خطوة؛ هكذا صُممت سلاسل التدرّج {{ace-progressions}}.','Start each movement at its easy version and progress one step at a time; that is how progression chains are designed {{ace-progressions}}.')),
+      mistake(t('تدريب الصدر والذراعين فقط.','Training only chest and arms.'),t('درّب الرجلين والظهر والجذع أيضًا؛ التوصية تشمل كل العضلات الكبرى {{nhs-adults}}.','Train legs, back and trunk too; the guidance covers every major muscle group {{nhs-adults}}.')),
+      mistake(t('رفع الكعبين أو تقويس الظهر في القرفصاء.','Heels lifting or back rounding in the squat.'),t('انزل فقط حتى قبل أن يحدث ذلك {{ace-squat}}، واستعمل كرسيًا خلفك كمرجع.','Lower only until just before that happens {{ace-squat}}, using a chair behind you as a target.')),
+      mistake(t('التمرين كل يوم حتى الإنهاك.','Training to exhaustion every day.'),t('جلستان إلى ثلاث كافية، والتمرين حتى العجز لا يحسّن النتائج بشكل ثابت {{acsm-2026}}.','Two or three sessions are enough, and training to failure does not reliably improve results {{acsm-2026}}.'))
+    ],
+    faqs:[
+      faq(t('ما هي تمارين الكاليستنكس؟','What are calisthenics exercises?'),t('تمارين قوة بوزن الجسم مثل الضغط والعقلة والقرفصاء والبلانك والديبس. تغيّر صعوبتها بتغيير زاوية الجسم ونقطة الارتكاز بدل إضافة أوزان.','Bodyweight strength exercises such as push-ups, pull-ups, squats, planks and dips. You change their difficulty by changing body angle and support instead of adding weights.')),
+      faq(t('هل الكاليستنكس يبني عضلات؟','Does calisthenics build muscle?'),t('نعم. في دراسة، الضغط بحمل مضبوط مرتين أسبوعيًا لـ8 أسابيع زاد حجم الصدر والترايسبس بقدر مشابه للبنش برس، وفي أخرى رفع تدريب الضغط المتدرج القوة مثل البنش برس.','Yes. In one study, push-ups at a matched load twice a week for 8 weeks grew the chest and triceps about as much as the bench press; in another, progressive push-up training raised strength like the bench press did.')),
+      faq(t('كم مرة أتمرن في الأسبوع؟','How often should I train?'),t('يومين على الأقل لكل العضلات الكبرى، بحسب NHS وACSM. للمبتدئ نقترح جلستين على يومين غير متتاليين، ثم ثلاثًا بعد شهر.','At least 2 days a week for all major muscle groups, per the NHS and ACSM. For beginners we suggest two sessions on non-consecutive days, then three after a month.')),
+      faq(t('هل أستطيع ممارسة الكاليستنكس في البيت بدون معدات؟','Can I do calisthenics at home without equipment?'),t('نعم للضغط والقرفصاء والبلانك. السحب يحتاج نقطة تعليق ثابتة مثل بار عقلة مثبت جيدًا؛ لا تستعمل الأبواب أو الأثاث.','Yes for push-ups, squats and planks. Pulling needs a solid hanging point such as a properly fixed pull-up bar; never use doors or furniture.')),
+      faq(t('هل الكاليستنكس مناسب للنساء؟','Is calisthenics suitable for women?'),t('نعم، بنفس التدرّج. توصيات منظمة الصحة العالمية وNHS تشمل كل البالغين.','Yes, with the same progression. WHO and NHS guidance covers all adults.')),
+      faq(t('هل يجب أن أعمل عقلة من أول يوم؟','Do I need to do a pull-up on day one?'),t('لا. ابدأ بالتعلق والسحب المساعد، واتبع سلّم دليل أول عقلة.','No. Start with hangs and assisted pulls, and follow the ladder in the first pull-up guide.'))
+    ],
+    related:['push-ups','first-pull-up','parallettes','dips'],
+    products:['wall-pull-up-bar','resistance-bands','steel-wood-parallettes'],
+    sources:['kotarsky-2018','nhs-adults','acsm-2026','who-2020','ace-progressions','ace-push-up','ace-squat','ace-pull-up','ebben-2011','kikuchi-2017','nhs-strength']
+  },
+  {
+    slug:'dips', reviewed:'2026-11-27',
+    title:t('تمارين الديبس على المتوازي: من الدعم إلى أول عدة كاملة','Parallel Bar Dips: From Support Holds to Your First Full Rep'),
+    description:t('تعلّم الديبس على المتوازي: العضلات المستهدفة، الفرق بين ديبس الكرسي والمتوازي والحلقات، سلّم تدرّج وجدول أسبوعي، بحسب دراسات منشورة وتوصيات ACSM.','Learn parallel bar dips: target muscles, bench vs bar vs ring dips, a progression ladder and weekly plan, based on published studies and ACSM guidance.'),
+    tags:[t('دفع وقوة','Pushing strength'),t('مبتدئ إلى متوسط','Beginner to intermediate'),t('متوازي','Parallel bars')],
+    lead:t('الديبس تنزل فيه بجسمك بين مسكتين ثم تدفعه للأعلى. هو من أقوى تمارين الصدر والترايسبس بوزن الجسم، ويبدأ بالثبات في وضع الدعم قبل أي نزول.','In a dip you lower your body between two handles and press it back up. It is one of the strongest bodyweight exercises for the chest and triceps, and it starts with a steady support hold before any lowering.'),
+    summary:[
+      t('ديبس المتوازي يستهدف الصدر والترايسبس بفعالية، وشكل الحركة لا يتغير كثيرًا حتى مع التعب {{mckenzie-fatigue-2022}}.','Bar dips target the chest and triceps effectively, and technique holds up well even with fatigue {{mckenzie-fatigue-2022}}.'),
+      t('الترتيب: ديبس الكرسي، ثم المتوازي، ثم الحلقات. نشاط العضلات في المتوازي أعلى من الكرسي، والحلقات مشابهة للمتوازي مع عمل أكبر لبعض العضلات {{mckenzie-dips-2022}}.','The order: bench dips, then bar dips, then ring dips. Muscle activity is higher on bars than on a bench, and rings are similar to bars with some muscles working harder {{mckenzie-dips-2022}}.'),
+      t('إذا كان كتفك حساسًا، انتبه لديبس الكرسي: يحتاج مدًى أكبر لمدّ الكتف للخلف {{mckenzie-dips-2022}}.','If your shoulder is sensitive, be careful with bench dips: they need a greater shoulder-extension range {{mckenzie-dips-2022}}.'),
+      t('تمرّن جلستين أسبوعيًا على الأقل بـ2–3 مجموعات {{acsm-2026}}.','Train at least 2 sessions a week with 2–3 sets {{acsm-2026}}.'),
+      t('قاعدة وثبة: لا تبدأ الديبس قبل أن تثبت 3 × 20 ثانية في وضع الدعم بكتفين ثابتين.','WATHBA rule: do not start dips until you can hold 3 × 20 seconds in support with steady shoulders.')
+    ],
+    images:{
+      hero:{file:'dheeb-dips-hero',character:'dheeb',pose:'side view at the bottom of a dip between two plain parallel steel bars, elbows bent about 90 degrees, torso slightly leaning forward, legs straight under him, calm and controlled.',alt:t('ذيب في أسفل حركة الديبس على المتوازي','Dheeb at the bottom of a parallel bar dip')},
+      muscles:{file:'muscles-dips',character:'dheeb',pose:'three-quarter front view in a straight-arm support at the top of a dip between two plain parallel steel bars.',red:{strong:'chest and triceps (back of the upper arms)',light:'front of the shoulders and the abdominal muscles'},alt:t('ذيب في وضع الدعم على المتوازي، والعضلات العاملة ملوّنة بالأحمر','Dheeb in support on parallel bars with the working muscles shaded red')},
+      mistake:{file:'sakhr-dips-shrugged',character:'sakhr',pose:'side view at the bottom of a dip between two plain parallel steel bars showing a clear mistake: shoulders shrugged up to his ears and rolled forward, sinking far too deep, looking strained.',alt:t('صخر ينزل أعمق من اللازم وكتفاه مرفوعتان في الديبس، وهذا خطأ شائع','Sakhr sinking too deep with shrugged shoulders in a dip, a common mistake')},
+      closing:{file:'sakhr-support-hold',character:'sakhr',pose:'front view holding a straight-arm support on two plain parallel steel bars, feet off the floor, knees slightly bent, proud.',alt:t('صخر يثبت في وضع الدعم على المتوازي','Sakhr holding a support on parallel bars')}
+    },
+    muscles:{
+      primary:[t('الصدر: العضلة الصدرية الكبرى {{mckenzie-fatigue-2022}}','Chest: pectoralis major {{mckenzie-fatigue-2022}}'),t('خلف الذراع: الترايسبس {{mckenzie-fatigue-2022}} {{mckenzie-dips-2022}}','Back of the arm: triceps {{mckenzie-fatigue-2022}} {{mckenzie-dips-2022}}')],
+      secondary:[t('مقدمة الكتف وعضلات تثبيت الكتف، ويزيد عملها مع التعب {{mckenzie-fatigue-2022}}','Front shoulder and shoulder stabilisers, which work harder as you tire {{mckenzie-fatigue-2022}}'),t('الجذع: يحافظ على وضع الجسم بين المسكتين','Trunk: holds your body position between the handles')],
+      note:t('في ديبس الكرسي يأخذ الترايسبس معظم العمل، وفي المتوازي والحلقات يرتفع نشاط العضلات أكثر {{mckenzie-dips-2022}}.','In bench dips the triceps does most of the work; on bars and rings muscle activity rises further {{mckenzie-dips-2022}}.')
+    },
+    sections:[
+      section('technique',t('كيف تبدو عدة الديبس الصحيحة؟','What does a good dip look like?'),
+        t('ابدأ في وضع الدعم: ذراعان ممدودتان، والكتفان مشدودان للأسفل بعيدًا عن الأذنين، والجسم ثابت دون تأرجح. انزل بثني المرفقين مع ميل خفيف للجذع للأمام، ثم ادفع حتى تمتد الذراعان.','Start in support: arms straight, shoulders drawn down away from the ears, body still with no swinging. Lower by bending the elbows with a slight forward lean, then press until the arms are straight.'),
+        t('العمق: ACSM وجدت أن المدى الأكبر يبني قوة أكثر {{acsm-2026}}، لكن الديبس يضع الكتف في مدًى كبير. قاعدة وثبة: انزل فقط للعمق الذي يبقى فيه الكتف مريحًا والمرفقان قرب الجسم، وزد العمق تدريجيًا.','Depth: ACSM found a larger range builds more strength {{acsm-2026}}, but the dip takes the shoulder through a big range. WATHBA rule: lower only as deep as your shoulder stays comfortable with elbows close to your sides, and add depth gradually.')),
+      section('types',t('ديبس الكرسي أم المتوازي أم الحلقات؟','Bench, bar or ring dips?'),
+        t('ديبس الكرسي، ويداك على كرسي خلفك، يركّز على الترايسبس لكنه يدفع الكتف إلى مدّ أكبر للخلف؛ لذلك انتبه له إذا كان لديك ألم في الكتف {{mckenzie-dips-2022}}.','Bench dips, with your hands on a bench behind you, focus on the triceps but push the shoulder into more extension; take care with them if your shoulder hurts {{mckenzie-dips-2022}}.'),
+        t('ديبس المتوازي هو الخطوة التالية المنطقية لأن نشاط العضلات فيه أعلى {{mckenzie-dips-2022}}. الحلقات تتحرك، فتحتاج تحكمًا أكبر وتزيد عمل بعض العضلات؛ ابدأها بعد إتقان المتوازي {{mckenzie-dips-2022}}.','Bar dips are the logical next step because muscle activity is higher {{mckenzie-dips-2022}}. Rings move, so they demand more control and make some muscles work harder; start them after mastering bars {{mckenzie-dips-2022}}.')),
+      section('equipment',t('أي متوازي يناسبك في البيت؟','Which dip station suits your home?'),
+        t('المتوازي المثبت على الحائط يوفر مساحة الأرض، ويحتاج حائطًا مناسبًا ومساحة أمامه لركبتيك. المتوازي الأرضي يحتاج أرضية مستوية ومساحة للقواعد، والكبير منه يعطي ارتفاعًا كافيًا لتنزل دون أن تلمس قدماك الأرض. قِس مساحتك قبل الاختيار.','A wall-mounted dip station saves floor space but needs a suitable wall and room for your knees. Floor parallel bars need level ground and room for the bases; the large version gives enough height to lower without your feet touching the floor. Measure your space before choosing.'))
+    ],
+    ladderNote:t('السلّم يبدأ بالدعم ثم ينتقل من الأسهل للأصعب كما في المقارنة بين أنواع الديبس {{mckenzie-dips-2022}}. المقادير وعمود «انتقل عندما» قواعد عملية من وثبة.','The ladder starts with support, then moves from easier to harder dips as in the comparison of dip types {{mckenzie-dips-2022}}. Doses and the “Move on when” column are WATHBA working rules.'),
+    levels:[
+      level(t('ثبات الدعم','Support hold'),t('3 × 10–20 ثانية','3 × 10–20 seconds'),t('ذراعان ممدودتان، كتفان للأسفل، جسم ثابت.','Straight arms, shoulders down, body still.'),t('تثبت 3 × 20 ثانية بكتفين ثابتين.','You hold 3 × 20 seconds with steady shoulders.')),
+      level(t('ديبس بمساعدة القدمين','Foot-assisted dips'),t('3 × 5–8','3 × 5–8'),t('قدماك على الأرض أو على درجة تخفف جزءًا من الوزن.','Feet on the floor or a step to take some of the weight.'),t('تكمل 3 × 8 بأقل مساعدة.','You complete 3 × 8 with minimal help.')),
+      level(t('النزول البطيء','Slow negatives'),t('3 × 3–5، نزول في 3–5 ثوانٍ','3 × 3–5, 3–5-second lowering'),t('ابدأ من الأعلى وانزل ببطء، ثم ارجع للأعلى بمساعدة قدميك.','Start at the top, lower slowly, then return to the top with your feet.'),t('تتحكم في 5 ثوانٍ نزولًا في كل تكرار.','You control a 5-second descent every rep.')),
+      level(t('ديبس المتوازي الكامل','Full bar dip'),t('3 × 3–8','3 × 3–8'),t('للعمق المريح للكتف، دون تأرجح {{mckenzie-fatigue-2022}}.','To a shoulder-comfortable depth, without swinging {{mckenzie-fatigue-2022}}.'),t('تكمل 3 × 10 نظيفة.','You complete 3 clean sets of 10.')),
+      level(t('ديبس الحلقات','Ring dips'),t('3 × 3–6','3 × 3–6'),t('ثبّت الحلقات قرب جسمك؛ عدم الثبات يزيد عمل العضلات {{mckenzie-dips-2022}}.','Keep the rings close to your body; the instability makes muscles work harder {{mckenzie-dips-2022}}.'),t('تكمل 3 × 8، ثم فكّر بوزن إضافي على المتوازي.','You complete 3 × 8; then consider added weight on bars.'))
+    ],
+    program:[
+      t('جلستان إلى ثلاث في الأسبوع مع يوم راحة بينها، و2–3 مجموعات من مرحلتك {{acsm-2026}}. ضع الديبس في أول الجلسة بعد الإحماء، لأن التمارين في بداية الجلسة تكسب قوة أكثر {{acsm-2026}}.','Two or three sessions a week with a rest day between, and 2–3 sets at your stage {{acsm-2026}}. Put dips first after the warm-up, since exercises at the start of a session gain more strength {{acsm-2026}}.'),
+      t('الراحة 90 ثانية إلى دقيقتين بين المجموعات قاعدة من وثبة. ادمج الديبس مع العقلة في نفس الجلسة لتوازن الدفع والسحب.','Resting 90 seconds to 2 minutes between sets is a WATHBA rule. Pair dips with pull-ups in the same session to balance pushing and pulling.')
+    ],
+    week:[
+      day(t('الأحد','Sunday'),t('إحماء للكتفين، ثم 3 مجموعات من مرحلتك في الديبس، ثم 3 مجموعات من مرحلتك في العقلة.','Shoulder warm-up, 3 sets at your dip stage, then 3 sets at your pull-up stage.')),
+      day(t('الثلاثاء','Tuesday'),t('راحة من الدفع، أو رجلين وجذع.','No pushing, or legs and trunk.')),
+      day(t('الأربعاء','Wednesday'),t('3 مجموعات نزول بطيء، ثم ثبات دعم 2 × 20 ثانية.','3 sets of slow negatives, then 2 × 20-second support holds.')),
+      day(t('الجمعة','Friday'),t('اختياري: نفس جلسة الأحد مع محاولة زيادة تكرار واحد.','Optional: Sunday\'s session, trying to add one rep.'))
+    ],
+    mistakes:[
+      mistake(t('الكتفان مرفوعتان للأذنين.','Shoulders shrugged up to the ears.'),t('اشدّهما للأسفل قبل كل عدة، وارجع لثبات الدعم إذا لم تستطع.','Draw them down before every rep, and go back to support holds if you cannot.')),
+      mistake(t('النزول العميق على حساب الكتف.','Sinking deep at the shoulder\'s expense.'),t('انزل للعمق المريح وزده تدريجيًا؛ الكتف يعمل في مدًى كبير في الديبس {{mckenzie-dips-2022}}.','Lower to a comfortable depth and add more gradually; the shoulder works through a big range in dips {{mckenzie-dips-2022}}.')),
+      mistake(t('البدء بالحلقات.','Starting on rings.'),t('أتقن المتوازي أولًا؛ الحلقات تحتاج تحكمًا أكبر {{mckenzie-dips-2022}}.','Master bars first; rings need more control {{mckenzie-dips-2022}}.')),
+      mistake(t('التأرجح والركل للصعود.','Swinging and kicking up.'),t('استعمل قدميك كمساعدة مقصودة على الأرض أو درجة بدل الزخم.','Use your feet as deliberate assistance on the floor or a step instead of momentum.'))
+    ],
+    faqs:[
+      faq(t('ما العضلات التي يشغّلها الديبس؟','Which muscles do dips work?'),t('الصدر والترايسبس بشكل أساسي، مع مقدمة الكتف وعضلات تثبيت الكتف والجذع. دراسة على ديبس المتوازي وجدت أنه يستهدف الصدر والترايسبس بفعالية.','Mainly the chest and triceps, plus the front shoulder, shoulder stabilisers and trunk. A study of bar dips found they target the chest and triceps effectively.')),
+      faq(t('أيهما أسهل: ديبس الكرسي أم المتوازي؟','Which is easier, bench dips or bar dips?'),t('ديبس الكرسي أخف ونشاط العضلات فيه أقل، لذلك المتوازي خطوة تالية مناسبة. لكن ديبس الكرسي يحتاج مدًى أكبر لمدّ الكتف للخلف، فانتبه له إذا كان كتفك يؤلمك.','Bench dips are lighter with less muscle activity, so bar dips are a suitable next step. But bench dips need more shoulder extension, so take care if your shoulder hurts.')),
+      faq(t('كم أنزل في الديبس؟','How deep should I go in a dip?'),t('للعمق الذي يبقى فيه كتفك مريحًا والمرفقان قرب جسمك، وزده تدريجيًا. المدى الأكبر يبني قوة أكثر، لكن ليس على حساب الألم.','To the depth where your shoulder stays comfortable and your elbows stay close, increasing it gradually. A larger range builds more strength, but not at the cost of pain.')),
+      faq(t('هل أحتاج متوازي أرضي أم على الحائط؟','Do I need floor bars or a wall-mounted station?'),t('الحائطي يوفر مساحة الأرض ويحتاج حائطًا مناسبًا، والأرضي يحتاج أرضية مستوية ومساحة للقواعد. اختر بحسب مساحتك ونوع جدارك.','A wall station saves floor space but needs a suitable wall; floor bars need level ground and room for the bases. Choose by your space and wall type.')),
+      faq(t('متى أنتقل لديبس الحلقات؟','When should I move to ring dips?'),t('بعد أن تكمل 3 مجموعات من 10 ديبس نظيفة على المتوازي. الحلقات مشابهة للمتوازي في نشاط العضلات لكنها تحتاج تحكمًا أكبر.','Once you can do 3 clean sets of 10 bar dips. Rings give similar muscle activity to bars but demand more control.'))
+    ],
+    related:['push-ups','rings','first-pull-up','parallettes'],
+    products:['wall-mounted-dip-bars','freestanding-parallel-bars-large','freestanding-parallel-bars-small'],
+    sources:['mckenzie-fatigue-2022','mckenzie-dips-2022','acsm-2026']
+  },
+  {
+    slug:'rings', reviewed:'2026-11-27',
+    title:t('تمارين حلقات الجمباز للمبتدئين: التعليق والدعم والسحب والدفع','Gymnastic Rings for Beginners: Setup, Support, Pulling and Pushing'),
+    description:t('كيف تبدأ التمرين على حلقات الجمباز: التعليق الآمن، ثبات الدعم، السحب والضغط والديبس على الحلقات، ولماذا هي أصعب من البار، بحسب دراسات منشورة.','How to start on gymnastic rings: safe setup, support holds, ring rows, push-ups and dips, and why rings are harder than bars, based on published studies.'),
+    tags:[t('تحكم وثبات','Control and stability'),t('متوسط','Intermediate'),t('حلقات جمباز','Gymnastic rings')],
+    lead:t('الحلقات تتحرك في كل اتجاه، فتجبر عضلاتك على العمل لتثبيتها. لهذا تمرين بسيط مثل الضغط أو الديبس يصبح أصعب على الحلقات. ابدأ بحركات تكون فيها قدماك على الأرض.','Rings move in every direction, so your muscles must work to steady them. That is why a simple push-up or dip gets harder on rings. Start with movements where your feet stay on the floor.'),
+    summary:[
+      t('عدم ثبات الحلقات يزيد عمل العضلات: في الماسل أب عملت الذراعان والساعدان أكثر على الحلقات منها على البار {{walker-muscle-up-2023}}، وفي الديبس عملت ثلاث عضلات أكثر {{mckenzie-dips-2022}}.','Ring instability raises muscle demand: in the muscle-up the arms and forearms worked harder on rings than on a bar {{walker-muscle-up-2023}}, and in dips three muscles worked harder {{mckenzie-dips-2022}}.'),
+      t('الضغط المعلّق، أي على الحلقات، فعّال جدًا لتشغيل عضلات البطن، بينما يعطي الضغط الثابت عملًا أكبر للصدر ومقدمة الكتف {{calatayud-2014}}.','Suspended push-ups, as on rings, are highly effective for the abdominals, while stable push-ups give the chest and front shoulder more work {{calatayud-2014}}.'),
+      t('تعلّم الحركة على البار أو المتوازي أولًا ثم انقلها للحلقات؛ الباحثون يقترحون تعلم الماسل أب على البار أولًا لأنه أسهل {{walker-muscle-up-2023}}.','Learn a movement on a bar or parallel bars first, then take it to rings; researchers suggest learning the muscle-up on a bar first because it is easier {{walker-muscle-up-2023}}.'),
+      t('تمرّن جلستين أسبوعيًا على الأقل {{acsm-2026}}.','Train at least 2 sessions a week {{acsm-2026}}.'),
+      t('قاعدة وثبة: لا تنتقل لحركة تكون فيها قدماك في الهواء قبل أن تثبت 3 × 20 ثانية في دعم الحلقات دون اهتزاز كبير.','WATHBA rule: do not move to feet-off-the-floor movements until you can hold 3 × 20 seconds in a ring support without heavy shaking.')
+    ],
+    images:{
+      hero:{file:'dheeb-rings-hero',character:'dheeb',pose:'front view holding a steady straight-arm support on two plain wooden gymnastic rings hanging from straps, rings close to his hips, calm.',alt:t('ذيب في وضع الدعم على حلقات الجمباز','Dheeb in a support hold on gymnastic rings')},
+      muscles:{file:'muscles-rings',character:'sakhr',pose:'side view doing a ring row: body leaning back under two plain wooden gymnastic rings hanging from straps, heels on the floor, body straight, chest pulled up to the rings.',red:{strong:'the large back muscles (latissimus dorsi) and the biceps',light:'the forearms, the area between the shoulder blades, and the abdominal muscles'},alt:t('صخر يسحب جسمه على الحلقات، والعضلات العاملة ملوّنة بالأحمر','Sakhr doing a ring row with the working muscles shaded red')},
+      mistake:{file:'sakhr-rings-flared',character:'sakhr',pose:'front view in a ring support showing a clear mistake: the rings drifting wide away from his body, arms shaking, shoulders shrugged up.',alt:t('صخر تبتعد الحلقات عن جسمه في وضع الدعم، وهذا خطأ شائع','Sakhr letting the rings drift wide in a support hold, a common mistake')},
+      closing:{file:'sakhr-ring-push-up',character:'sakhr',pose:'side view doing a push-up with his hands on two plain wooden gymnastic rings hanging low near the floor, body straight.',alt:t('صخر يعمل ضغطًا على الحلقات','Sakhr doing a ring push-up')}
+    },
+    muscles:{
+      primary:[t('السحب على الحلقات: الظهر والبايسبس والساعد، ويزيد عمل الذراع والساعد مع عدم الثبات {{walker-muscle-up-2023}}','Pulling on rings: back, biceps and forearms, with arms and forearms working harder because of the instability {{walker-muscle-up-2023}}'),t('الدفع على الحلقات: الصدر والترايسبس {{mckenzie-dips-2022}} {{calatayud-2014}}','Pushing on rings: chest and triceps {{mckenzie-dips-2022}} {{calatayud-2014}}')],
+      secondary:[t('البطن: الضغط المعلّق يشغّلها بقوة {{calatayud-2014}}','Abdominals: suspended push-ups work them hard {{calatayud-2014}}'),t('أعلى شبه المنحرفة والساعد للتحكم بالحلقات {{walker-muscle-up-2023}}','Upper trapezius and forearms to control the rings {{walker-muscle-up-2023}}')],
+      note:t('ما يميّز الحلقات ليس عضلات جديدة، بل جهد أكبر لنفس العضلات لكي تمنع الحلقات من الحركة.','Rings do not add new muscles; they make the same muscles work harder to keep the rings still.')
+    },
+    sections:[
+      section('setup',t('كيف تعلّق الحلقات بأمان؟','How do you hang rings safely?'),
+        t('علّق الحزامين على نقطة ثابتة تتحمل وزنك مع الحركة، مثل بار عقلة مثبت جيدًا، وتأكد أن الحلقتين على نفس الارتفاع وأن الأبزيم مقفل قبل أن تضع وزنك. قاعدة وثبة: اختبر التعليق بوزنك وقدماك على الأرض قبل أي حركة.','Hang both straps from a solid point that holds your weight in motion, such as a properly fixed pull-up bar, check the rings are level and the buckles are locked before loading them. WATHBA rule: test the setup with your feet on the floor before any movement.'),
+        t('غيّر الصعوبة بتغيير ارتفاع الحلقات: الحلقات المنخفضة لتمارين الضغط والسحب المائل، والمرتفعة للدعم والديبس.','Change difficulty with ring height: low rings for push-ups and rows, high rings for support and dips.')),
+      section('why',t('لماذا الحلقات أصعب من البار؟','Why are rings harder than a bar?'),
+        t('البار ثابت، أما الحلقات فتتحرك. في مقارنة الماسل أب على الحلقات والبار، زاد نشاط الذراع والساعد وأعلى شبه المنحرفة على الحلقات، دون تغيير كبير في مثبتات الكتف {{walker-muscle-up-2023}}. وفي الديبس كان نشاط العضلات على الحلقات مشابهًا للمتوازي مع زيادة في ثلاث عضلات {{mckenzie-dips-2022}}.','A bar stays put; rings move. Comparing ring and bar muscle-ups, the arms, forearms and upper trapezius worked harder on rings, with little change in shoulder stabilisers {{walker-muscle-up-2023}}. In dips, muscle activity on rings was similar to bars, with three muscles working harder {{mckenzie-dips-2022}}.'),
+        t('والضغط على الحلقات يغيّر توزيع العمل: يزيد عمل البطن والترايسبس، بينما يأخذ الصدر ومقدمة الكتف عملًا أكبر في الضغط الثابت {{calatayud-2014}}.','Ring push-ups shift the work: more for the abdominals and triceps, while the chest and front shoulder work harder in stable push-ups {{calatayud-2014}}.'))
+    ],
+    ladderNote:t('السلّم من الأثبت للأقل ثباتًا، مستندًا إلى المقارنات بين البار والحلقات {{mckenzie-dips-2022}} {{walker-muscle-up-2023}}. المقادير وعمود «انتقل عندما» قواعد عملية من وثبة.','The ladder runs from most to least stable, based on the bar-versus-ring comparisons {{mckenzie-dips-2022}} {{walker-muscle-up-2023}}. Doses and the “Move on when” column are WATHBA working rules.'),
+    levels:[
+      level(t('السحب المائل على الحلقات','Ring row'),t('3 × 6–10','3 × 6–10'),t('كعباك على الأرض، والجسم مستقيم، واسحب صدرك للحلقات. كلما كان جسمك أقرب للأفقي زادت الصعوبة.','Heels on the floor, body straight, pull your chest to the rings. The more horizontal your body, the harder it gets.'),t('تكمل 3 × 10 والجسم قريب من الأفقي.','You complete 3 × 10 with your body near horizontal.')),
+      level(t('الضغط على الحلقات','Ring push-up'),t('3 × 5–10','3 × 5–10'),t('ابدأ والحلقات أعلى من الأرض قليلًا، وأبقها قرب جسمك {{calatayud-2014}}.','Start with the rings a little above the floor and keep them close to your body {{calatayud-2014}}.'),t('تكمل 3 × 10 دون أن تبتعد الحلقات.','You complete 3 × 10 without the rings drifting.')),
+      level(t('دعم الحلقات','Ring support hold'),t('3 × 10–20 ثانية','3 × 10–20 seconds'),t('ذراعان ممدودتان، والحلقات ملاصقة للوركين، والكتفان للأسفل.','Straight arms, rings against your hips, shoulders down.'),t('تثبت 3 × 20 ثانية دون اهتزاز كبير.','You hold 3 × 20 seconds without heavy shaking.')),
+      level(t('ديبس الحلقات','Ring dip'),t('3 × 3–6','3 × 3–6'),t('بعد إتقان ديبس المتوازي؛ الحلقات تزيد عمل بعض العضلات {{mckenzie-dips-2022}}.','After mastering bar dips; rings make some muscles work harder {{mckenzie-dips-2022}}.'),t('تكمل 3 × 8 نظيفة.','You complete 3 clean sets of 8.')),
+      level(t('عقلة الحلقات','Ring pull-up'),t('3 × 3–6','3 × 3–6'),t('بعد العقلة الكاملة على البار؛ دع الحلقات تدور طبيعيًا مع يديك.','After a full bar pull-up; let the rings rotate naturally with your hands.'),t('تكمل 3 × 6، ثم تعلّم الماسل أب على البار أولًا {{walker-muscle-up-2023}}.','You complete 3 × 6; then learn the muscle-up on a bar first {{walker-muscle-up-2023}}.'))
+    ],
+    program:[
+      t('جلستان أسبوعيًا على الأقل {{acsm-2026}}. ابدأ بحركة سحب وحركة دفع وثبات دعم في كل جلسة، 2–3 مجموعات لكل منها {{acsm-2026}}.','At least two sessions a week {{acsm-2026}}. Start each session with a pull, a push and a support hold, 2–3 sets each {{acsm-2026}}.'),
+      t('الراحة 90 ثانية بين المجموعات قاعدة من وثبة. إذا بدأت الحلقات تهتز بشدة أو تبتعد عن جسمك، فقد انتهت المجموعة.','Resting 90 seconds between sets is a WATHBA rule. When the rings start shaking hard or drifting away, the set is over.')
+    ],
+    week:[
+      day(t('الأحد','Sunday'),t('سحب مائل 3 مجموعات، ضغط على الحلقات 3 مجموعات، دعم 3 × 10–20 ثانية.','Ring rows 3 sets, ring push-ups 3 sets, support 3 × 10–20 seconds.')),
+      day(t('الثلاثاء','Tuesday'),t('راحة من الحلقات، أو رجلين ومشي.','No rings, or legs and walking.')),
+      day(t('الأربعاء','Wednesday'),t('نفس جلسة الأحد، واخفض زاوية جسمك قليلًا في السحب.','The same as Sunday, lowering your body angle slightly in the rows.')),
+      day(t('الجمعة','Friday'),t('اختياري: دعم وديبس أو عقلة حسب مرحلتك.','Optional: support plus dips or pull-ups for your stage.'))
+    ],
+    mistakes:[
+      mistake(t('ابتعاد الحلقات عن الجسم.','Rings drifting away from the body.'),t('أبقها ملاصقة لجسمك، وارجع لحركة أثبت إذا لم تستطع.','Keep them against your body, and drop to a more stable movement if you cannot.')),
+      mistake(t('البدء بالحركات المعلقة بالكامل.','Starting with fully hanging movements.'),t('ابدأ بالسحب المائل والضغط وقدماك على الأرض، ثم الدعم.','Start with rows and push-ups with your feet down, then support holds.')),
+      mistake(t('تعلّم المهارة على الحلقات مباشرة.','Learning a skill straight on rings.'),t('تعلمها على البار أو المتوازي أولًا؛ الحلقات أصعب {{walker-muscle-up-2023}}.','Learn it on a bar or parallel bars first; rings are harder {{walker-muscle-up-2023}}.')),
+      mistake(t('حلقتان على ارتفاعين مختلفين.','Rings at different heights.'),t('اضبطهما على نفس الارتفاع وافحص الأبزيم قبل كل جلسة.','Set them level and check the buckles before every session.'))
+    ],
+    faqs:[
+      faq(t('هل حلقات الجمباز مناسبة للمبتدئ؟','Are gymnastic rings suitable for beginners?'),t('نعم، بحركات تكون فيها القدمان على الأرض مثل السحب المائل والضغط. الحركات المعلقة بالكامل مثل الديبس والعقلة تأتي بعد إتقانها على البار والمتوازي.','Yes, with feet-down movements such as rows and push-ups. Fully hanging moves such as dips and pull-ups come after mastering them on a bar and parallel bars.')),
+      faq(t('لماذا الضغط على الحلقات أصعب؟','Why are ring push-ups harder?'),t('لأن الحلقات تتحرك، فتعمل البطن والترايسبس أكثر لتثبيت الجسم. دراسة وجدت أن الضغط المعلّق فعّال جدًا لتشغيل عضلات البطن.','Because the rings move, your abdominals and triceps work harder to steady you. A study found suspended push-ups highly effective for the abdominals.')),
+      faq(t('أين أعلّق الحلقات في البيت؟','Where should I hang rings at home?'),t('على نقطة ثابتة تتحمل وزنك وهو يتحرك، مثل بار عقلة مثبت جيدًا. لا تعلقها على باب أو أنابيب أو أثاث.','From a solid point that holds your moving body weight, such as a properly fixed pull-up bar. Never hang them from a door, pipes or furniture.')),
+      faq(t('هل أتعلم الماسل أب على الحلقات أم البار؟','Should I learn the muscle-up on rings or a bar?'),t('على البار أولًا. الدراسة التي قارنت الاثنين اقترحت أن الماسل أب على البار أسهل للتعلم، لأن الحلقات تحتاج عملًا أكبر من الذراعين.','On a bar first. The study comparing the two suggested the bar muscle-up is easier to learn, because rings demand more from the arms.'))
+    ],
+    related:['dips','first-pull-up','push-ups','beginner'],
+    products:['gymnastic-rings','wall-pull-up-bar'],
+    sources:['walker-muscle-up-2023','mckenzie-dips-2022','calatayud-2014','acsm-2026']
+  },
+  {
+    slug:'parallettes', reviewed:'2026-11-27',
+    title:t('ما هي الباراليتس؟ وكيف تتدرّب عليها: الضغط والدعم والـL-sit','What Are Parallettes? Push-ups, Support Holds and the L-sit'),
+    description:t('الباراليتس للمبتدئ والمتقدم: لماذا تريح الرسغ، تمارين الضغط والدعم والـL-sit عليها، سلّم تدرّج وجدول أسبوعي، وكيف تختار بين الحديد والخشب.','Parallettes for beginners and beyond: why they ease the wrist, push-ups, support holds and L-sits, a progression ladder, a weekly plan and steel versus wood.'),
+    tags:[t('دفع وتحكم','Pushing and control'),t('مبتدئ إلى متقدم','Beginner to advanced'),t('باراليتس','Parallettes')],
+    lead:t('الباراليتس زوج من المقابض القصيرة القريبة من الأرض. تمسكها بقبضة كاملة فيبقى رسغك مستقيمًا، وتستخدمها للضغط والدعم ورفع الرجلين ومهارات التوازن.','Parallettes are a pair of short handles close to the floor. You grip them fully so your wrist stays straight, and use them for push-ups, support holds, leg raises and balance skills.'),
+    summary:[
+      t('على الباراليتس يبقى الرسغ مستقيمًا بدل أن ينثني للخلف، ودراسة على قوى الرسغ رجّحت أن هذا أكثر أمانًا {{wrist-2018}}.','On parallettes your wrist stays straight instead of bending back, which a wrist-force study concluded is likely safer {{wrist-2018}}.'),
+      t('الضغط المتدرج يبني القوة فعلًا: 3 أيام أسبوعيًا لـ4 أسابيع رفع القوة مثل البنش برس {{kotarsky-2018}}.','Progressive push-ups really build strength: 3 days a week for 4 weeks raised strength like the bench press {{kotarsky-2018}}.'),
+      t('ابدأ بالضغط والدعم، ثم ثبات الركبتين المرفوعتين، ثم الـL-sit. قاعدة وثبة: لا تنتقل قبل 3 × 20 ثانية نظيفة في المرحلة الحالية.','Start with push-ups and support holds, then a tuck hold, then the L-sit. WATHBA rule: do not move on before 3 clean 20-second holds at your current stage.'),
+      t('تمرّن جلستين أسبوعيًا على الأقل بـ2–3 مجموعات {{acsm-2026}}.','Train at least 2 sessions a week with 2–3 sets {{acsm-2026}}.'),
+      t('الباراليتس لا تعالج ألمًا في الرسغ؛ إذا استمر الألم توقف واستشر مختصًا.','Parallettes do not treat wrist pain; if pain persists, stop and get it checked.')
+    ],
+    images:{
+      hero:{file:'dheeb-parallettes-hero',character:'dheeb',pose:'side view holding a tuck support on a pair of low parallettes (plain dark steel bases with light wooden handles): arms straight, knees tucked to the chest, feet off the floor.',alt:t('ذيب يثبت والركبتان مرفوعتان على الباراليتس','Dheeb in a tuck hold on parallettes')},
+      muscles:{file:'muscles-parallettes',character:'dheeb',pose:'front three-quarter view in an L-sit on a pair of low parallettes (plain dark steel bases with light wooden handles): arms straight, legs straight out in front, parallel to the floor.',red:{strong:'the abdominal muscles, the triceps, and the front of the thighs (hip flexors)',light:'the chest, the front of the shoulders, and the forearms'},alt:t('ذيب في وضع L-sit على الباراليتس، والعضلات العاملة ملوّنة بالأحمر','Dheeb in an L-sit on parallettes with the working muscles shaded red')},
+      mistake:{file:'sakhr-parallettes-shrugged',character:'sakhr',pose:'side view trying a support hold on a pair of low parallettes showing a clear mistake: shoulders shrugged up to his ears, back rounded, elbows bent, feet dragging on the floor.',alt:t('صخر يرفع كتفيه ويقوّس ظهره في الدعم على الباراليتس، وهذا خطأ شائع','Sakhr shrugging and rounding in a parallettes support, a common mistake')},
+      closing:{file:'sakhr-parallettes-push-up',character:'sakhr',pose:'side view doing a push-up with his hands on a pair of low parallettes, body straight, chest lowered between the handles.',alt:t('صخر يعمل ضغطًا على الباراليتس','Sakhr doing a push-up on parallettes')}
+    },
+    muscles:{
+      primary:[t('في الضغط: الصدر والترايسبس ومقدمة الكتف {{ace-push-up}} {{kikuchi-2017}}','In push-ups: chest, triceps and front shoulders {{ace-push-up}} {{kikuchi-2017}}'),t('في الدعم والـL-sit: الترايسبس والكتفان يحملان الجسم، والبطن ومقدمة الفخذ ترفع الرجلين','In supports and L-sits: triceps and shoulders hold the body up, abdominals and hip flexors lift the legs')],
+      secondary:[t('الساعد والقبضة: تمسك المقبض طوال الحركة','Forearms and grip: holding the handle throughout'),t('المنشارية الأمامية: تثبّت لوح الكتف في الضغط {{calatayud-2014}}','Serratus anterior: steadies the shoulder blade in push-ups {{calatayud-2014}}')],
+      note:t('عضلات الضغط مصدرها الدراسات المذكورة. عضلات الدعم والـL-sit وصف تشريحي من وثبة، لأننا لم نجد دراسة منشورة تقيس هذه الحركة تحديدًا.','The push-up muscles come from the cited studies. The support and L-sit muscles are a WATHBA anatomical description, as we found no published study measuring these moves specifically.')
+    },
+    sections:[
+      section('what',t('ما الفرق بين الباراليتس والمتوازي؟','How are parallettes different from parallel bars?'),
+        t('الباراليتس قصيرة وقريبة من الأرض، تحملها وتضعها حيث تريد، وتستخدم للضغط والدعم والـL-sit. المتوازي أعلى، ويستخدم للديبس الكامل لأن جسمك يحتاج مسافة لينزل. القطعتان تخدمان تمارين مختلفة رغم تشابه الاسم.','Parallettes are short and low, portable, and used for push-ups, supports and L-sits. Parallel bars are taller and used for full dips, because your body needs room to lower. Similar names, different jobs.')),
+      section('wrist',t('لماذا تريح الباراليتس الرسغ؟','Why are parallettes easier on the wrist?'),
+        t('في الضغط على الأرض ينثني الرسغ للخلف، وعلى المقبض يبقى مستقيمًا. دراسة قاست قوى الرسغ في الحالتين ورجّحت أن الرسغ المستقيم أكثر أمانًا، لأن الأربطة قد تتحمل حملًا أكبر عند ثني الرسغ للخلف {{wrist-2018}}.','In a floor push-up the wrist bends back; on a handle it stays straight. A study measuring wrist forces in both positions concluded the straight wrist is likely safer, because ligaments may take more load when the wrist bends back {{wrist-2018}}.'),
+        t('والارتفاع يتيح لك النزول أعمق من الأرض. المدى الأكبر يبني قوة أكثر {{acsm-2026}}، لكن زد العمق تدريجيًا بحسب راحة كتفك.','The height also lets you lower deeper than the floor allows. A larger range builds more strength {{acsm-2026}}, but add depth gradually as your shoulders allow.')),
+      section('choose',t('حديد بمقبض خشب أم خشب كامل؟','Steel with a wooden grip, or all wood?'),
+        t('لدى وثبة خياران: قاعدة حديد مع مقبض خشب زان، وباراليتس خشب زان كاملة. الحديد أثقل وأثبت للحركات الديناميكية، والخشب أخف للحمل والتنقل. القياسات والتفاصيل في صفحة كل منتج.','WATHBA offers two options: steel bases with a beech grip, and all-beech parallettes. Steel is heavier and steadier for dynamic moves; wood is lighter to carry. Dimensions and details are on each product page.'))
+    ],
+    ladderNote:t('مراحل الضغط تتبع سلسلة ACE {{ace-progressions}}. مراحل الدعم والـL-sit والمقادير وعمود «انتقل عندما» قواعد عملية من وثبة.','The push-up stages follow the ACE chain {{ace-progressions}}. The support and L-sit stages, the doses and the “Move on when” column are WATHBA working rules.'),
+    levels:[
+      level(t('الضغط على الباراليتس على الركبتين','Knee push-up on parallettes'),t('3 × 6–10','3 × 6–10'),t('رسغ مستقيم، وجسم مستقيم من الركبتين للرأس {{ace-push-up}}.','Straight wrist, straight line from knees to head {{ace-push-up}}.'),t('تكمل 3 × 10 والصدر بين المقبضين.','You complete 3 × 10 with your chest between the handles.')),
+      level(t('الضغط الكامل على الباراليتس','Full push-up on parallettes'),t('3 × 5–12','3 × 5–12'),t('انزل أعمق من مستوى المقابض تدريجيًا {{acsm-2026}}.','Lower below handle level gradually {{acsm-2026}}.'),t('تكمل 3 × 12.','You complete 3 × 12.')),
+      level(t('الدعم والقدمان على الأرض','Support with feet down'),t('3 × 10–20 ثانية','3 × 10–20 seconds'),t('ادفع جسمك للأعلى، والكتفان بعيدتان عن الأذنين.','Press tall with your shoulders away from your ears.'),t('تثبت 3 × 20 ثانية.','You hold 3 × 20 seconds.')),
+      level(t('ثبات الركبتين المرفوعتين','Tuck hold'),t('3 × 5–15 ثانية','3 × 5–15 seconds'),t('ارفع قدميك والركبتان قرب الصدر، دون أن يميل الزوج.','Lift your feet with knees near the chest, without tipping the pair.'),t('تثبت 3 × 15 ثانية.','You hold 3 × 15 seconds.')),
+      level(t('L-sit برجل واحدة ثم الرجلين','One-leg, then full L-sit'),t('3 × 5–10 ثوانٍ','3 × 5–10 seconds'),t('مدّ رجلًا واحدة ثم الأخرى، والرجلان موازيتان للأرض.','Extend one leg, then the other, legs parallel to the floor.'),t('تثبت L-sit كاملًا 3 × 10 ثوانٍ.','You hold a full L-sit for 3 × 10 seconds.'))
+    ],
+    program:[
+      t('جلستان أسبوعيًا على الأقل، 2–3 مجموعات لكل تمرين {{acsm-2026}}. في دراسة الضغط المتدرج تدرّب المشاركون 3 أيام أسبوعيًا {{kotarsky-2018}}.','At least two sessions a week, 2–3 sets per exercise {{acsm-2026}}. In the progressive push-up study, participants trained 3 days a week {{kotarsky-2018}}.'),
+      t('الراحة 60–90 ثانية بين المجموعات قاعدة من وثبة. ضع الباراليتس على أرض مستوية غير زلقة وتأكد أنها لا تهتز قبل كل جلسة.','Resting 60–90 seconds between sets is a WATHBA rule. Place the parallettes on level, non-slip ground and check they do not rock before every session.')
+    ],
+    week:[
+      day(t('الأحد','Sunday'),t('ضغط من مرحلتك 3 مجموعات، ثم دعم أو ثبات ركبتين 3 مجموعات.','Push-ups at your stage, 3 sets, then support or tuck holds, 3 sets.')),
+      day(t('الثلاثاء','Tuesday'),t('راحة من الدفع، أو عقلة ورجلين.','No pushing, or pull-ups and legs.')),
+      day(t('الأربعاء','Wednesday'),t('نفس جلسة الأحد مع زيادة تكرار أو ثانيتين.','Sunday\'s session, adding one rep or two seconds.')),
+      day(t('الجمعة','Friday'),t('اختياري: جلسة ثالثة، كما في دراسة الضغط المتدرج {{kotarsky-2018}}.','Optional: a third session, as in the progressive push-up study {{kotarsky-2018}}.'))
+    ],
+    mistakes:[
+      mistake(t('رفع الكتفين في الدعم.','Shrugging in support.'),t('ادفع المقابض للأسفل لتبتعد كتفاك عن أذنيك، وارجع للدعم والقدمان على الأرض إذا لم تستطع.','Push the handles down so your shoulders move away from your ears, and go back to feet-down support if you cannot.')),
+      mistake(t('الضغط على حافة المقبض.','Loading the edge of the handle.'),t('أمسك منتصف المقبض بقبضة كاملة ليبقى الرسغ مستقيمًا {{wrist-2018}}.','Grip the middle of the handle fully so your wrist stays straight {{wrist-2018}}.')),
+      mistake(t('محاولة L-sit كامل من البداية.','Going for a full L-sit too soon.'),t('ابدأ بثبات الركبتين المرفوعتين، ثم رجل واحدة.','Start with tuck holds, then one leg at a time.')),
+      mistake(t('أرضية زلقة أو غير مستوية.','A slippery or uneven floor.'),t('افحص ثبات الزوج قبل وضع وزنك عليه.','Check the pair is steady before putting weight on it.'))
+    ],
+    faqs:[
+      faq(t('هل الباراليتس للمحترفين فقط؟','Are parallettes only for advanced athletes?'),t('لا. المبتدئ يبدأ بالضغط على الركبتين والدعم والقدمان على الأرض، والمتقدم يتدرب على الـL-sit ومهارات التوازن. الحركة هي التي تتغير.','No. Beginners start with knee push-ups and feet-down supports; advanced athletes train L-sits and balance skills. The movement changes, not the equipment.')),
+      faq(t('هل الضغط على الباراليتس أفضل من الأرض؟','Are parallettes push-ups better than floor push-ups?'),t('يبقى فيه الرسغ مستقيمًا، وهو وضع رجّحت دراسة أنه أكثر أمانًا للرسغ، ويتيح النزول أعمق. العضلات العاملة نفسها.','The wrist stays straight, a position a study concluded is likely safer, and you can lower deeper. The muscles worked are the same.')),
+      faq(t('هل الباراليتس تعالج ألم الرسغ؟','Do parallettes fix wrist pain?'),t('لا. قد تكون أريح لأن الرسغ يبقى مستقيمًا، لكنها لا تعالج إصابة. إذا استمر الألم توقف واستشر مختصًا.','No. They may feel better because the wrist stays straight, but they do not treat an injury. If pain persists, stop and see a professional.')),
+      faq(t('هل تصلح الباراليتس للديبس؟','Can I do dips on parallettes?'),t('الباراليتس المنخفضة لا تعطي مسافة كافية لديبس كامل. للديبس استخدم متوازيًا أعلى.','Low parallettes do not give enough clearance for full dips. Use taller parallel bars for dips.')),
+      faq(t('حديد أم خشب؟','Steel or wood?'),t('الحديد بمقبض خشب أثقل وأثبت للحركات الديناميكية، والخشب الكامل أخف للحمل. اختر بحسب استعمالك ومساحتك.','Steel with a wooden grip is heavier and steadier for dynamic moves; all-wood is lighter to carry. Choose by how and where you train.'))
+    ],
+    related:['push-ups','dips','beginner','rings'],
+    products:['steel-wood-parallettes','full-wooden-parallettes'],
+    sources:['wrist-2018','kotarsky-2018','acsm-2026','ace-push-up','kikuchi-2017','calatayud-2014','ace-progressions']
   }
 ];

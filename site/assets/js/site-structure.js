@@ -14,7 +14,7 @@
   function practiceUrl(guide){
     if(guide.includes('#'))return guide;
     if(/^academy-first-pull-up/.test(guide))return guide+'#progressions';
-    if(/^academy-parallettes/.test(guide))return guide+'#exercises';
+    if(/^academy-parallettes/.test(guide))return guide+'#progressions';
     if(/^academy(?:-en)?\.html$/.test(guide))return guide+'#custom';
     return guide+'#progressions';
   }

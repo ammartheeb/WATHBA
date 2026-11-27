@@ -7,10 +7,7 @@ const {figure,writeImageDoc}=require('./academy-images.js');
 const root=path.resolve(__dirname,'../../site');
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const prose=s=>esc(s).replace(/\d+(?:[–-]\d+)*\s*×\s*\d+(?:[–-]\d+)*|\d+(?:[–-]\d+)+/g,'<bdi dir="ltr">$&</bdi>');
-const existing=[
- {slug:'beginner',title:{ar:'بداية الكاليستنكس',en:'Start calisthenics'},description:{ar:'الحركات الأساسية وحصة قوة متوازنة دون اشتراط مهارة أو شراء معدّة.',en:'Basic movements and a balanced strength session without a required skill or purchase.'}},
- {slug:'parallettes',title:{ar:'ما هي الباراليتس؟',en:'What are parallettes?'},description:{ar:'الضغط والدعم وL-sit ومقارنة الخشب والحديد وارتفاع المقابض.',en:'Push-ups, support and L-sits, plus materials and handle-height choices.'}}
-];
+const existing=[];
 function buildAcademy(catalog){
  writeImageDoc(guides);
  const available=new Map(catalog.map(p=>[p.id,p]));

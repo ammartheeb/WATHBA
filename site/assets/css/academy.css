@@ -111,3 +111,4 @@
 .academy-references li { font-size: 14px; overflow-wrap: anywhere; }
 .academy-references li:target { outline: 1px solid #fff; outline-offset: 4px; }
 @media (max-width: 650px) { .academy-muscles { grid-template-columns: minmax(0,1fr); } .academy-summary { padding: 18px; } }
+.academy-page bdi { white-space: nowrap; }
