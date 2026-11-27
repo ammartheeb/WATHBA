@@ -112,3 +112,5 @@
 .academy-references li:target { outline: 1px solid #fff; outline-offset: 4px; }
 @media (max-width: 650px) { .academy-muscles { grid-template-columns: minmax(0,1fr); } .academy-summary { padding: 18px; } }
 .academy-page bdi { white-space: nowrap; }
+.academy-placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; aspect-ratio: 1 / 1; width: min(100%, 520px); margin-inline: auto; padding: 18px; border: 2px dashed rgba(255,255,255,.28); border-radius: 12px; color: var(--academy-muted); text-align: center; font-size: 14px; line-height: 1.6; }
+.academy-placeholder code { font-size: 12px; opacity: .8; overflow-wrap: anywhere; }

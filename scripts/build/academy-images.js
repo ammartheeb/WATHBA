@@ -15,9 +15,9 @@ const SLOTS={
   closing:{ar:'أسفل الصفحة عند «اختر خطوتك التالية» (كمبيوتر فقط)',en:'page bottom, next to “Choose your next step” (desktop only)',desktopOnly:true}
 };
 const CHARACTERS={
-  dheeb:{ar:'ذيب',refs:['ذيب وقوف متدرج بعد التمرين.png','مرجع أسلوب الخربشة الأساسي.png'],
+  dheeb:{ar:'ذيب',en:'Dheeb',refs:['ذيب وقوف متدرج بعد التمرين.png','مرجع أسلوب الخربشة الأساسي.png'],
     text:'Dheeb: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one black wristband on each wrist, barefoot'},
-  sakhr:{ar:'صخر',refs:['مرجع أمامي صخر معتمد.png','مرجع أسلوب الخربشة الأساسي.png'],
+  sakhr:{ar:'صخر',en:'Sakhr',refs:['مرجع أمامي صخر معتمد.png','مرجع أسلوب الخربشة الأساسي.png'],
     text:'Sakhr: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one white wristband with thin ink outlines on each wrist, barefoot'}
 };
 
@@ -40,7 +40,8 @@ function find(name){
 function figure(image,slot,lang,esc){
   if(!image)return '';
   const found=find(image.file),info=SLOTS[slot];
-  if(!found)return `<!-- WATHBA_IMAGE_SLOT ${slot}: assets/images/academy/${image.file}.png -->`;
+  // Visible placeholder until the picture arrives (the owner asked for it while the site is unannounced).
+  if(!found)return `<!-- WATHBA_IMAGE_SLOT ${slot}: assets/images/academy/${image.file}.png --><figure class="academy-figure academy-figure--${slot} academy-figure--pending${info.desktopOnly?' academy-desktop-only':''}" aria-hidden="true"><div class="academy-placeholder"><span>${lang==='ar'?'صورة قادمة':'Image coming'}: ${esc(image.alt[lang])}</span><code dir="ltr">${image.file}.png</code></div></figure>`;
   const alt=image.alt[lang];
   return `<figure class="academy-figure academy-figure--${slot}${info.desktopOnly?' academy-desktop-only':''}"><img src="${found.src}" width="${found.width}" height="${found.height}" loading="lazy" decoding="async" alt="${esc(alt)}">${slot==='muscles'?`<figcaption>${esc(alt)}</figcaption>`:''}</figure>`;
 }
