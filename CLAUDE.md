@@ -51,7 +51,7 @@ This file is read automatically at the start of every Claude Code session in thi
 - "WATHBA SCROLL REVEAL" at the end of `site/assets/js/shared-ui.js` and `site/assets/css/shared-ui.css`, classes `wathba-sr-*`. An older reveal was disabled because it left content hidden on some devices; this one must never hide content that is on screen, without JavaScript or with reduced motion. Test phone and desktop after any change.
 
 ## Current status (2026-11-27)
-- 2026-11-27: academy phase B started: evidence-led push-ups guide (new) and first pull-up guide (rewritten), 16 verified sources, editorial note no longer says «no named reviewer».
+- 2026-11-27: academy phase B started: evidence-led push-ups guide (new) and first pull-up guide (rewritten), 15 verified sources, editorial note no longer says «no named reviewer».
 - 2026-11-27: SEO/GEO phase A: llms.txt, FAQPage on the 18 academy guides, all official profiles and Jordan in the Organization JSON-LD.
 - Hero: Dheeb and Sakhr separated, glow removed, rigged animation reduced to one calm idle motion with a head that follows the visitor; pause control hidden.
 - Scroll reveal added across the site; the owner is evaluating whether to keep it.
