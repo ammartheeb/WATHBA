@@ -41,7 +41,7 @@ This file is read automatically at the start of every Claude Code session in thi
 - `content/site-identity.json` holds the official profiles (`sameAs`: Instagram, YouTube @WATHBA-Calisthenics, TikTok, Facebook) and `areaServed` Jordan, used in the Organization JSON-LD on every page.
 - Academy guides get a `FAQPage` node built only from the visible `.academy-faq` questions; `check-structured-data.js` fails if the two differ.
 - Academy sources: the owner gathered the facts with ChatGPT. Every claim must be checked against a real, reachable source (e.g. ACE, NSCA, ACSM, WHO, FIG) before it is cited; never cite a source that was not opened and confirmed.
-- Decisions (2026-11-27): no backend for now (orders stay on WhatsApp); no light mode (the brand is dark).
+- Recommended to the owner (2026-11-27), awaiting his decision: no backend for now (orders stay on WhatsApp); no light mode (the brand is dark).
 
 ## Scroll reveal
 - "WATHBA SCROLL REVEAL" at the end of `site/assets/js/shared-ui.js` and `site/assets/css/shared-ui.css`, classes `wathba-sr-*`. An older reveal was disabled because it left content hidden on some devices; this one must never hide content that is on screen, without JavaScript or with reduced motion. Test phone and desktop after any change.
