@@ -695,5 +695,284 @@ module.exports=[
     related:['beginner','first-pull-up','grip','rings'],
     products:[],
     sources:['nhs-strength','nhs-flexibility','ace-squat','ace-progressions','ace-pull-up','nhs-adults','acsm-2026']
+  },
+  {
+    slug:'weekly-plan', reviewed:'2026-11-27',
+    title:t('جدول تمارين كاليستنكس للمبتدئين: خطة أسبوعية كاملة','Beginner Calisthenics Weekly Plan: A Complete Training Week'),
+    description:t('جدول كاليستنكس أسبوعي للمبتدئين: كم يومًا تتمرن، كم مجموعة لكل عضلة، وكيف تتقدم أسبوعًا بعد أسبوع، مبني على مراجعات علمية وتوصيات ACSM وNHS.','A beginner calisthenics weekly plan: how many days, how many sets per muscle and how to progress week by week, built on systematic reviews and ACSM and NHS guidance.'),
+    tags:[t('برنامج','Program'),t('مبتدئ','Beginner'),t('جسم كامل','Full body')],
+    lead:t('أفضل جدول للمبتدئ بسيط: جلسات للجسم كله يومين أو ثلاثة في الأسبوع، وفي كل جلسة دفع وسحب ورجلان وجذع. الأهم من عدد الأيام هو مجموع العمل الذي تنجزه في الأسبوع.','The best beginner plan is simple: full-body sessions 2 or 3 days a week, each with a push, a pull, legs and trunk. Total weekly work matters more than the number of days.'),
+    summary:[
+      t('تمرّن على كل العضلات الكبرى يومين أسبوعيًا على الأقل {{nhs-adults}} {{acsm-2026}}.','Train every major muscle group at least 2 days a week {{nhs-adults}} {{acsm-2026}}.'),
+      t('عدد الأيام أقل أهمية مما تظن: عندما يتساوى مجموع العمل الأسبوعي، لا يفرق تقسيمه على يومين أو أربعة في القوة {{grgic-frequency-2018}} ولا في نمو العضلة {{schoenfeld-frequency-2019}}.','Days matter less than you think: with equal total weekly work, splitting it over 2 or 4 days makes no clear difference to strength {{grgic-frequency-2018}} or muscle growth {{schoenfeld-frequency-2019}}.'),
+      t('المجموعات هي المهمة: كل مجموعة أسبوعية إضافية ارتبطت بنمو أكبر {{schoenfeld-volume-2017}}، وACSM تذكر 10 مجموعات أسبوعيًا أو أكثر للعضلة {{acsm-2026}}.','Sets are what count: each extra weekly set was linked to more growth {{schoenfeld-volume-2017}}, and ACSM cites 10 or more weekly sets per muscle {{acsm-2026}}.'),
+      t('ابدأ بـ3 جلسات للجسم كله، 2–3 مجموعات لكل حركة، ولا حاجة للتمرين حتى العجز {{acsm-2026}}.','Start with 3 full-body sessions, 2–3 sets per movement, with no need to train to failure {{acsm-2026}}.'),
+      t('قاعدة وثبة: كل أسبوعين أضف مجموعة واحدة لكل حركة، أو انتقل لنسخة أصعب، لا الاثنين معًا.','WATHBA rule: every two weeks add one set per movement or move to a harder version, not both.')
+    ],
+    images:{
+      hero:{file:'dheeb-weekly-plan-hero',character:'dheeb',pose:'standing front view holding a blank clipboard in one hand and pointing at it with the other, as if explaining a training plan.',alt:t('ذيب يشرح الجدول الأسبوعي','Dheeb explaining the weekly plan')},
+      muscles:{file:'muscles-weekly-plan',character:'sakhr',pose:'standing front view in a relaxed athletic stance, arms slightly away from the body so the chest, arms, abdomen and legs are all visible.',red:{strong:'chest, back of the upper arms, the large back muscles visible at the sides, front of the thighs, buttocks',light:'shoulders, abdominal muscles and calves'},alt:t('صخر واقفًا، والعضلات التي يغطيها الجدول ملوّنة بالأحمر','Sakhr standing with the muscles the plan covers shaded red')},
+      mistake:{file:'sakhr-overtraining',character:'sakhr',pose:'sitting on the floor exhausted, slumped forward with arms resting on his knees, head hanging down, after training too hard.',alt:t('صخر منهك بعد التمرين كل يوم حتى العجز، وهذا خطأ شائع','Sakhr exhausted after training to failure every day, a common mistake')},
+      closing:{file:'dheeb-sakhr-high-five',character:'dheeb',pose:'front view raising one open hand for a high five, smiling posture, as if congratulating someone on finishing a week of training.',alt:t('ذيب يحتفل بإكمال أسبوع تمرين','Dheeb celebrating a completed training week')}
+    },
+    muscles:{
+      primary:[t('الدفع: الصدر والترايسبس ومقدمة الكتف {{ace-push-up}}','Push: chest, triceps and front shoulders {{ace-push-up}}'),t('السحب: الظهر والبايسبس {{ace-pull-up}}','Pull: back and biceps {{ace-pull-up}}'),t('الرجلان: الفخذان والأرداف {{ace-squat}}','Legs: thighs and glutes {{ace-squat}}')],
+      secondary:[t('الجذع: البطن وأسفل الظهر في البلانك وكل الحركات','Trunk: abdominals and low back in the plank and every movement'),t('السمانة والقبضة','Calves and grip')],
+      note:t('الجدول يغطي مجموعات العضلات الكبرى التي توصي NHS بتدريبها: الرجلان والوركان والظهر والبطن والصدر والكتفان والذراعان {{nhs-adults}}.','The plan covers the major muscle groups the NHS says to train: legs, hips, back, abdomen, chest, shoulders and arms {{nhs-adults}}.')
+    },
+    sections:[
+      section('days',t('كم يومًا أتمرن في الأسبوع؟','How many days a week?'),
+        t('الحد الأدنى يومان لكل العضلات الكبرى {{nhs-adults}}. مراجعة لـ22 دراسة وجدت أن مكاسب القوة تزيد مع عدد الجلسات، لكن السبب هو زيادة مجموع العمل؛ عندما تساوى الحجم لم يفرق عدد الأيام {{grgic-frequency-2018}}. ونفس النتيجة لنمو العضلة في مراجعة لـ25 دراسة {{schoenfeld-frequency-2019}}.','The minimum is 2 days for all major muscle groups {{nhs-adults}}. A review of 22 studies found strength gains rise with sessions, but because total work rises; with volume equal, the number of days made no difference {{grgic-frequency-2018}}. A review of 25 studies found the same for muscle growth {{schoenfeld-frequency-2019}}.'),
+        t('الخلاصة العملية: اختر عدد الأيام الذي تستطيع الالتزام به. نقترح للمبتدئ 3 جلسات للجسم كله، لأنها تجمع حجمًا كافيًا مع راحة يوم بين كل جلستين.','The practical takeaway: pick the number of days you can stick to. For beginners we suggest 3 full-body sessions, which give enough volume with a rest day between sessions.')),
+      section('sets',t('كم مجموعة لكل عضلة؟','How many sets per muscle?'),
+        t('نمو العضلة يزيد مع عدد المجموعات الأسبوعية {{schoenfeld-volume-2017}}، وACSM وجدت أن 10 مجموعات أسبوعيًا أو أكثر للعضلة تعزز النمو، وأن 2–3 مجموعات في التمرين تكفي للقوة {{acsm-2026}}.','Muscle growth rises with weekly sets {{schoenfeld-volume-2017}}; ACSM found 10 or more weekly sets per muscle enhance growth and 2–3 sets per exercise suffice for strength {{acsm-2026}}.'),
+        t('في جدولنا: 3 جلسات × 3 مجموعات = 9 مجموعات أسبوعيًا لكل حركة أساسية في البداية، ثم تصل لـ10 وأكثر بإضافة مجموعة كل أسبوعين.','In our plan: 3 sessions × 3 sets = 9 weekly sets per main movement at first, reaching 10 and more as you add a set every two weeks.')),
+      section('progress',t('كيف تتقدم أسبوعًا بعد أسبوع؟','How do you progress week by week?'),
+        t('القاعدة في كل دليل من أدلتنا: عندما تكمل أعلى رقم في النطاق بشكل نظيف في جلستين متتاليتين، انتقل للنسخة الأصعب. أمثلة النسخ الأصعب في سلاسل التدرّج عند ACE {{ace-progressions}}.','The rule in each of our guides: once you hit the top of the range cleanly in two sessions in a row, move to the harder version. ACE progression chains show what the harder versions look like {{ace-progressions}}.'),
+        t('التدرّج بوزن الجسم يبني القوة فعلًا: 3 أيام أسبوعيًا من الضغط المتدرج لـ4 أسابيع رفعت القوة مثل البنش برس {{kotarsky-2018}}.','Bodyweight progression really builds strength: 3 days a week of progressive push-ups for 4 weeks raised strength like the bench press did {{kotarsky-2018}}.'))
+    ],
+    ladderNote:t('هذه مراحل الجدول على 12 أسبوعًا. الحجم مبني على المصادر {{acsm-2026}} {{schoenfeld-volume-2017}}، والتقسيم الزمني وعمود «انتقل عندما» قواعد عملية من وثبة.','These are the plan\'s stages over 12 weeks. Volume follows the sources {{acsm-2026}} {{schoenfeld-volume-2017}}; the timeline and the “Move on when” column are WATHBA working rules.'),
+    levels:[
+      level(t('الأسابيع 1–2: التعلّم','Weeks 1–2: learning'),t('3 جلسات × 2 مجموعة لكل حركة','3 sessions × 2 sets per movement'),t('ركّز على الشكل في النسخة السهلة من كل حركة.','Focus on form in the easy version of each movement.'),t('تؤدي كل الحركات بشكل صحيح دون ألم.','You do every movement correctly without pain.')),
+      level(t('الأسابيع 3–4: الحجم','Weeks 3–4: volume'),t('3 جلسات × 3 مجموعات (9 أسبوعيًا)','3 sessions × 3 sets (9 a week)'),t('نفس الحركات، وزد تكرارًا كلما أمكن.','Same movements, adding a rep when you can.'),t('تصل لأعلى النطاق في حركتين على الأقل.','You reach the top of the range in at least two movements.')),
+      level(t('الأسابيع 5–8: التدرّج','Weeks 5–8: progression'),t('3 جلسات × 3–4 مجموعات (9–12 أسبوعيًا)','3 sessions × 3–4 sets (9–12 a week)'),t('انتقل للنسخة الأصعب في كل حركة تتقنها {{ace-progressions}}.','Move to the harder version of each movement you master {{ace-progressions}}.'),t('تكمل 10 مجموعات أسبوعيًا أو أكثر لكل حركة {{acsm-2026}}.','You complete 10 or more weekly sets per movement {{acsm-2026}}.')),
+      level(t('الأسابيع 9–12: التثبيت','Weeks 9–12: consolidation'),t('3–4 جلسات × 3–4 مجموعات','3–4 sessions × 3–4 sets'),t('أضف جلسة رابعة إذا كان تعافيك جيدًا، أو أضف حركة مهارة.','Add a fourth session if you recover well, or add a skill movement.'),t('اختبر نفسك: أقصى عدد ضغط وعقلة، وقارنه بأسبوعك الأول.','Test yourself: max push-ups and pull-ups, compared with week one.'))
+    ],
+    program:[
+      t('كل جلسة: إحماء 5 دقائق، ثم الحركات الأربع بالترتيب: سحب، دفع، رجلان، جذع. ضع الحركة الأصعب عليك أولًا، لأن التمرين في بداية الجلسة يكسب قوة أكثر {{acsm-2026}}.','Each session: a 5-minute warm-up, then the four movements in order: pull, push, legs, trunk. Put your hardest movement first, since exercises at the start of a session gain more strength {{acsm-2026}}.'),
+      t('الراحة 60–120 ثانية بين المجموعات قاعدة من وثبة. أضف 150 دقيقة على الأقل من المشي أو نشاط هوائي متوسط في الأسبوع {{who-2020}}.','Resting 60–120 seconds between sets is a WATHBA rule. Add at least 150 minutes of walking or other moderate aerobic activity a week {{who-2020}}.')
+    ],
+    week:[
+      day(t('الأحد','Sunday'),t('جسم كامل: عقلة أو تعلق، ضغط، قرفصاء، بلانك. 3 مجموعات لكل حركة.','Full body: pull-up or hang, push-up, squat, plank. 3 sets each.')),
+      day(t('الإثنين','Monday'),t('مشي سريع 30–40 دقيقة {{who-2020}}.','Brisk walk, 30–40 minutes {{who-2020}}.')),
+      day(t('الثلاثاء','Tuesday'),t('جسم كامل: نفس الحركات، وحاول زيادة تكرار في حركة أو اثنتين.','Full body: the same movements, trying to add a rep to one or two.')),
+      day(t('الأربعاء','Wednesday'),t('راحة أو إطالة خفيفة.','Rest or gentle stretching.')),
+      day(t('الخميس','Thursday'),t('جسم كامل: نفس الحركات. في الأسابيع 5–8 جرّب النسخة الأصعب هنا.','Full body: the same movements. In weeks 5–8, try the harder versions here.')),
+      day(t('الجمعة والسبت','Friday and Saturday'),t('مشي أو نط حبل خفيف، وراحة.','A walk or easy jump rope, and rest.'))
+    ],
+    mistakes:[
+      mistake(t('التمرين كل يوم حتى العجز.','Training to failure every day.'),t('3 جلسات تكفي، والتمرين حتى العجز لا يحسّن النتائج بشكل ثابت {{acsm-2026}}.','Three sessions are enough, and failure training does not reliably improve results {{acsm-2026}}.')),
+      mistake(t('تغيير البرنامج كل أسبوع.','Changing the program every week.'),t('التقدم يأتي من زيادة المجموعات والنسخ الأصعب في نفس الحركات {{schoenfeld-volume-2017}}.','Progress comes from adding sets and harder versions of the same movements {{schoenfeld-volume-2017}}.')),
+      mistake(t('نسيان الرجلين والسحب.','Skipping legs and pulling.'),t('الجدول يشمل كل العضلات الكبرى عمدًا {{nhs-adults}}.','The plan covers every major muscle group on purpose {{nhs-adults}}.')),
+      mistake(t('القلق من عدد الأيام.','Worrying about the number of days.'),t('مجموع العمل الأسبوعي أهم من توزيعه {{grgic-frequency-2018}}؛ اختر ما تستطيع الالتزام به.','Total weekly work matters more than how it is spread {{grgic-frequency-2018}}; choose what you can stick to.'))
+    ],
+    faqs:[
+      faq(t('ما أفضل جدول تمارين كاليستنكس للمبتدئين؟','What is the best beginner calisthenics schedule?'),t('3 جلسات للجسم كله في الأسبوع على أيام غير متتالية، في كل جلسة سحب ودفع ورجلان وجذع، 2–3 مجموعات لكل حركة، مع زيادة تدريجية في المجموعات والصعوبة.','Three full-body sessions a week on non-consecutive days, each with a pull, a push, legs and trunk, 2–3 sets per movement, gradually adding sets and difficulty.')),
+      faq(t('هل الأفضل يومين أم ثلاثة أم أربعة؟','Is 2, 3 or 4 days best?'),t('مراجعات علمية وجدت أن عدد الأيام لا يفرق كثيرًا عندما يتساوى مجموع العمل الأسبوعي. يومان هما الحد الأدنى، وثلاثة تسهّل جمع حجم كافٍ.','Systematic reviews found the number of days matters little when total weekly work is equal. Two days is the minimum; three make it easier to reach enough volume.')),
+      faq(t('كم مجموعة أعمل لكل عضلة؟','How many sets per muscle?'),t('ACSM ذكرت أن 10 مجموعات أسبوعيًا أو أكثر للعضلة تعزز النمو، و2–3 مجموعات في التمرين تكفي للقوة. ابدأ بأقل وزد تدريجيًا.','ACSM cites 10 or more weekly sets per muscle for growth and 2–3 sets per exercise for strength. Start lower and build up.')),
+      faq(t('هل أقسّم الجسم على أيام مثل الجيم؟','Should I split body parts like in the gym?'),t('ليس ضروريًا للمبتدئ. جلسات الجسم الكامل أبسط وتعطي كل عضلة تدريبًا عدة مرات في الأسبوع، والمهم في النهاية مجموع المجموعات.','Not necessary for beginners. Full-body sessions are simpler and train each muscle several times a week; total sets are what count in the end.')),
+      faq(t('متى أرى نتيجة؟','When will I see results?'),t('في دراسة الضغط المتدرج تحسنت القوة خلال 4 أسابيع، وفي دراسة أخرى زاد حجم العضلة خلال 8 أسابيع. النتائج تختلف من شخص لآخر.','In the progressive push-up study strength improved within 4 weeks, and in another study muscle size grew within 8 weeks. Results vary by person.'))
+    ],
+    related:['beginner','push-ups','first-pull-up','home'],
+    products:['wall-pull-up-bar','steel-wood-parallettes','resistance-bands'],
+    sources:['nhs-adults','acsm-2026','grgic-frequency-2018','schoenfeld-frequency-2019','schoenfeld-volume-2017','ace-push-up','ace-pull-up','ace-squat','ace-progressions','kotarsky-2018','who-2020']
+  },
+  {
+    slug:'home', reviewed:'2026-11-27',
+    title:t('تمارين كاليستنكس في البيت بدون معدات: ماذا تحتاج فعلًا؟','Calisthenics at Home with No Equipment: What You Really Need'),
+    description:t('تمارين كاليستنكس في البيت للمبتدئين بدون معدات: الضغط والقرفصاء والبلانك، كيف تجعلها أصعب بلا أوزان، ومتى تحتاج بار عقلة، مع دراسات منشورة.','Calisthenics at home with no equipment: push-ups, squats and planks, how to make them harder without weights, and when you need a pull-up bar, with published studies.'),
+    tags:[t('في البيت','At home'),t('بدون معدات','No equipment'),t('مبتدئ','Beginner')],
+    lead:t('تستطيع أن تبدأ الكاليستنكس في غرفة صغيرة بلا أي جهاز: الضغط والقرفصاء والبلانك تكفي للدفع والرجلين والجذع. الشيء الوحيد الذي يحتاج معدّة هو السحب، وهنا يأتي بار العقلة.','You can start calisthenics in a small room with no equipment: push-ups, squats and planks cover pushing, legs and trunk. The one thing that needs equipment is pulling, and that is where a pull-up bar comes in.'),
+    summary:[
+      t('تمارين البيت تبني عضلًا حقيقيًا: الضغط بحمل مضبوط مرتين أسبوعيًا لـ8 أسابيع زاد حجم الصدر والترايسبس مثل البنش برس {{kikuchi-2017}}.','Home training builds real muscle: push-ups at a matched load twice a week for 8 weeks grew the chest and triceps like the bench press {{kikuchi-2017}}.'),
+      t('بدون أوزان، تجعل الحركة أصعب بتغيير زاوية الجسم: الضغط على الحائط ثم المرتفع ثم الأرض ثم القدمان مرتفعتان {{ebben-2011}} {{ace-progressions}}.','Without weights, you make a movement harder by changing body angle: wall, incline, floor, then feet-raised push-ups {{ebben-2011}} {{ace-progressions}}.'),
+      t('برنامج بسيط يومين أسبوعيًا على الأقل يحقق توصية تمارين القوة {{nhs-adults}}، ومعه 150 دقيقة مشي أو نشاط متوسط {{who-2020}}.','A simple plan at least twice a week meets the strength guideline {{nhs-adults}}, plus 150 minutes of walking or moderate activity {{who-2020}}.'),
+      t('السحب يحتاج نقطة تعليق ثابتة. قاعدة وثبة: لا ترتجل على باب أو طاولة أو أنبوب؛ استعمل بار عقلة مثبتًا جيدًا.','Pulling needs a solid hanging point. WATHBA rule: never improvise on a door, table or pipe; use a properly fixed pull-up bar.'),
+      t('أول ما تشتريه إن أردت: بار عقلة، ثم حزام مقاومة. الباقي إضافات.','The first things to buy, if you want: a pull-up bar, then a resistance band. Everything else is extra.')
+    ],
+    images:{
+      hero:{file:'dheeb-home-hero',character:'dheeb',pose:'side view doing a push-up on the floor of a simple room, a plain doorway and a small rug drawn with thin ink lines in the background.',alt:t('ذيب يتمرن بالضغط في غرفة البيت','Dheeb doing push-ups in a room at home')},
+      muscles:{file:'muscles-home',character:'sakhr',pose:'side view at the bottom of a bodyweight squat, thighs parallel to the floor, arms reaching forward for balance, back flat.',red:{strong:'the front of the thighs and the buttocks',light:'the calves, the hamstrings and the abdominal muscles'},alt:t('صخر في القرفصاء، والعضلات العاملة ملوّنة بالأحمر','Sakhr in a squat with the working muscles shaded red')},
+      mistake:{file:'sakhr-door-hang',character:'sakhr',pose:'trying to hang from the top edge of a plain interior door that is bending, a clear dangerous mistake, worried posture.',alt:t('صخر يتعلق على باب البيت، وهذا خطأ خطير','Sakhr hanging from a door, a dangerous mistake')},
+      closing:{file:'dheeb-home-pull-up',character:'dheeb',pose:'front view doing a pull-up on a plain black steel pull-up bar mounted on a wall, chin over the bar.',alt:t('ذيب يتمرن على بار عقلة مثبت في البيت','Dheeb doing pull-ups on a wall-mounted bar at home')}
+    },
+    muscles:{
+      primary:[t('الضغط: الصدر والترايسبس ومقدمة الكتف {{ace-push-up}} {{kikuchi-2017}}','Push-ups: chest, triceps and front shoulders {{ace-push-up}} {{kikuchi-2017}}'),t('القرفصاء: الفخذان والأرداف {{ace-squat}}','Squats: thighs and glutes {{ace-squat}}')],
+      secondary:[t('البلانك والجذع: البطن وأسفل الظهر {{ace-push-up}}','Plank and trunk: abdominals and low back {{ace-push-up}}'),t('السحب، عند توفر بار: الظهر والبايسبس {{ace-pull-up}}','Pulling, once you have a bar: back and biceps {{ace-pull-up}}')],
+      note:t('بدون بار، يبقى الظهر أقل عضلة تتدرب في البيت. لذلك نعتبر بار العقلة أول إضافة تستحق الشراء.','Without a bar, the back is the least-trained muscle at home. That is why we see a pull-up bar as the first purchase worth making.')
+    },
+    sections:[
+      section('works',t('هل تمارين البيت تكفي فعلًا؟','Is home training really enough?'),
+        t('نعم للبداية وأبعد منها. في دراسة، زاد الضغط المعدّل، مثل الضغط على الركبتين، حجم الصدر والترايسبس وقوتهما بقدر البنش برس {{kikuchi-2017}}. وفي أخرى، رفع الضغط المتدرج 3 أيام أسبوعيًا القوة مثل البنش برس خلال 4 أسابيع {{kotarsky-2018}}.','Yes, for starting and beyond. In one study, modified push-ups such as knee push-ups grew the chest and triceps and their strength as much as the bench press {{kikuchi-2017}}. In another, progressive push-ups 3 days a week raised strength like the bench press within 4 weeks {{kotarsky-2018}}.')),
+      section('harder',t('كيف تجعل التمرين أصعب بدون أوزان؟','How to make it harder without weights'),
+        t('غيّر زاوية الجسم: كلما زاد الوزن على يديك صعب الضغط؛ الضغط والقدمان مرتفعتان أثقل من العادي، والضغط على الركبتين أخف {{ebben-2011}}. في القرفصاء، انزل أبطأ أو أعمق ضمن الشكل الصحيح {{ace-squat}}.','Change your body angle: the more weight on your hands, the harder the push-up; feet-raised push-ups are heavier than regular ones and knee push-ups lighter {{ebben-2011}}. In squats, lower more slowly or deeper within good form {{ace-squat}}.'),
+        t('أبطئ النزول: النزول البطيء يجعل الحركة أصعب {{ace-pull-up-moves}}، وACSM وجدت أن التركيز على النزول يعزز النمو {{acsm-2026}}. وأضف مجموعات: كل مجموعة أسبوعية إضافية ارتبطت بنمو أكبر {{schoenfeld-volume-2017}}.','Slow the lowering: a slower descent makes a movement harder {{ace-pull-up-moves}}, and ACSM found eccentric emphasis enhances growth {{acsm-2026}}. Add sets: each extra weekly set was linked to more growth {{schoenfeld-volume-2017}}.')),
+      section('space',t('المكان والأمان في البيت','Space and safety at home'),
+        t('تحتاج مساحة بطول جسمك تقريبًا على أرض غير زلقة. للضغط على سطح مرتفع استعمل شيئًا ثابتًا لا ينزلق، مثل درجة سلم أو طاولة مثبتة. للسحب لا تستعمل الأبواب أو الأثاث أو الأنابيب؛ بار عقلة مثبت على حائط مناسب هو الحل الآمن.','You need floor space about your body length on a non-slip surface. For incline push-ups use something that will not move, such as a stair step or a fixed table. For pulling, never use doors, furniture or pipes; a bar fixed to a suitable wall is the safe option.'))
+    ],
+    ladderNote:t('مراحل الضغط والقرفصاء من NHS وACE {{nhs-strength}} {{ace-progressions}}. المقادير وعمود «انتقل عندما» قواعد عملية من وثبة.','The push-up and squat stages come from the NHS and ACE {{nhs-strength}} {{ace-progressions}}. Doses and the “Move on when” column are WATHBA working rules.'),
+    levels:[
+      level(t('الجلوس والوقوف من كرسي','Sit-to-stand'),t('3 × 5–10، ببطء {{nhs-strength}}','3 × 5–10, slowly {{nhs-strength}}'),t('قم برجليك لا بيديك {{nhs-strength}}.','Stand using your legs, not your arms {{nhs-strength}}.'),t('تكمل 3 × 10 ببطء، فانتقل للقرفصاء الحرة.','You complete 3 × 10 slowly; move to free squats.')),
+      level(t('القرفصاء بوزن الجسم','Bodyweight squat'),t('3 × 10–15','3 × 10–15'),t('الوركان للخلف، والفخذان قرب الموازاة {{ace-squat}}.','Hips back, thighs near parallel {{ace-squat}}.'),t('تكمل 3 × 15، ثم أبطئ النزول لـ3 ثوانٍ.','You complete 3 × 15; then slow the descent to 3 seconds.')),
+      level(t('الضغط المائل أو على الركبتين','Incline or knee push-up'),t('3 × 6–10','3 × 6–10'),t('اخفض السطح تدريجيًا {{ace-progressions}}.','Lower the surface over time {{ace-progressions}}.'),t('تكمل 3 × 10 على الركبتين.','You complete 3 × 10 on your knees.')),
+      level(t('الضغط الكامل','Full push-up'),t('3 × أكبر عدد نظيف','3 × max clean reps'),t('الجسم خط واحد، والصدر قرب الأرض {{ace-push-up}}.','One straight line, chest near the floor {{ace-push-up}}.'),t('تكمل 3 × 15، فانتقل للقدمين المرتفعتين {{ebben-2011}}.','You complete 3 × 15; move to feet-raised {{ebben-2011}}.')),
+      level(t('البلانك','Plank'),t('3 × 20–45 ثانية','3 × 20–45 seconds'),t('خط مستقيم من الرأس للكعبين {{ace-progressions}}.','A straight line from head to heels {{ace-progressions}}.'),t('تثبت 3 × 45 ثانية.','You hold 3 × 45 seconds.'))
+    ],
+    program:[
+      t('جلستان إلى ثلاث في الأسبوع، كل جلسة قرفصاء وضغط وبلانك، 2–3 مجموعات لكل حركة {{acsm-2026}}. عندما يتوفر بار عقلة، أضف التعلق أو العقلة كأول حركة.','Two or three sessions a week, each with squats, push-ups and a plank, 2–3 sets per movement {{acsm-2026}}. Once you have a pull-up bar, add hangs or pull-ups as the first movement.'),
+      t('الجلسة تأخذ 20–30 دقيقة مع الراحة. الراحة 60–90 ثانية قاعدة من وثبة.','A session takes 20–30 minutes including rest. Resting 60–90 seconds is a WATHBA rule.')
+    ],
+    week:[
+      day(t('الأحد','Sunday'),t('قرفصاء، ضغط، بلانك: 3 مجموعات لكل منها.','Squats, push-ups, plank: 3 sets each.')),
+      day(t('الإثنين','Monday'),t('مشي 30 دقيقة {{who-2020}}.','A 30-minute walk {{who-2020}}.')),
+      day(t('الثلاثاء','Tuesday'),t('نفس جلسة الأحد، مع نزول أبطأ في القرفصاء.','Sunday\'s session, with a slower squat descent.')),
+      day(t('الخميس','Thursday'),t('نفس الجلسة، وحاول تكرارًا إضافيًا في الضغط.','The same session, trying one more push-up rep.')),
+      day(t('الجمعة','Friday'),t('مشي أو نط حبل خفيف.','A walk or easy jump rope.'))
+    ],
+    mistakes:[
+      mistake(t('التعلق على الباب أو الأثاث.','Hanging from doors or furniture.'),t('قد ينكسر أو يسقط. استعمل بار عقلة مثبتًا جيدًا فقط.','It can break or fall. Use only a properly fixed pull-up bar.')),
+      mistake(t('الضغط على سطح ينزلق.','Push-ups on a surface that slides.'),t('استعمل درجة أو سطحًا ثابتًا لا يتحرك.','Use a step or a surface that cannot move.')),
+      mistake(t('نفس العدد كل مرة لأشهر.','The same reps for months.'),t('زد مجموعة أو صعّب الزاوية؛ التقدم يأتي من الحمل المتزايد {{schoenfeld-volume-2017}}.','Add a set or a harder angle; progress comes from increasing load {{schoenfeld-volume-2017}}.')),
+      mistake(t('تمرين الدفع فقط.','Training only pushing.'),t('أضف القرفصاء والبلانك، وبار عقلة للسحب عندما تستطيع {{nhs-adults}}.','Add squats and planks, and a bar for pulling when you can {{nhs-adults}}.'))
+    ],
+    faqs:[
+      faq(t('ما هي أفضل تمارين كاليستنكس في البيت للمبتدئين؟','What are the best home calisthenics exercises for beginners?'),t('القرفصاء والضغط والبلانك، وكل واحد له نسخة سهلة: الجلوس والوقوف من كرسي، وضغط الحائط، والبلانك على الركبتين. وعند توفر بار عقلة، أضف التعلق.','Squats, push-ups and planks, each with an easy version: sit-to-stand, wall push-ups and knee planks. With a pull-up bar, add hangs.')),
+      faq(t('هل تمارين البيت تبني عضلات بدون أوزان؟','Can home training build muscle without weights?'),t('نعم. دراسة وجدت أن الضغط المعدّل زاد حجم الصدر والترايسبس بقدر البنش برس، والتقدم يأتي من تغيير زاوية الجسم وإضافة المجموعات.','Yes. A study found modified push-ups grew the chest and triceps as much as the bench press; progress comes from changing body angle and adding sets.')),
+      faq(t('كم دقيقة أتمرن في البيت؟','How long should a home session be?'),t('20–30 دقيقة تكفي، يومين إلى ثلاثة أسبوعيًا، مع مشي في الأيام الأخرى.','20–30 minutes is enough, 2–3 days a week, with walking on other days.')),
+      faq(t('كيف أتمرن الظهر في البيت بدون معدات؟','How do I train my back at home with no equipment?'),t('هذا أصعب جزء بدون معدات، لأن الظهر يحتاج حركة سحب ونقطة تعليق ثابتة. لا ترتجل على الأبواب. بار عقلة مثبت على حائط مناسب هو الحل الآمن والأبسط.','That is the hardest part without equipment, because the back needs pulling and a solid hanging point. Do not improvise on doors. A bar fixed to a suitable wall is the safest, simplest solution.')),
+      faq(t('ما أول معدّة أشتريها للبيت؟','What should I buy first for home?'),t('بار عقلة، لأنه يفتح لك حركات السحب التي لا تستطيع عملها بدونه. ثم حزام مقاومة للمساعدة في العقلة.','A pull-up bar, because it unlocks the pulling you cannot do without one. Then a resistance band to assist pull-ups.'))
+    ],
+    related:['beginner','weekly-plan','push-ups','first-pull-up'],
+    products:['wall-pull-up-bar','resistance-bands','steel-wood-parallettes'],
+    sources:['kikuchi-2017','ebben-2011','ace-progressions','nhs-adults','who-2020','ace-push-up','ace-squat','ace-pull-up','kotarsky-2018','ace-pull-up-moves','acsm-2026','schoenfeld-volume-2017','nhs-strength']
+  },
+  {
+    slug:'wall-handstand', reviewed:'2026-11-27',
+    title:t('الوقوف على اليدين على الحائط: خطوات للمبتدئين بأمان','Wall Handstand for Beginners: Safe Steps to Your First Hold'),
+    description:t('تعلّم الوقوف على اليدين على الحائط خطوة بخطوة: التحضير، البطن للحائط، الثبات، العضلات العاملة، وكيف تحمي رسغك وكتفك، بحسب مراجعة علمية لحركة الوقوف على اليدين.','Learn the wall handstand step by step: preparation, chest-to-wall holds, balance, the muscles involved and protecting wrists and shoulders, based on a systematic review of the handstand.'),
+    tags:[t('توازن ومهارة','Balance and skill'),t('مبتدئ إلى متوسط','Beginner to intermediate'),t('بدون معدات','No equipment')],
+    lead:t('الوقوف على اليدين مهارة توازن قبل أن تكون مهارة قوة. الحائط يعطيك الأمان لتبني القوة في الكتفين والرسغين، وتتعلم شكل الجسم المستقيم، قبل أن تحاول الوقوف حرًا.','The handstand is a balance skill before it is a strength skill. The wall gives you safety to build shoulder and wrist strength and learn a straight body line before you try it free.'),
+    summary:[
+      t('التوازن في الوقوف على اليدين يأتي أساسًا من الرسغين: الأصابع والكفان تصحح الميل، والكتفان والوركان يساعدان عندما لا يكفي ذلك {{macdonald-handstand-2025}}.','Handstand balance comes mainly from the wrists: fingers and palms correct the lean, with shoulders and hips helping when that is not enough {{macdonald-handstand-2025}}.'),
+      t('عضلات الرسغ هي الأعلى نشاطًا، ثم أعلى شبه المنحرفة ومقدمة الكتف والترايسبس {{kochanowicz-handstand-2018}}. لذلك جهّز رسغيك وكتفيك أولًا.','The wrist muscles are the most active, then the upper trapezius, front shoulder and triceps {{kochanowicz-handstand-2018}}. So prepare your wrists and shoulders first.'),
+      t('لا تنظر لصدرك: ثني الرقبة يضعف الأداء، وإغلاق العينين يقلل الثبات {{macdonald-handstand-2025}}. انظر للأرض بين يديك.','Do not look at your chest: flexing the neck impairs performance and closing the eyes reduces stability {{macdonald-handstand-2025}}. Look at the floor between your hands.'),
+      t('ألم الكتف شائع في الرياضات المعتمدة على الوقوف على اليدين {{angioi-handstand-2026}}. أبقِ ذراعيك ممدودتين بالكامل، وتوقف عند الألم.','Shoulder pain is common in handstand sports {{angioi-handstand-2026}}. Keep your arms fully straight and stop if it hurts.'),
+      t('قاعدة وثبة: لا تحاول الوقوف الحر قبل أن تثبت 3 × 30 ثانية والبطن للحائط بجسم مستقيم.','WATHBA rule: do not try a free handstand until you can hold 3 × 30 seconds chest-to-wall with a straight body.')
+    ],
+    images:{
+      hero:{file:'dheeb-wall-handstand-hero',character:'dheeb',pose:'side view in a chest-to-wall handstand against a plain wall drawn with thin ink lines: arms fully straight, body in one straight line, toes lightly touching the wall, hands about a palm\'s width from the wall.',alt:t('ذيب واقف على يديه وبطنه للحائط','Dheeb in a chest-to-wall handstand')},
+      muscles:{file:'muscles-wall-handstand',character:'sakhr',pose:'side view in a chest-to-wall handstand against a plain wall, arms straight, body in a straight line.',red:{strong:'the forearms and wrists, the shoulders (front deltoid) and the upper trapezius beside the neck',light:'the triceps and the abdominal muscles'},alt:t('صخر واقف على يديه على الحائط، والعضلات العاملة ملوّنة بالأحمر','Sakhr in a wall handstand with the working muscles shaded red')},
+      mistake:{file:'sakhr-handstand-banana',character:'sakhr',pose:'back-to-wall handstand showing a clear mistake: lower back heavily arched in a banana shape, elbows bent, head tucked to look at his chest.',alt:t('صخر يقوّس ظهره ويثني مرفقيه وهو واقف على يديه، وهذا خطأ شائع','Sakhr arching his back and bending his elbows in a handstand, a common mistake')},
+      closing:{file:'dheeb-pike-hold',character:'dheeb',pose:'side view in a pike hold: hands on the floor, hips high above the shoulders, feet resting on a low sturdy box, arms straight, forming an upside-down L shape.',alt:t('ذيب في وضعية البايك على صندوق كتحضير للوقوف على اليدين','Dheeb in a box pike hold as handstand preparation')}
+    },
+    muscles:{
+      primary:[t('الساعد والرسغ: عضلات ثني الرسغ هي الأعلى نشاطًا وتتحكم في التوازن {{kochanowicz-handstand-2018}}','Forearm and wrist: the wrist flexors are the most active and control balance {{kochanowicz-handstand-2018}}'),t('الكتف: أعلى شبه المنحرفة ومقدمة الكتف تحملان الجسم {{kochanowicz-handstand-2018}}','Shoulder: the upper trapezius and front deltoid hold the body up {{kochanowicz-handstand-2018}}')],
+      secondary:[t('الترايسبس: يبقي المرفقين ممدودين {{kochanowicz-handstand-2018}}','Triceps: keeps the elbows locked {{kochanowicz-handstand-2018}}'),t('البطن والأرداف: تبقي الجسم خطًا مستقيمًا','Abdominals and glutes: keep the body in one straight line')],
+      note:t('الأقوى عضليًا توازنه أفضل في الوقوف على اليدين {{macdonald-handstand-2025}}، لذلك يبدأ السلّم بتمارين قوة قبل الحائط.','Stronger athletes balance better in the handstand {{macdonald-handstand-2025}}, which is why the ladder starts with strength work before the wall.')
+    },
+    sections:[
+      section('balance',t('كيف تتوازن على يديك؟','How do you balance on your hands?'),
+        t('مثل ما تتوازن على قدميك بالكاحلين، تتوازن على يديك بالرسغين والأصابع: إذا ملت للأمام اضغط بأصابعك في الأرض، وإذا ملت للخلف خفف الضغط. الدراسات تسميها «استراتيجية الرسغ»، وإذا لم تكفِ يستخدم الجسم الكتفين والوركين والمرفقين {{macdonald-handstand-2025}}.','Just as your ankles balance you on your feet, your wrists and fingers balance you on your hands: lean forward and press your fingertips down, lean back and ease off. Studies call this the wrist strategy; when it is not enough the body uses the shoulders, hips and elbows {{macdonald-handstand-2025}}.'),
+        t('الرأس مهم: ثني الرقبة لتنظر لصدرك يضعف الأداء، وإغلاق العينين يقلل الثبات {{macdonald-handstand-2025}}. انظر للأرض بين يديك أو أمامهما قليلًا.','Head position matters: tucking the chin to look at your chest impairs performance, and closing your eyes reduces stability {{macdonald-handstand-2025}}. Look at the floor between or just ahead of your hands.')),
+      section('wall',t('البطن للحائط أم الظهر للحائط؟','Chest to wall or back to wall?'),
+        t('في وضع الظهر للحائط تركل برجليك للأعلى ويسند الحائط كعبيك، وكثيرون يقوّسون ظهرهم فيه. في وضع البطن للحائط تمشي بقدميك على الحائط للأعلى، فيسهل أن تبقي الجسم مستقيمًا. قاعدة وثبة: ابدأ بالبطن للحائط.','Back to wall, you kick up and the wall catches your heels, and many people arch their back. Chest to wall, you walk your feet up the wall, which makes a straight line easier. WATHBA rule: start chest to wall.'),
+        t('للنزول من وضع البطن للحائط، امشِ بيديك بعيدًا عن الحائط وأنزل قدميك ببطء. تدرّب على النزول قبل أن تحاول البقاء طويلًا.','To come down from chest to wall, walk your hands away from the wall and lower your feet slowly. Practise coming down before trying to stay up long.')),
+      section('safety',t('احمِ رسغيك وكتفيك','Protect your wrists and shoulders'),
+        t('الرسغ يحمل وزنك كله هنا، وعضلاته هي الأعلى نشاطًا {{kochanowicz-handstand-2018}}. أحمِ الرسغين قبل كل جلسة، وابدأ بمدة قصيرة. والرسغ هنا مثني للخلف تحت وزن الجسم كله، ودراسة على قوى الرسغ وجدت أن الأربطة قد تتحمل حملًا أكبر في هذا الوضع {{wrist-2018}}، فلا تتجاهل ألم الرسغ.','Your wrists carry all your weight here and their muscles are the most active {{kochanowicz-handstand-2018}}. Warm them up before every session and start with short holds. Here the wrist is bent back under your full weight, and a wrist-force study found ligaments may take more load in that position {{wrist-2018}}, so do not ignore wrist pain.'),
+        t('ألم الكتف شائع عند من يمارسون الوقوف على اليدين، ومن لديهم ألم كانت أذرعهم أكثر انثناءً {{angioi-handstand-2026}}. ادفع الأرض بعيدًا وأبقِ المرفقين ممدودين بالكامل.','Shoulder pain is common in handstand practitioners, and those with pain held more bent arms {{angioi-handstand-2026}}. Push the floor away and keep your elbows fully locked.'))
+    ],
+    ladderNote:t('ترتيب السلّم والمقادير وعمود «انتقل عندما» قواعد عملية من وثبة؛ المصادر تشرح العضلات والتوازن والسلامة، ولم نجد مصدرًا موثوقًا يحدد سلّم تدرّج بأرقام.','The ladder order, doses and the “Move on when” column are WATHBA working rules; the sources explain muscles, balance and safety, and we found no reliable source giving a numbered progression.'),
+    levels:[
+      level(t('البلانك وثبات وضع الضغط','Plank and top push-up hold'),t('3 × 30–45 ثانية','3 × 30–45 seconds'),t('ذراعان ممدودتان وجسم مستقيم.','Straight arms and a straight body.'),t('تثبت 3 × 45 ثانية.','You hold 3 × 45 seconds.')),
+      level(t('البايك على صندوق','Box pike hold'),t('3 × 15–30 ثانية','3 × 15–30 seconds'),t('اليدان على الأرض والقدمان على صندوق ثابت، والوركان فوق الكتفين.','Hands on the floor, feet on a sturdy box, hips over the shoulders.'),t('تثبت 3 × 30 ثانية والذراعان ممدودتان.','You hold 3 × 30 seconds with straight arms.')),
+      level(t('المشي على الحائط','Wall walk'),t('3 × 2–4 صعود ونزول','3 × 2–4 walk-ups'),t('امشِ بقدميك على الحائط واقترب بيديك، ثم انزل بنفس الطريقة.','Walk your feet up the wall as your hands come closer, then reverse it.'),t('تصل لقرب الحائط وتنزل بتحكم.','You get close to the wall and come down under control.')),
+      level(t('البطن للحائط','Chest-to-wall hold'),t('3 × 15–30 ثانية','3 × 15–30 seconds'),t('اليدان على بعد كف تقريبًا من الحائط، والنظر للأرض بين يديك {{macdonald-handstand-2025}}.','Hands about a palm from the wall, eyes on the floor between your hands {{macdonald-handstand-2025}}.'),t('تثبت 3 × 30 ثانية بجسم مستقيم.','You hold 3 × 30 seconds with a straight body.')),
+      level(t('رفع القدمين عن الحائط','Toe pulls off the wall'),t('5–8 محاولات قصيرة','5–8 short attempts'),t('من وضع البطن للحائط، ارفع قدمًا ثم الأخرى عن الحائط وتوازن بأصابعك {{macdonald-handstand-2025}}.','From chest to wall, lift one foot then both off the wall and balance with your fingers {{macdonald-handstand-2025}}.'),t('تتوازن 5 ثوانٍ بعيدًا عن الحائط؛ تعلّم بعدها النزول الآمن قبل الوقوف الحر.','You balance 5 seconds off the wall; learn a safe exit before free handstands.'))
+    ],
+    program:[
+      t('تمرّن على الوقوف على اليدين 3 أيام أسبوعيًا بجلسات قصيرة، 10–15 دقيقة في بداية الجلسة بعد الإحماء، لأن المهارة تحتاج جسمًا غير متعب. هذا التوقيت قاعدة من وثبة.','Practise 3 days a week in short blocks, 10–15 minutes at the start of a session after the warm-up, because skill work needs a fresh body. That timing is a WATHBA rule.'),
+      t('قوة الكتفين والترايسبس تدعم التوازن {{macdonald-handstand-2025}}، فاستمر في تمارين الضغط والديبس جلستين أسبوعيًا على الأقل {{acsm-2026}}.','Shoulder and triceps strength support balance {{macdonald-handstand-2025}}, so keep training push-ups and dips at least twice a week {{acsm-2026}}.')
+    ],
+    week:[
+      day(t('الأحد','Sunday'),t('إحماء الرسغين والكتفين، ثم 10 دقائق من مرحلتك، ثم تمارين الضغط.','Wrist and shoulder warm-up, 10 minutes at your stage, then push-ups.')),
+      day(t('الثلاثاء','Tuesday'),t('إحماء، ثم 10 دقائق من مرحلتك، ثم عقلة ورجلين.','Warm-up, 10 minutes at your stage, then pull-ups and legs.')),
+      day(t('الخميس','Thursday'),t('إحماء، ثم 15 دقيقة: مرحلتك والمرحلة التي قبلها.','Warm-up, then 15 minutes: your stage and the one before.')),
+      day(t('باقي الأيام','Other days'),t('راحة للرسغين.','Rest for your wrists.'))
+    ],
+    mistakes:[
+      mistake(t('تقويس الظهر «شكل الموزة».','Arching into a banana shape.'),t('ابدأ بالبطن للحائط، وشدّ البطن والأرداف.','Start chest to wall and squeeze your abs and glutes.')),
+      mistake(t('ثني المرفقين.','Bent elbows.'),t('ادفع الأرض وأبقِ الذراعين ممدودتين؛ الأذرع المنثنية ارتبطت بحمل أكبر على المفاصل {{angioi-handstand-2026}}.','Push the floor and keep your arms locked; bent arms were linked to higher joint loading {{angioi-handstand-2026}}.')),
+      mistake(t('النظر للصدر.','Looking at your chest.'),t('انظر للأرض بين يديك؛ ثني الرقبة يضعف الأداء {{macdonald-handstand-2025}}.','Look at the floor between your hands; neck flexion impairs performance {{macdonald-handstand-2025}}.')),
+      mistake(t('الركل بقوة للوقوف الحر.','Kicking hard into a free handstand.'),t('تعلّم النزول الآمن أولًا، وتدرّب في مساحة خالية بعيدًا عن الأثاث.','Learn a safe exit first and practise in a clear space away from furniture.'))
+    ],
+    faqs:[
+      faq(t('كيف أتعلم الوقوف على اليدين على الحائط؟','How do I learn a wall handstand?'),t('ابدأ بالبلانك والبايك على صندوق، ثم المشي على الحائط، ثم الثبات والبطن للحائط. انظر للأرض بين يديك وأبقِ ذراعيك ممدودتين.','Start with planks and box pikes, then wall walks, then chest-to-wall holds. Look at the floor between your hands and keep your arms straight.')),
+      faq(t('هل الوقوف على اليدين يحتاج قوة أم توازن؟','Does a handstand need strength or balance?'),t('الاثنين. التوازن يأتي أساسًا من الرسغين والأصابع، والمراجعة العلمية وجدت أن الأقوى عضليًا توازنه أفضل.','Both. Balance comes mainly from the wrists and fingers, and the systematic review found stronger athletes balance better.')),
+      faq(t('هل الوقوف على اليدين مضر للرسغ؟','Is the handstand bad for the wrists?'),t('الرسغ يحمل وزنك كله، وعضلاته هي الأعلى نشاطًا. أحمِه جيدًا، وابدأ بمدد قصيرة، وتوقف إذا شعرت بألم مستمر.','Your wrists carry your whole weight and their muscles are the most active. Warm them up well, start with short holds, and stop with lasting pain.')),
+      faq(t('البطن للحائط أم الظهر للحائط؟','Chest to wall or back to wall?'),t('نقترح البطن للحائط للمبتدئ، لأنه يسهّل الجسم المستقيم ويقلل تقويس الظهر.','We suggest chest to wall for beginners, because it makes a straight line easier and reduces arching.')),
+      faq(t('هل أستعمل الباراليتس للوقوف على اليدين؟','Should I use parallettes for handstands?'),t('ممكن لاحقًا، فهي تغيّر وضع الرسغ. لكن ابدأ على الأرض قرب الحائط حتى تتقن الأساس.','Later, perhaps; they change the wrist position. Start on the floor by the wall until you master the basics.'))
+    ],
+    related:['push-ups','parallettes','dips','beginner'],
+    products:['steel-wood-parallettes','full-wooden-parallettes'],
+    sources:['macdonald-handstand-2025','kochanowicz-handstand-2018','angioi-handstand-2026','wrist-2018','acsm-2026']
+  },
+  {
+    slug:'more-pull-ups', reviewed:'2026-11-27',
+    title:t('كيف تزيد عدد العقلة؟ برنامج بعد أول عقلة','How to Do More Pull-ups: A Plan After Your First Rep'),
+    description:t('زد عدد العقلة بعد أول عقلة: المجموعات الأسبوعية، عدد الأيام، النزول البطيء، القبضات المختلفة، ومتى تضيف وزنًا، بحسب ACSM ومراجعات علمية.','Do more pull-ups after your first rep: weekly sets, training days, slow negatives, grip variety and when to add weight, based on ACSM and systematic reviews.'),
+    tags:[t('سحب وقوة','Pulling strength'),t('متوسط','Intermediate'),t('بار عقلة','Pull-up bar')],
+    lead:t('بعد أول عقلة، يأتي التقدم من مجموع العمل الذي تنجزه في الأسبوع، لا من محاولة أقصى عدد كل يوم. وزّع العقلات على مجموعات نظيفة، وأضف مجموعات تدريجيًا.','After your first pull-up, progress comes from total weekly work, not from maxing out every day. Spread your reps over clean sets and add sets gradually.'),
+    summary:[
+      t('المجموع الأسبوعي هو ما يهم: مكاسب القوة زادت مع عدد الجلسات بسبب زيادة الحجم، وعندما تساوى الحجم لم يفرق عدد الأيام {{grgic-frequency-2018}}.','Weekly total is what counts: strength gains rose with sessions because volume rose; with volume equal, the number of days made no difference {{grgic-frequency-2018}}.'),
+      t('ACSM: 2–3 مجموعات، ومدى حركة كامل، وجلستان أسبوعيًا على الأقل للقوة، والتركيز على النزول يعزز النمو {{acsm-2026}}.','ACSM: 2–3 sets, a full range of motion and at least 2 sessions a week for strength, with eccentric emphasis for growth {{acsm-2026}}.'),
+      t('لا تتمرن حتى العجز في كل مجموعة؛ لم يغيّر ذلك النتائج بشكل ثابت {{acsm-2026}}. قاعدة وثبة: أوقف المجموعة قبل العجز بعقلة أو اثنتين.','Do not go to failure every set; it did not reliably change results {{acsm-2026}}. WATHBA rule: end each set one or two reps short of failure.'),
+      t('النزول البطيء أصعب ويسرّع اكتساب القوة {{ace-pull-up-moves}}، وأفضل طريقة لإضافة حجم بعد أن تنتهي عقلاتك الكاملة.','Slow negatives are harder and speed strength gains {{ace-pull-up-moves}}, a good way to add volume once your full reps run out.'),
+      t('عندما تتجاوز 10 عقلات نظيفة، أضف وزنًا؛ العقلة بوزن إضافي هي آخر خطوة في سلّم ACE {{ace-progressions}}.','Past 10 clean pull-ups, add weight; weighted pull-ups are the last step in the ACE ladder {{ace-progressions}}.')
+    ],
+    images:{
+      hero:{file:'dheeb-more-pull-ups-hero',character:'dheeb',pose:'front view mid pull-up on a plain black steel bar, elbows half bent, body straight and still, focused.',alt:t('ذيب في منتصف العقلة','Dheeb halfway through a pull-up')},
+      muscles:{file:'muscles-more-pull-ups',character:'dheeb',pose:'back view at the top of a pull-up on a plain black steel bar, chin over the bar, elbows pulled down to his sides.',red:{strong:'the large back muscles (latissimus dorsi) and the biceps',light:'the area between the shoulder blades, the back of the shoulders and the forearms'},alt:t('ذيب في أعلى العقلة من الخلف، والعضلات العاملة ملوّنة بالأحمر','Dheeb at the top of a pull-up from behind with the working muscles shaded red')},
+      mistake:{file:'sakhr-half-reps',character:'sakhr',pose:'on a plain black steel bar doing half reps: elbows still bent at the bottom, never reaching straight arms, chin far below the bar, rushing.',alt:t('صخر يعمل نصف عقلة دون أن يمد ذراعيه، وهذا خطأ شائع','Sakhr doing half reps without straightening his arms, a common mistake')},
+      closing:{file:'sakhr-weighted-pull-up',character:'sakhr',pose:'front view doing a pull-up on a plain black steel bar while wearing a simple dip belt with a small weight plate hanging between his legs, proud.',alt:t('صخر يعمل عقلة بوزن إضافي','Sakhr doing a weighted pull-up')}
+    },
+    muscles:{
+      primary:[t('الظهرية العريضة، الأعلى نشاطًا في العقلة {{youdas-2010}}','The lats, the most active muscle in the pull-up {{youdas-2010}}'),t('البايسبس، ويعمل أكثر في الشن-أب {{youdas-2010}}','The biceps, which work harder in the chin-up {{youdas-2010}}')],
+      secondary:[t('شبه المنحرفة الوسطى، وتعمل أكثر مع القبضة العلوية {{dickie-2017}}','Middle trapezius, which works harder with an overhand grip {{dickie-2017}}'),t('الساعد والعضدية الكعبرية، وتعمل أكثر في الصعود {{dickie-2017}}','Forearms and brachioradialis, which work harder on the way up {{dickie-2017}}')],
+      note:t('تغيير القبضة يغيّر توزيع العمل بين العضلات {{youdas-2010}} {{dickie-2017}}، لذلك ننوّع القبضات في البرنامج.','Changing grip shifts the work between muscles {{youdas-2010}} {{dickie-2017}}, which is why the plan varies grips.')
+    },
+    sections:[
+      section('volume',t('السر في المجموع الأسبوعي','The secret is weekly volume'),
+        t('مراجعة لـ22 دراسة وجدت أن من يتمرن أكثر في الأسبوع يكسب قوة أكثر، لكن لأنه ينجز عملًا أكثر؛ عندما تساوى الحجم لم يفرق عدد الأيام {{grgic-frequency-2018}}. ونمو العضلة يزيد مع كل مجموعة أسبوعية إضافية {{schoenfeld-volume-2017}}.','A review of 22 studies found people who train more often gain more strength, because they do more work; with volume equal, days made no difference {{grgic-frequency-2018}}. Muscle growth rises with each extra weekly set {{schoenfeld-volume-2017}}.'),
+        t('عمليًا: إذا كان أقصى عدد لك 5 عقلات، فـ5 مجموعات من 3 عقلات نظيفة أفضل من محاولة الـ5 مرة واحدة. توزيع العقلات على مجموعات أقل من أقصاك قاعدة عملية من وثبة.','In practice: if your max is 5, five sets of 3 clean reps beat one all-out set of 5. Spreading reps over sets below your max is a WATHBA working rule.')),
+      section('negatives',t('النزول البطيء لزيادة الحجم','Slow negatives to add volume'),
+        t('النزول البطيء أصعب ويسرّع اكتساب القوة، مع احتمال ألم عضلي بعده {{ace-pull-up-moves}}. وACSM وجدت أن التركيز على مرحلة النزول يعزز نمو العضلة {{acsm-2026}}.','A slow descent is harder and speeds strength gains, with likely soreness afterwards {{ace-pull-up-moves}}. ACSM found eccentric emphasis enhances muscle growth {{acsm-2026}}.'),
+        t('أضف 2–3 مجموعات نزول بطيء بعد مجموعاتك الكاملة، عندما لا تستطيع عقلة كاملة نظيفة أخرى.','Add 2–3 sets of slow negatives after your full sets, once you cannot do another clean full rep.')),
+      section('grips',t('نوّع القبضة','Vary your grip'),
+        t('في الشن-أب، والكفان نحوك، يعمل البايسبس والصدر أكثر؛ وفي العقلة بالقبضة العلوية تعمل شبه المنحرفة السفلية أكثر {{youdas-2010}}. والقبضة العلوية تشغّل منتصف شبه المنحرفة أكثر من المحايدة {{dickie-2017}}.','In a chin-up, palms facing you, the biceps and chest work harder; in an overhand pull-up the lower trapezius works harder {{youdas-2010}}. The overhand grip works the middle trapezius more than a neutral grip {{dickie-2017}}.'),
+        t('في الشن-أب، اسحب الكتفين للخلف وللأسفل وأبقِ الرسغ مستقيمًا، ولا تضغط على كتفك {{ace-chin-up}}.','In the chin-up, draw the shoulders back and down, keep the wrists neutral, and never force the shoulder {{ace-chin-up}}.'))
+    ],
+    ladderNote:t('مراحل الحجم ونطاقات العقلات وعمود «انتقل عندما» قواعد عملية من وثبة مبنية على مبدأ زيادة الحجم {{grgic-frequency-2018}} {{schoenfeld-volume-2017}}؛ الوزن الإضافي من سلسلة ACE {{ace-progressions}}.','The volume stages, rep ranges and the “Move on when” column are WATHBA rules built on the principle of adding volume {{grgic-frequency-2018}} {{schoenfeld-volume-2017}}; added weight comes from the ACE chain {{ace-progressions}}.'),
+    levels:[
+      level(t('من 1 إلى 3 عقلات','1 to 3 reps'),t('5–6 مجموعات × 1–2، ثم 2 نزول بطيء','5–6 sets × 1–2, then 2 slow negatives'),t('عقلات منفردة نظيفة مع راحة كاملة.','Clean singles with full rest.'),t('تكمل 6 × 2.','You complete 6 × 2.')),
+      level(t('من 4 إلى 6 عقلات','4 to 6 reps'),t('5 مجموعات × 3','5 sets × 3'),t('أوقف المجموعة قبل العجز بعقلة أو اثنتين {{acsm-2026}}.','Stop each set one or two reps short of failure {{acsm-2026}}.'),t('تكمل 5 × 4.','You complete 5 × 4.')),
+      level(t('من 7 إلى 10 عقلات','7 to 10 reps'),t('4–5 مجموعات × 5–6','4–5 sets × 5–6'),t('نوّع بين العقلة والشن-أب في جلسات مختلفة {{youdas-2010}}.','Alternate pull-ups and chin-ups across sessions {{youdas-2010}}.'),t('تكمل 4 × 8.','You complete 4 × 8.')),
+      level(t('أكثر من 10 عقلات','More than 10 reps'),t('3–4 مجموعات × 4–6 بوزن إضافي','3–4 sets × 4–6 with added weight'),t('ابدأ بوزن خفيف على حزام أو حقيبة {{ace-progressions}}.','Start with a light weight on a belt or backpack {{ace-progressions}}.'),t('تكمل 4 × 6، فزد الوزن قليلًا.','You complete 4 × 6; add a little weight.'))
+    ],
+    program:[
+      t('جلستان إلى ثلاث للعقلة في الأسبوع، في بداية الجلسة بعد الإحماء، لأن التمارين في البداية تكسب قوة أكثر {{acsm-2026}}. هدفك الأول أن تصل لـ10 مجموعات أسبوعيًا أو أكثر للظهر {{acsm-2026}}.','Two or three pull-up sessions a week, first in the session after the warm-up, since early exercises gain more strength {{acsm-2026}}. Aim first for 10 or more weekly sets for the back {{acsm-2026}}.'),
+      t('الراحة 2–3 دقائق بين مجموعات العقلة قاعدة من وثبة. اختبر أقصى عدد كل 4 أسابيع فقط، لا كل جلسة.','Resting 2–3 minutes between pull-up sets is a WATHBA rule. Test your max only every 4 weeks, not every session.')
+    ],
+    week:[
+      day(t('الأحد','Sunday'),t('عقلة بقبضة علوية: مجموعات مرحلتك، ثم 2 نزول بطيء.','Overhand pull-ups: your stage sets, then 2 slow negatives.')),
+      day(t('الثلاثاء','Tuesday'),t('شن-أب: مجموعات مرحلتك {{ace-chin-up}}.','Chin-ups: your stage sets {{ace-chin-up}}.')),
+      day(t('الخميس','Thursday'),t('عقلة بقبضة علوية: نفس الأحد مع مجموعة إضافية إذا كانت سهلة.','Overhand pull-ups: like Sunday, adding a set if it felt easy.')),
+      day(t('كل 4 أسابيع','Every 4 weeks'),t('اختبار أقصى عدد في بداية جلسة مرتاحة، ثم انتقل للمرحلة المناسبة.','A max test at the start of a fresh session, then move to the matching stage.'))
+    ],
+    mistakes:[
+      mistake(t('محاولة أقصى عدد كل يوم.','Maxing out every day.'),t('التقدم من مجموع العمل الأسبوعي {{grgic-frequency-2018}}، لا من اختبار يومي.','Progress comes from total weekly work {{grgic-frequency-2018}}, not daily testing.')),
+      mistake(t('نصف عقلة لزيادة العدد.','Half reps to pad the count.'),t('ابدأ كل عقلة من ذراعين ممدودتين {{ace-pull-up}}؛ المدى الكامل يبني قوة أكثر {{acsm-2026}}.','Start every rep from straight arms {{ace-pull-up}}; full range builds more strength {{acsm-2026}}.')),
+      mistake(t('التأرجح والركل.','Swinging and kicking.'),t('اسحب دون تأرجح {{ace-pull-up}}. العقلة المتأرجحة لا تعدّ في هذا البرنامج.','Pull without swinging {{ace-pull-up}}. Kipping reps do not count in this plan.')),
+      mistake(t('العجز في كل مجموعة.','Failure on every set.'),t('أوقف المجموعة قبل العجز؛ التمرين حتى الفشل لم يحسّن النتائج بشكل ثابت {{acsm-2026}}.','Stop short of failure; failure training did not reliably improve results {{acsm-2026}}.'))
+    ],
+    faqs:[
+      faq(t('كيف أزيد عدد العقلة بسرعة؟','How can I increase my pull-ups quickly?'),t('زد مجموع العقلات النظيفة في الأسبوع بتوزيعها على مجموعات أقل من أقصى عدد لك، وأضف النزول البطيء، وتمرّن جلستين إلى ثلاث أسبوعيًا.','Raise your total clean reps per week by spreading them over sets below your max, add slow negatives, and train 2–3 times a week.')),
+      faq(t('هل أتمرن على العقلة كل يوم لأزيد العدد؟','Should I do pull-ups every day to get more?'),t('ليس ضروريًا. مراجعة علمية وجدت أن الفائدة من مجموع العمل لا من عدد الأيام. جلستان إلى ثلاث بحجم كافٍ تكفي.','Not necessary. A systematic review found the benefit comes from total work, not the number of days. Two or three sessions with enough volume do the job.')),
+      faq(t('كم مجموعة أعمل؟','How many sets should I do?'),t('ابدأ بـ4–6 مجموعات قصيرة في الجلسة، وارفع المجموع الأسبوعي تدريجيًا إلى 10 مجموعات أو أكثر، كما تذكر ACSM للنمو.','Start with 4–6 short sets per session and build the weekly total to 10 or more, as ACSM cites for growth.')),
+      faq(t('متى أضيف وزنًا للعقلة؟','When should I add weight to pull-ups?'),t('عندما تتجاوز 10 عقلات نظيفة. العقلة بوزن إضافي هي آخر خطوة في سلّم ACE للتدرّج.','Once you pass 10 clean reps. Weighted pull-ups are the last step in the ACE progression ladder.')),
+      faq(t('هل الشن-أب يساعد في زيادة العقلة؟','Do chin-ups help my pull-ups?'),t('نعم. الحركتان تشغّلان الظهرية العريضة بقوة، والشن-أب يضيف عملًا للبايسبس. التنويع يضيف حجمًا دون تكرار نفس الحمل.','Yes. Both work the lats hard, and chin-ups add biceps work. Alternating adds volume without repeating the same load.'))
+    ],
+    related:['first-pull-up','grip','weekly-plan','monkey-bars'],
+    products:['wall-pull-up-bar','resistance-bands','grip-tape'],
+    sources:['grgic-frequency-2018','acsm-2026','ace-pull-up-moves','ace-progressions','youdas-2010','dickie-2017','schoenfeld-volume-2017','ace-chin-up','ace-pull-up']
   }
 ];
