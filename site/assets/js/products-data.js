@@ -706,7 +706,7 @@ function getAcademyGuide(productId, lang) {
         "freestanding-parallel-bars-large": guide("academy-dips"),
         "wall-mounted-dip-bars": guide("academy-dips"),
         "gymnastic-rings": guide("academy-rings"),
-        "resistance-bands": guide("academy-first-pull-up", "#assisted"),
+        "resistance-bands": guide("academy-first-pull-up", "#progressions"),
         "hand-gripper": guide("academy-grip"),
         "grip-tape": guide("academy-grip"),
         "jump-rope": guide("academy-jump-rope"),

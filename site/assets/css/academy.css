@@ -86,3 +86,19 @@
 .wathba-category-product h3 { margin-bottom: 10px; }
 @media (max-width: 650px) { .wathba-category-grid { grid-template-columns: minmax(0,1fr); } .wathba-category-product { padding: 16px; } }
 .academy-hero .academy-article-author { font-size: 14px; opacity: .8; margin-top: 12px; }
+/* Evidence-led guides: answer box, muscles, citations, references */
+.academy-summary { padding: 22px 24px; border: 1px solid rgba(255,255,255,.34); border-inline-start: 4px solid #fff; border-radius: 12px; background: var(--wathba-panel); }
+.academy-summary ul { margin: 0; }
+.academy-summary li { font-size: 17px; }
+.academy-muscles { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 18px; }
+.academy-muscles > div { padding: 20px; border: 1px solid var(--academy-edge); border-radius: 12px; background: var(--wathba-panel); }
+.academy-muscles h3 { margin-top: 0; }
+.academy-muscles-figure { margin: 0 0 22px; }
+.academy-muscles-figure img { display: block; width: min(100%, 520px); height: auto; margin-inline: auto; border-radius: 12px; }
+.academy-muscles-figure figcaption { margin-top: 10px; text-align: center; color: var(--academy-muted); font-size: 14px; }
+.academy-cite { font-size: .72em; line-height: 0; margin-inline-start: 2px; }
+.academy-cite a { text-decoration: none; font-weight: 700; }
+.academy-mistakes strong, .academy-evidence strong { color: #fff; }
+.academy-references li { font-size: 14px; overflow-wrap: anywhere; }
+.academy-references li:target { outline: 1px solid #fff; outline-offset: 4px; }
+@media (max-width: 650px) { .academy-muscles { grid-template-columns: minmax(0,1fr); } .academy-summary { padding: 18px; } }
