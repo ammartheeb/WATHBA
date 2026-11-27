@@ -164,5 +164,6 @@ for (const filename of fs.readdirSync(root).filter((name) => name.endsWith(".htm
 }
 
 if (launchOrigin) require('node:child_process').execFileSync(process.execPath, [path.join(__dirname,'publish-seo.js'), launchOrigin], {cwd:root});
+require('./build-llms.js').buildLlms({root,origin:launchOrigin});
 require('./package-site.js')(root);
 console.log(`Built ${catalog.length * 2} localized product pages and catalog links. Shared UI: ${assetVersion}. JSON-LD: ${structuredData.pages} pages.`);

@@ -32,7 +32,7 @@ function graphFor(file, html, {origin, catalog, facts}) {
   if (!heading) throw Error(`Missing headline: ${file}`);
   const description = decode(html.match(/<meta\s+name="description"\s+content="([^"]*)"/i)?.[1] || '');
   const graph = [
-    {'@type':'Organization','@id':org,name:identity.name,alternateName:identity.alternateName,url:home,telephone:identity.telephone,sameAs:identity.sameAs},
+    {'@type':'Organization','@id':org,name:identity.name,alternateName:identity.alternateName,url:home,telephone:identity.telephone,sameAs:identity.sameAs,...(identity.areaServed?{areaServed:identity.areaServed}:{})},
     {'@type':'WebSite','@id':website,url:home,name:identity.name,alternateName:identity.alternateName,inLanguage:['ar','en'],publisher:{'@id':org}},
     {'@type':'WebPage','@id':current + '#webpage',url:current,name:heading,description,inLanguage:lang,isPartOf:{'@id':website}}
   ];
@@ -58,6 +58,9 @@ function graphFor(file, html, {origin, catalog, facts}) {
       author:{'@id':org},publisher:{'@id':org},mainEntityOfPage:{'@id':webpage['@id']}});
     webpage.mainEntity = {'@id':id};
     // No invented publication dates, reviewer identities, or article photographs.
+    const faqs = visibleFaqs(html);
+    if (faqs.length) graph.push({'@type':'FAQPage','@id':current + '#faq',url:current,inLanguage:lang,isPartOf:{'@id':webpage['@id']},
+      mainEntity:faqs.map(f => ({'@type':'Question',name:f.q,acceptedAnswer:{'@type':'Answer',text:f.a}}))});
   }
   if (file.startsWith('equipment-')) {
     const productId = html.match(/data-wathba-product-id="([^"]+)"/)?.[1];
@@ -67,6 +70,13 @@ function graphFor(file, html, {origin, catalog, facts}) {
     if (node) { graph.push(node); webpage.mainEntity = {'@id':node['@id']}; }
   }
   return {'@context':'https://schema.org','@graph':graph};
+}
+
+// FAQ structured data mirrors the questions a visitor can read on the page, never hidden copy.
+function visibleFaqs(html) {
+  const block = html.match(/<div class="academy-faq">([\s\S]*?)<\/div>/)?.[1] || '';
+  return [...block.matchAll(/<details>\s*<summary>([\s\S]*?)<\/summary>\s*<p>([\s\S]*?)<\/p>\s*<\/details>/g)]
+    .map(m => ({q:text(m[1]),a:text(m[2])})).filter(f => f.q && f.a);
 }
 
 function buildStructuredData(options = {}) {
@@ -101,5 +111,5 @@ function buildStructuredData(options = {}) {
   return {origin,pages:files.length,counts,pending};
 }
 function langByline(file) { return file.endsWith('-en.html') ? 'Prepared by WATHBA Academy' : 'إعداد أكاديمية وثبة'; }
-module.exports = {buildStructuredData,graphFor,validOrigin,loadCatalog,articlePage};
+module.exports = {buildStructuredData,graphFor,validOrigin,loadCatalog,articlePage,visibleFaqs};
 if (require.main === module) console.log(JSON.stringify(buildStructuredData({origin:process.argv[2]}),null,2));

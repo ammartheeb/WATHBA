@@ -2,7 +2,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
-const {loadCatalog,articlePage} = require('../build/structured-data.js');
+const {loadCatalog,articlePage,visibleFaqs} = require('../build/structured-data.js');
 const {blockers} = require('../build/product-schema.js');
 const root = path.resolve(__dirname,'../../site');
 const catalog = loadCatalog(root), facts = require('../../content/product-facts.json');
@@ -40,6 +40,11 @@ for (const file of fs.readdirSync(root).filter(f => f.endsWith('.html') && f !==
     assert(html.includes('data-wathba-article-author'));
     assert(!article.datePublished && !article.dateModified,`${file}: unmaintained dates`);
   }
+  const faq = nodes.find(n => n['@type'] === 'FAQPage'), shown = visibleFaqs(html);
+  assert.equal(!!faq,articlePage(file) && shown.length > 0,`${file}: FAQPage must match the visible FAQ`);
+  if (faq) assert.deepEqual(faq.mainEntity.map(q => [q.name,q.acceptedAnswer.text]),shown.map(f => [f.q,f.a]),`${file}: FAQPage differs from visible questions`);
+  const organization = nodes.find(n => n['@type'] === 'Organization');
+  assert(organization.sameAs.includes('https://www.youtube.com/@WATHBA-Calisthenics'),`${file}: missing YouTube profile`);
   const walk = value => {
     if (!value || typeof value !== 'object') return;
     if (value['@id']) assert.equal(new URL(value['@id']).origin,origin,`${file}: mixed graph hosts`);

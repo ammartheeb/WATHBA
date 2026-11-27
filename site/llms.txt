@@ -1,0 +1,93 @@
+# WATHBA (وثبة)
+> WATHBA (وثبة) is a calisthenics brand in Jordan: an equipment store (wall pull-up bars, wall dip bars, floor parallel bars, parallettes, gymnastic rings, accessories and custom setups) and a free training academy with step-by-step guides in Arabic and English.
+> وثبة علامة كاليستنكس في الأردن: متجر معدات (عقلة حائط، متوازي حائط، متوازي أرضي، باراليتس، حلقات جمباز، إكسسوارات وتجهيزات حسب الطلب) وأكاديمية مجانية بأدلة تدريب متدرجة بالعربية والإنجليزية.
+
+## Key facts / معلومات أساسية
+
+- Country served / البلد: Jordan / الأردن.
+- Orders and questions / الطلب والاستفسار: WhatsApp +962791752349 (https://wa.me/962791752349).
+- Languages / اللغات: Arabic pages have an English twin ending in -en.html.
+- Official profiles / الحسابات الرسمية: https://www.instagram.com/wathba.calisthenics/, https://www.youtube.com/@WATHBA-Calisthenics, https://www.tiktok.com/@wathba.calisthenics, https://www.facebook.com/profile.php?id=61591296419542.
+- Prices, delivery and warranty are confirmed on WhatsApp; do not quote prices that are not shown on the product pages.
+
+## Main pages / الصفحات الرئيسية
+
+- [معدات الكاليستنكس في الأردن | وثبة WATHBA](https://wathba-rosy.vercel.app/): اكتشف معدات الكاليستنكس من وثبة في الأردن: عقلة حائط، باراليتس، متوازي، حلقات وتجهيزات مخصصة. تعلّم التمارين واختر المعدات المناسبة لهدفك.
+- [Calisthenics Equipment in Jordan | WATHBA](https://wathba-rosy.vercel.app/index-en.html): Explore WATHBA calisthenics equipment in Jordan: pull-up bars, parallettes, parallel bars, rings and custom setups. Learn how to choose and train with your equipment.
+- [معدات الكاليستنكس والعقلة والباراليتس | وثبة الأردن](https://wathba-rosy.vercel.app/products.html): تصفح معدات الكاليستنكس لدى وثبة في الأردن: عقلة حائط، باراليتس، متوازي، حلقات جمباز وتجهيزات حسب الطلب، مع أدلة تعليمية لاستخدامها.
+- [Pull-up Bars, Parallettes & Calisthenics Gear | WATHBA Jordan](https://wathba-rosy.vercel.app/products-en.html): Browse WATHBA pull-up bars, parallettes, parallel bars, gymnastic rings and custom calisthenics equipment in Jordan. Compare options and explore training guides.
+- [تعلّم الكاليستنكس حسب هدفك والمعدّة | أكاديمية وثبة](https://wathba-rosy.vercel.app/academy.html): أكاديمية وثبة: أدلة البداية والعقلة والباراليتس والمتوازي والحلقات والمونكي بارز والقبضة والسلم السويدي والقفز بالحبل، مع تدرّج عملي.
+- [Learn calisthenics by goal and equipment | WATHBA Academy](https://wathba-rosy.vercel.app/academy-en.html): WATHBA Academy: practical guides to starting calisthenics, pull-ups, parallettes, dips, rings, monkey bars, grip, wall bars and jump rope.
+- [عن وثبة | معدات الكاليستنكس في الأردن](https://wathba-rosy.vercel.app/about.html): تعرّف على وثبة ومعدات الكاليستنكس للمنزل والمساحات التدريبية في الأردن، وكيفية طلب تجهيزات تناسب هدفك ومساحتك.
+- [About WATHBA | Calisthenics Equipment in Jordan](https://wathba-rosy.vercel.app/about-en.html): Learn about WATHBA, our approach to calisthenics equipment in Jordan and how to choose a home or custom training setup for your space and goals.
+- [تواصل مع وثبة | معدات الكاليستنكس في الأردن](https://wathba-rosy.vercel.app/contact.html): تواصل مع وثبة في الأردن للاستفسار عن عقلة الحائط والباراليتس والمتوازي وتجهيزات الكاليستنكس حسب الطلب عبر واتساب.
+- [Contact WATHBA | Calisthenics Equipment in Jordan](https://wathba-rosy.vercel.app/contact-en.html): Contact WATHBA in Jordan on WhatsApp to ask about calisthenics equipment, dimensions, product options, prices and custom training setups.
+
+## Academy guides / أدلة أكاديمية وثبة
+
+- [الكاليستنكس للمبتدئين: تمارين وخطة بداية | وثبة الأردن](https://wathba-rosy.vercel.app/academy-beginner.html): دليل عملي لبدء الكاليستنكس في المنزل: تمارين الدفع والسحب والأرجل والجذع، مثال لحصتين أسبوعيًا وكيف تتدرج من دون تعقيد.
+- [Beginner Calisthenics Workout and Equipment | WATHBA Jordan](https://wathba-rosy.vercel.app/academy-beginner-en.html): Learn beginner calisthenics at home: push, pull, legs and core, a flexible two-day sample routine, and when equipment can help.
+- [تمارين المتوازي والديبس: التدرّج من الدعم إلى أول عدة | أكاديمية وثبة](https://wathba-rosy.vercel.app/academy-dips.html): تعلّم الديبس على المتوازي: وضع الدعم، المساعدة بالقدمين، مدى الكتف، برنامج بداية، الأخطاء والفرق بين المتوازي والحلقات.
+- [Parallel Bar Dips: From Support Holds to Your First Rep | WATHBA Academy](https://wathba-rosy.vercel.app/academy-dips-en.html): Learn parallel bar dips through support holds, foot assistance and controlled range, with a starter session, common mistakes and comparisons.
+- [كيف أعمل أول عقلة؟ تمارين وتدرّج للمبتدئين | وثبة الأردن](https://wathba-rosy.vercel.app/academy-first-pull-up.html): طريقة الوصول لأول عقلة: التعلّق المدعوم، سحب لوح الكتف، العقلة بمساعدة، والنزول البطيء، مع مثال مجموعات وتكرارات ونصائح اختيار بار الحائط.
+- [How to Do Your First Pull-up | WATHBA Academy Jordan](https://wathba-rosy.vercel.app/academy-first-pull-up-en.html): Learn a first pull-up with supported hangs, scapular control, assisted reps and slow lowering. Includes sample sets and choosing a wall-mounted bar.
+- [تقوية القبضة للكاليستنكس: التعليق والهاند جريبر والجريب تيب | أكاديمية وثبة](https://wathba-rosy.vercel.app/academy-grip.html): افهم الفرق بين تحمل التعليق وقوة غلق اليد وملمس المقبض، ونظم تدريب القبضة دون إنهاك الساعد قبل تمارين السحب.
+- [Grip for Calisthenics: Hangs, Hand Grippers and Grip Tape | WATHBA Academy](https://wathba-rosy.vercel.app/academy-grip-en.html): Understand hanging endurance, hand-closing strength and grip surface, and organize grip practice without exhausting your forearms before pulling.
+- [القفز بالحبل للمبتدئين: الطول والتقنية وبرنامج البداية | أكاديمية وثبة](https://wathba-rosy.vercel.app/academy-jump-rope.html): دليل القفز بالحبل: اختيار الطول، حركة اليد والهبوط، جولات قصيرة حسب القدرة، الأخطاء وكيف تدمجه مع تمارين الكاليستنكس.
+- [Jump Rope for Beginners: Fit, Technique and a Starting Plan | WATHBA Academy](https://wathba-rosy.vercel.app/academy-jump-rope-en.html): Learn rope fit, hand movement and landing, short adjustable intervals, common mistakes and how skipping fits alongside calisthenics.
+- [كيف تتدرّب على المونكي بارز؟ القبضة والانتقال خطوة بخطوة | أكاديمية وثبة](https://wathba-rosy.vercel.app/academy-monkey-bars.html): تعلّم الانتقال على المونكي بارز من دعم القدمين إلى المسار القصير، مع خطة للقبضة والنزول والتدرّج وأخطاء التأرجح.
+- [How to Train on Monkey Bars: Grip and Controlled Traversing | WATHBA Academy](https://wathba-rosy.vercel.app/academy-monkey-bars-en.html): Learn monkey-bar travel from supported hand shifts to short traverses, with grip practice, descent planning and gradual progression.
+- [ما هي الباراليتس؟ تمارين للمبتدئ والمتوسط | وثبة الأردن](https://wathba-rosy.vercel.app/academy-parallettes.html): تعرف على الباراليتس وتمارين الضغط وL-sit والاتزان والهاندستاند، مع تدرّج للمبتدئ والمتوسط والمتقدم وطريقة اختيارها في الأردن.
+- [What Are Parallettes? Exercises and Levels | WATHBA Jordan](https://wathba-rosy.vercel.app/academy-parallettes-en.html): Learn what parallettes are, how they differ from dip bars, and beginner to advanced push-up, tuck hold and L-sit progressions.
+- [تمارين الحلقات للمبتدئين: التعليق والتجديف والضغط | أكاديمية وثبة](https://wathba-rosy.vercel.app/academy-rings.html): ابدأ تمارين الحلقات من التجديف المدعوم، وتعلّم ضبط الارتفاع وزاوية الجسم والضغط والدعم مع برنامج بسيط وأسئلة التركيب.
+- [Gymnastic Rings for Beginners: Setup, Rows and Push-ups | WATHBA Academy](https://wathba-rosy.vercel.app/academy-rings-en.html): Start ring training with supported rows, learn height and body-angle adjustments, then explore presses and support with a simple starting session.
+- [السلم السويدي «السويسري»: الاستخدام والتمارين المناسبة | أكاديمية وثبة](https://wathba-rosy.vercel.app/academy-swiss-ladder.html): دليل تعليمي للسلم السويدي أو السويسري: مستويات المسك، الحركة المدعومة، شروط التعليق، التدرّج وفحص التركيب.
+- [Swedish Wall Bars / Swiss Ladder: Uses and Training | WATHBA Academy](https://wathba-rosy.vercel.app/academy-swiss-ladder-en.html): An educational wall-bar guide covering grip heights, supported movement, permitted hanging, progression and installation checks.
+
+## Equipment categories / أقسام المعدات
+
+- [إكسسوارات | معدات وثبة في الأردن](https://wathba-rosy.vercel.app/category-accessories.html): الهاند جريبر وحبل القفز والجريب تيب وحبال المقاومة تخدم احتياجات مختلفة. اختر وظيفة القطعة أولًا، ثم انتقل إلى مواصفاتها ودليل استخدامها.
+- [Accessories | WATHBA Equipment in Jordan](https://wathba-rosy.vercel.app/category-accessories-en.html): Hand grippers, jump ropes, grip tape and resistance bands serve different needs. Choose the function first, then open the item’s specifications and use guide.
+- [بارات السحب | معدات وثبة في الأردن](https://wathba-rosy.vercel.app/category-bars.html): قارن عقلة الحائط والمونكي بارز حسب حركة السحب ومساحة الانتقال. افتح المنتج للقياسات، ثم انتقل إلى دليل الاختيار والتدرّج المناسب.
+- [Pull-up Bars | WATHBA Equipment in Jordan](https://wathba-rosy.vercel.app/category-bars-en.html): Compare a wall pull-up bar and monkey bars by pulling movements and traversing space. Open the product for dimensions, then follow its choice and practice guides.
+- [طلبات مخصصة | معدات وثبة في الأردن](https://wathba-rosy.vercel.app/category-custom.html): لديك مساحة أو استخدام يحتاج تعديلًا؟ ابدأ بوصف المكان والحركة، وافتح دليل تجهيز طلب التصنيع قبل التواصل مع وثبة.
+- [Custom Orders | WATHBA Equipment in Jordan](https://wathba-rosy.vercel.app/category-custom-en.html): Need a build for a particular space or use? Start with the site and movement requirements, and open the custom-order planning guide before contacting WATHBA.
+- [جهاز متعدد | معدات وثبة في الأردن](https://wathba-rosy.vercel.app/category-multi-rig.html): التجهيز متعدد المحطات يبدأ بخريطة المكان والحركات التي تريد جمعها. هذه الفئة تقود إلى صفحة تخطيط المنتج، ثم إرشادات الاختيار والتواصل.
+- [Multi Rig | WATHBA Equipment in Jordan](https://wathba-rosy.vercel.app/category-multi-rig-en.html): A multi-station setup starts with the site layout and the movements it should combine. This category leads to product planning, selection guidance and contact.
+- [متوازي وديب بار | معدات وثبة في الأردن](https://wathba-rosy.vercel.app/category-parallel-bars.html): قارن المتوازي الأرضي الصغير والكبير وديب بار الحائط. الاختلاف الأساسي هو فراغ الحركة والقواعد ومتطلبات التثبيت، وليس تقسيم اللاعبين إلى مستويات بحسب حجم الجهاز.
+- [Parallel & Dip Bars | WATHBA Equipment in Jordan](https://wathba-rosy.vercel.app/category-parallel-bars-en.html): Compare small and large freestanding bars with wall-mounted dip bars. The main differences are movement clearance, bases and mounting, rather than assigning ability levels by equipment size.
+- [باراليتس | معدات وثبة في الأردن](https://wathba-rosy.vercel.app/category-parallettes.html): الخشب الكامل وقاعدة الحديد بمقبض خشب خياران مختلفان للدعم والضغط ومهارات التحكم. قارن المساحة وارتفاع القبضة، ثم افتح التمارين حسب قدرتك.
+- [Parallettes | WATHBA Equipment in Jordan](https://wathba-rosy.vercel.app/category-parallettes-en.html): Full wood and a steel base with wooden grips offer different support setups for pressing and control skills. Compare space and grip height, then choose practice for your ability.
+- [حلقات جمباز | معدات وثبة في الأردن](https://wathba-rosy.vercel.app/category-rings.html): افهم نظام الحلقات كاملًا: الحلقة والحزام والمشبك ونقطة التعليق. صفحة المنتج تعرض القياسات المرجعية، ودليل الأكاديمية يشرح البداية المدعومة والتدرّج.
+- [Gymnastic Rings | WATHBA Equipment in Jordan](https://wathba-rosy.vercel.app/category-rings-en.html): Consider the complete ring system: ring, strap, buckle and anchor point. The product page provides reference dimensions; the Academy guide covers supported starts and progression.
+
+## Equipment / المعدات
+
+- [طلب تصنيع مخصص | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-custom-orders.html): تصنيع معدات كاليسثنكس مخصصة في الأردن حسب المساحة والهدف.
+- [Custom Orders | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-custom-orders-en.html): Custom calisthenics equipment in Jordan sized for your space and training goal.
+- [متوازي حديد كبير | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-freestanding-parallel-bars-large.html): متوازي حديد كبير بارتفاع 100 سم للديبس وتمارين الكور.
+- [Large Freestanding Parallel Bars | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-freestanding-parallel-bars-large-en.html): 100 cm freestanding parallel bars for full-height dips and core training.
+- [متوازي حديد صغير | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-freestanding-parallel-bars-small.html): متوازي حديد صغير بارتفاع 40 سم لتدريبات الدعم والضغط والكور.
+- [Small Freestanding Parallel Bars | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-freestanding-parallel-bars-small-en.html): Compact 40 cm freestanding parallel bars for support, push and core drills.
+- [باراليتس خشب كامل | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-full-wooden-parallettes.html): باراليتس خشب كامل للضغط وتدريبات التحكم بوزن الجسم.
+- [Full Wooden Parallettes | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-full-wooden-parallettes-en.html): All-wood parallettes for controlled push-ups and bodyweight support drills.
+- [جريب تيب | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-grip-tape.html): جريب تيب للبار والحلقات لتحسين الإحساس بالقبضة عند الحاجة.
+- [Grip Tape | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-grip-tape-en.html): Grip tape for compatible bars and rings when extra surface grip is needed.
+- [حلقات جمباز | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-gymnastic-rings.html): حلقات جمباز خشبية لتدريبات السحب والدعم والاتزان.
+- [Gymnastic Rings | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-gymnastic-rings-en.html): Wooden gymnastic rings for rows, pulling and upper-body control.
+- [هاند جريبر | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-hand-gripper.html): هاند جريبر لتدريبات قبضة اليد والساعد بجانب الكاليستنكس.
+- [Hand Gripper | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-hand-gripper-en.html): Hand gripper for hand and forearm work alongside calisthenics.
+- [حبل قفز | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-jump-rope.html): حبل قفز في الأردن للتدرّب على الإيقاع واللياقة والتوافق بين اليدين والقدمين.
+- [Jump Rope | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-jump-rope-en.html): Jump rope in Jordan for rhythm, conditioning and hand-foot coordination.
+- [مونكي بارز | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-monkey-bars.html): مونكي بارز حسب المساحة لتدريب التعلّق والانتقال والقبضة.
+- [Monkey Bars | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-monkey-bars-en.html): Custom-size monkey bars for grip, hanging and traversing in Jordan.
+- [جهاز كاليسثنكس متعدد | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-multi-rig.html): جهاز كاليسثنكس متعدد حسب الطلب للبيت أو الحديقة أو مساحة التدريب.
+- [Calisthenics Multi Rig | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-multi-rig-en.html): Custom multi-station calisthenics rig for home, garden or training spaces.
+- [حبال مقاومة | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-resistance-bands.html): حبال مقاومة خفيفة ومتوسطة وقوية للعقلة المساعدة والإحماء.
+- [Resistance Bands | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-resistance-bands-en.html): Light, medium and heavy resistance bands for assisted pull-ups and warm-ups.
+- [باراليتس حديد بمقبض خشب | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-steel-wood-parallettes.html): باراليتس حديد بمقبض خشب لتدريبات الضغط والدعم وL-sit.
+- [Steel Parallettes with Wooden Grip | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-steel-wood-parallettes-en.html): Steel-base parallettes with wooden grips for pushing, support holds and L-sits.
+- [ديب بار حائط | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-wall-mounted-dip-bars.html): ديب بار حائط لتدريبات المتوازي مع توفير مساحة الأرض.
+- [Wall-mounted Dip Bars | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-wall-mounted-dip-bars-en.html): Wall-mounted dip bars for dip and core training while saving floor space.
+- [عقلة حائط | معدات الكاليستنكس في الأردن – وثبة](https://wathba-rosy.vercel.app/equipment-wall-pull-up-bar.html): عقلة حائط للكاليستنكس في الأردن: السحب والتعلّق وتدريب الجذع في المنزل.
+- [Wall Pull-up Bar | Calisthenics Equipment in Jordan – WATHBA](https://wathba-rosy.vercel.app/equipment-wall-pull-up-bar-en.html): Wall-mounted calisthenics pull-up bar for hanging, pulling and core work in Jordan.

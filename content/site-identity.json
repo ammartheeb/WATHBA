@@ -3,5 +3,14 @@
   "name": "WATHBA",
   "alternateName": "وثبة",
   "telephone": "+962791752349",
-  "sameAs": ["https://www.instagram.com/wathba.calisthenics/"]
+  "sameAs": [
+    "https://www.instagram.com/wathba.calisthenics/",
+    "https://www.youtube.com/@WATHBA-Calisthenics",
+    "https://www.tiktok.com/@wathba.calisthenics",
+    "https://www.facebook.com/profile.php?id=61591296419542"
+  ],
+  "areaServed": {
+    "@type": "Country",
+    "name": "Jordan"
+  }
 }
