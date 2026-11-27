@@ -8,7 +8,7 @@
 
 قواعد الشخصيات من المرجع 2.1: لا توهج ولا هالة، لا شعر ولا ملامح وجه، رباطا ذيب أسودان ورباطا صخر أبيضان، وخلفية سوداء. اللون الأحمر يُستخدم فقط لتظليل العضلات المستهدفة.
 
-## الحالة: 0 من 24 موجودة
+## الحالة: 0 من 40 موجودة
 
 | الحالة | اسم الملف | الشخصية | الدليل | المكان |
 | --- | --- | --- | --- | --- |
@@ -36,6 +36,22 @@
 | ⏳ ناقصة | `muscles-parallettes.png` | ذيب | ما هي الباراليتس؟ وكيف تتدرّب عليها: الضغط والدعم والـL-sit | قسم العضلات المستهدفة |
 | ⏳ ناقصة | `sakhr-parallettes-shrugged.png` | صخر | ما هي الباراليتس؟ وكيف تتدرّب عليها: الضغط والدعم والـL-sit | قسم الأخطاء الشائعة |
 | ⏳ ناقصة | `sakhr-parallettes-push-up.png` | صخر | ما هي الباراليتس؟ وكيف تتدرّب عليها: الضغط والدعم والـL-sit | أسفل الصفحة عند «اختر خطوتك التالية» (كمبيوتر فقط) |
+| ⏳ ناقصة | `dheeb-grip-hero.png` | ذيب | تقوية القبضة للكاليستنكس: التعلق والهاند جريبر والجريب تيب | بجانب عنوان الدليل (كمبيوتر فقط) |
+| ⏳ ناقصة | `muscles-grip.png` | ذيب | تقوية القبضة للكاليستنكس: التعلق والهاند جريبر والجريب تيب | قسم العضلات المستهدفة |
+| ⏳ ناقصة | `sakhr-grip-slipping.png` | صخر | تقوية القبضة للكاليستنكس: التعلق والهاند جريبر والجريب تيب | قسم الأخطاء الشائعة |
+| ⏳ ناقصة | `sakhr-flexed-hang.png` | صخر | تقوية القبضة للكاليستنكس: التعلق والهاند جريبر والجريب تيب | أسفل الصفحة عند «اختر خطوتك التالية» (كمبيوتر فقط) |
+| ⏳ ناقصة | `dheeb-monkey-bars-hero.png` | ذيب | كيف تتدرّب على المونكي بار؟ القبضة والانتقال خطوة بخطوة | بجانب عنوان الدليل (كمبيوتر فقط) |
+| ⏳ ناقصة | `muscles-monkey-bars.png` | صخر | كيف تتدرّب على المونكي بار؟ القبضة والانتقال خطوة بخطوة | قسم العضلات المستهدفة |
+| ⏳ ناقصة | `sakhr-monkey-bars-swinging.png` | صخر | كيف تتدرّب على المونكي بار؟ القبضة والانتقال خطوة بخطوة | قسم الأخطاء الشائعة |
+| ⏳ ناقصة | `sakhr-monkey-bars-done.png` | صخر | كيف تتدرّب على المونكي بار؟ القبضة والانتقال خطوة بخطوة | أسفل الصفحة عند «اختر خطوتك التالية» (كمبيوتر فقط) |
+| ⏳ ناقصة | `dheeb-jump-rope-hero.png` | ذيب | نط الحبل للمبتدئين: التقنية وبرنامج البداية وكم يحرق | بجانب عنوان الدليل (كمبيوتر فقط) |
+| ⏳ ناقصة | `muscles-jump-rope.png` | ذيب | نط الحبل للمبتدئين: التقنية وبرنامج البداية وكم يحرق | قسم العضلات المستهدفة |
+| ⏳ ناقصة | `sakhr-jump-rope-high.png` | صخر | نط الحبل للمبتدئين: التقنية وبرنامج البداية وكم يحرق | قسم الأخطاء الشائعة |
+| ⏳ ناقصة | `sakhr-jump-rope-rest.png` | صخر | نط الحبل للمبتدئين: التقنية وبرنامج البداية وكم يحرق | أسفل الصفحة عند «اختر خطوتك التالية» (كمبيوتر فقط) |
+| ⏳ ناقصة | `dheeb-wall-bars-hero.png` | ذيب | السلم السويدي: الاستخدام والتمارين المناسبة في البيت | بجانب عنوان الدليل (كمبيوتر فقط) |
+| ⏳ ناقصة | `muscles-wall-bars.png` | صخر | السلم السويدي: الاستخدام والتمارين المناسبة في البيت | قسم العضلات المستهدفة |
+| ⏳ ناقصة | `sakhr-wall-bars-forced-stretch.png` | صخر | السلم السويدي: الاستخدام والتمارين المناسبة في البيت | قسم الأخطاء الشائعة |
+| ⏳ ناقصة | `sakhr-wall-bars-hang.png` | صخر | السلم السويدي: الاستخدام والتمارين المناسبة في البيت | أسفل الصفحة عند «اختر خطوتك التالية» (كمبيوتر فقط) |
 
 ## أوامر الصور الناقصة
 
@@ -383,6 +399,238 @@ Plain pure black background. No glow, no halo, no light behind the character. No
 Use the attached images as the exact character and style reference. Draw the same character, Sakhr: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one white wristband with thin ink outlines on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
 
 Pose: side view doing a push-up with his hands on a pair of low parallettes, body straight, chest lowered between the handles.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### dheeb-grip-hero.png
+
+الدليل: تقوية القبضة للكاليستنكس: التعلق والهاند جريبر والجريب تيب (`academy-grip.html`). المكان: بجانب عنوان الدليل (كمبيوتر فقط). الشخصية: ذيب.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «ذيب وقوف متدرج بعد التمرين.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Dheeb: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one black wristband on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: front view in a calm straight-arm hang from a plain horizontal black steel bar, close-up feel with the hands and forearms clearly drawn gripping the bar, feet off the floor.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### muscles-grip.png
+
+الدليل: تقوية القبضة للكاليستنكس: التعلق والهاند جريبر والجريب تيب (`academy-grip.html`). المكان: قسم العضلات المستهدفة. الشخصية: ذيب.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «ذيب وقوف متدرج بعد التمرين.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Dheeb: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one black wristband on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: standing front view squeezing a hand gripper in his right hand, forearm turned slightly so the inside of the forearm is visible.
+
+Shade these muscles in strong semi-transparent red, with the ink lines still visible through the red: the forearm muscles (inside and top of the forearm) and the muscles of the hand. Shade these in a lighter, paler red: the biceps. Everything else stays black, white and grey.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### sakhr-grip-slipping.png
+
+الدليل: تقوية القبضة للكاليستنكس: التعلق والهاند جريبر والجريب تيب (`academy-grip.html`). المكان: قسم الأخطاء الشائعة. الشخصية: صخر.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «مرجع أمامي صخر معتمد.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Sakhr: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one white wristband with thin ink outlines on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: hanging from a plain horizontal black steel bar showing a clear mistake: holding the bar only with his fingertips, hands slipping, face tilted up in worry.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### sakhr-flexed-hang.png
+
+الدليل: تقوية القبضة للكاليستنكس: التعلق والهاند جريبر والجريب تيب (`academy-grip.html`). المكان: أسفل الصفحة عند «اختر خطوتك التالية» (كمبيوتر فقط). الشخصية: صخر.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «مرجع أمامي صخر معتمد.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Sakhr: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one white wristband with thin ink outlines on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: front view holding a flexed-arm hang with his chin above a plain horizontal black steel bar, determined.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### dheeb-monkey-bars-hero.png
+
+الدليل: كيف تتدرّب على المونكي بار؟ القبضة والانتقال خطوة بخطوة (`academy-monkey-bars.html`). المكان: بجانب عنوان الدليل (كمبيوتر فقط). الشخصية: ذيب.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «ذيب وقوف متدرج بعد التمرين.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Dheeb: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one black wristband on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: side view mid-traverse on horizontal monkey bars (a plain black steel ladder overhead), one hand on a rung and the other reaching for the next, body calm, feet off the ground.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### muscles-monkey-bars.png
+
+الدليل: كيف تتدرّب على المونكي بار؟ القبضة والانتقال خطوة بخطوة (`academy-monkey-bars.html`). المكان: قسم العضلات المستهدفة. الشخصية: صخر.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «مرجع أمامي صخر معتمد.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Sakhr: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one white wristband with thin ink outlines on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: three-quarter back view hanging from one rung of plain black steel monkey bars with his right hand while reaching forward with his left hand.
+
+Shade these muscles in strong semi-transparent red, with the ink lines still visible through the red: the forearm of the hanging arm, and the large back muscles (latissimus dorsi). Shade these in a lighter, paler red: the biceps and the back of the shoulders. Everything else stays black, white and grey.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### sakhr-monkey-bars-swinging.png
+
+الدليل: كيف تتدرّب على المونكي بار؟ القبضة والانتقال خطوة بخطوة (`academy-monkey-bars.html`). المكان: قسم الأخطاء الشائعة. الشخصية: صخر.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «مرجع أمامي صخر معتمد.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Sakhr: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one white wristband with thin ink outlines on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: on plain black steel monkey bars showing a clear mistake: swinging wildly with legs kicking, lunging for a far rung with one hand, the other hand slipping.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### sakhr-monkey-bars-done.png
+
+الدليل: كيف تتدرّب على المونكي بار؟ القبضة والانتقال خطوة بخطوة (`academy-monkey-bars.html`). المكان: أسفل الصفحة عند «اختر خطوتك التالية» (كمبيوتر فقط). الشخصية: صخر.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «مرجع أمامي صخر معتمد.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Sakhr: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one white wristband with thin ink outlines on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: standing below plain black steel monkey bars after finishing the route, one hand raised in a victory sign.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### dheeb-jump-rope-hero.png
+
+الدليل: نط الحبل للمبتدئين: التقنية وبرنامج البداية وكم يحرق (`academy-jump-rope.html`). المكان: بجانب عنوان الدليل (كمبيوتر فقط). الشخصية: ذيب.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «ذيب وقوف متدرج بعد التمرين.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Dheeb: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one black wristband on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: front view jumping rope, feet just off the floor, rope passing under his feet in a smooth arc, elbows close to his sides, relaxed.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### muscles-jump-rope.png
+
+الدليل: نط الحبل للمبتدئين: التقنية وبرنامج البداية وكم يحرق (`academy-jump-rope.html`). المكان: قسم العضلات المستهدفة. الشخصية: ذيب.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «ذيب وقوف متدرج بعد التمرين.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Dheeb: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one black wristband on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: side view landing softly from a small rope jump, on the balls of the feet with knees slightly bent, rope behind him.
+
+Shade these muscles in strong semi-transparent red, with the ink lines still visible through the red: the calves and the front of the thighs. Shade these in a lighter, paler red: the forearms and shoulders, and the abdominal muscles. Everything else stays black, white and grey.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### sakhr-jump-rope-high.png
+
+الدليل: نط الحبل للمبتدئين: التقنية وبرنامج البداية وكم يحرق (`academy-jump-rope.html`). المكان: قسم الأخطاء الشائعة. الشخصية: صخر.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «مرجع أمامي صخر معتمد.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Sakhr: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one white wristband with thin ink outlines on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: front view jumping rope showing a clear mistake: jumping far too high with knees pulled up, arms swinging wide over his head, the rope tangled at his feet.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### sakhr-jump-rope-rest.png
+
+الدليل: نط الحبل للمبتدئين: التقنية وبرنامج البداية وكم يحرق (`academy-jump-rope.html`). المكان: أسفل الصفحة عند «اختر خطوتك التالية» (كمبيوتر فقط). الشخصية: صخر.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «مرجع أمامي صخر معتمد.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Sakhr: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one white wristband with thin ink outlines on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: standing relaxed after a round, the jump rope hanging from one hand, catching his breath, smiling posture.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### dheeb-wall-bars-hero.png
+
+الدليل: السلم السويدي: الاستخدام والتمارين المناسبة في البيت (`academy-swiss-ladder.html`). المكان: بجانب عنوان الدليل (كمبيوتر فقط). الشخصية: ذيب.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «ذيب وقوف متدرج بعد التمرين.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Dheeb: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one black wristband on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: side view standing at a set of plain wooden Swedish wall bars fixed to a wall, holding a rung at chest height with both hands, calm.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### muscles-wall-bars.png
+
+الدليل: السلم السويدي: الاستخدام والتمارين المناسبة في البيت (`academy-swiss-ladder.html`). المكان: قسم العضلات المستهدفة. الشخصية: صخر.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «مرجع أمامي صخر معتمد.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Sakhr: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one white wristband with thin ink outlines on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: side view doing an assisted squat while holding a rung of plain wooden Swedish wall bars at chest height, thighs near parallel, back straight.
+
+Shade these muscles in strong semi-transparent red, with the ink lines still visible through the red: the front of the thighs and the buttocks. Shade these in a lighter, paler red: the calves and the abdominal muscles. Everything else stays black, white and grey.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### sakhr-wall-bars-forced-stretch.png
+
+الدليل: السلم السويدي: الاستخدام والتمارين المناسبة في البيت (`academy-swiss-ladder.html`). المكان: قسم الأخطاء الشائعة. الشخصية: صخر.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «مرجع أمامي صخر معتمد.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Sakhr: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one white wristband with thin ink outlines on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: at plain wooden Swedish wall bars showing a clear mistake: one leg hoisted very high on an upper rung, forcing a split stretch, body twisted, wincing posture.
+
+Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
+```
+
+### sakhr-wall-bars-hang.png
+
+الدليل: السلم السويدي: الاستخدام والتمارين المناسبة في البيت (`academy-swiss-ladder.html`). المكان: أسفل الصفحة عند «اختر خطوتك التالية» (كمبيوتر فقط). الشخصية: صخر.
+
+ارفق مع الأمر صور المرجع من ريبو المصنع، مجلد «يوتيوب/وضعيات الشخصيات/وضعيات الشخصيات»: «مرجع أمامي صخر معتمد.png» و«مرجع أسلوب الخربشة الأساسي.png».
+
+```
+Use the attached images as the exact character and style reference. Draw the same character, Sakhr: a bald athletic man with no facial features, thin hand-drawn black ink scribble lines on a light body, dark athletic shorts above the knee, one white wristband with thin ink outlines on each wrist, barefoot. Keep the exact body build, line style and scribble density of the reference. Do not add hair, a face, or any extra details.
+
+Pose: back view in a calm hang from the top rung of plain wooden Swedish wall bars, arms straight, feet just off the floor.
 
 Plain pure black background. No glow, no halo, no light behind the character. No text, no labels, no arrows, no logo. Square 1:1 image with the whole body visible and some empty space around it.
 ```

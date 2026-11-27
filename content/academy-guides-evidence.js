@@ -428,5 +428,272 @@ module.exports=[
     related:['push-ups','dips','beginner','rings'],
     products:['steel-wood-parallettes','full-wooden-parallettes'],
     sources:['wrist-2018','kotarsky-2018','acsm-2026','ace-push-up','kikuchi-2017','calatayud-2014','ace-progressions']
+  },
+  {
+    slug:'grip', reviewed:'2026-11-27',
+    title:t('تقوية القبضة للكاليستنكس: التعلق والهاند جريبر والجريب تيب','Grip Strength for Calisthenics: Hangs, Hand Grippers and Grip Tape'),
+    description:t('كيف تقوّي قبضتك للعقلة والمونكي بار: التعلق، الهاند جريبر، ومتى يفيد الجريب تيب، ولماذا ترتبط قوة القبضة بالصحة بحسب دراسة The Lancet.','How to build grip for pull-ups and monkey bars: hangs, hand grippers and when grip tape helps, plus why grip strength is linked to health in a Lancet study.'),
+    tags:[t('قبضة وساعد','Grip and forearms'),t('كل المستويات','All levels'),t('تعلق','Hanging')],
+    lead:t('القبضة القوية ليست قدرة واحدة: إغلاق اليد على الهاند جريبر شيء، والتمسك بالبار وأنت معلّق شيء آخر. تدرّب على النوع الذي يحدّ تمرينك.','Grip is not one ability: closing a hand gripper is one thing, holding a bar while you hang is another. Train the kind that limits your training.'),
+    summary:[
+      t('قوة القبضة مؤشر صحي: في دراسة على قرابة 140 ألف شخص في 17 دولة، ارتبط كل انخفاض 5 كغ في القبضة بزيادة 16% في خطر الوفاة لأي سبب {{leong-grip-2015}}.','Grip strength is a health marker: in a study of nearly 140,000 people in 17 countries, each 5 kg lower grip was linked to a 16% higher risk of death from any cause {{leong-grip-2015}}.'),
+      t('للعقلة والمونكي بار، أهم تمرين هو التعلق نفسه: ابدأ بتعلق بذراعين ممدودتين ثم بذراعين مثنيتين {{ace-progressions}}.','For pull-ups and monkey bars, the key drill is hanging itself: start with a straight-arm hang, then a flexed-arm hang {{ace-progressions}}.'),
+      t('الساعد يعمل أكثر في مرحلة الصعود من العقلة {{dickie-2017}}، لذلك تتعب القبضة أولًا عند كثير من المبتدئين.','The forearm works harder on the way up in a pull-up {{dickie-2017}}, which is why grip often tires first in beginners.'),
+      t('تمرّن على القبضة يومين أو ثلاثة أسبوعيًا ضمن جلساتك، لا كل يوم {{acsm-2026}}.','Train grip 2 or 3 days a week inside your sessions, not daily {{acsm-2026}}.'),
+      t('الجريب تيب يحسّن ملمس المقبض ولا يقوّي اليد. قاعدة وثبة: لا تغطي به تشققًا أو مقبضًا متحركًا.','Grip tape improves the handle surface but does not strengthen the hand. WATHBA rule: never use it to hide a crack or a loose handle.')
+    ],
+    images:{
+      hero:{file:'dheeb-grip-hero',character:'dheeb',pose:'front view in a calm straight-arm hang from a plain horizontal black steel bar, close-up feel with the hands and forearms clearly drawn gripping the bar, feet off the floor.',alt:t('ذيب يتعلق ويداه ممسكتان بالبار بقوة','Dheeb hanging with a firm grip on the bar')},
+      muscles:{file:'muscles-grip',character:'dheeb',pose:'standing front view squeezing a hand gripper in his right hand, forearm turned slightly so the inside of the forearm is visible.',red:{strong:'the forearm muscles (inside and top of the forearm) and the muscles of the hand',light:'the biceps'},alt:t('ذيب يضغط الهاند جريبر، وعضلات الساعد ملوّنة بالأحمر','Dheeb squeezing a hand gripper with the forearm muscles shaded red')},
+      mistake:{file:'sakhr-grip-slipping',character:'sakhr',pose:'hanging from a plain horizontal black steel bar showing a clear mistake: holding the bar only with his fingertips, hands slipping, face tilted up in worry.',alt:t('صخر يمسك البار بأطراف أصابعه فقط وينزلق، وهذا خطأ شائع','Sakhr holding the bar only with his fingertips and slipping, a common mistake')},
+      closing:{file:'sakhr-flexed-hang',character:'sakhr',pose:'front view holding a flexed-arm hang with his chin above a plain horizontal black steel bar, determined.',alt:t('صخر يثبت والذقن فوق البار','Sakhr holding a flexed-arm hang')}
+    },
+    muscles:{
+      primary:[t('الساعد: العضلات التي تغلق الأصابع، والعضدية الكعبرية التي تعمل أكثر في الصعود {{dickie-2017}}','Forearm: the finger flexors, and the brachioradialis, which works harder on the way up {{dickie-2017}}'),t('عضلات اليد نفسها','The muscles of the hand itself')],
+      secondary:[t('البايسبس عند ثني الذراعين في التعلق {{youdas-2010}}','The biceps when the arms bend in a hang {{youdas-2010}}'),t('الكتف والظهر للحفاظ على وضع التعلق {{ace-pull-up}}','Shoulders and back to hold the hanging position {{ace-pull-up}}')],
+      note:t('وصف عضلات اليد والساعد التي تغلق الأصابع وصف تشريحي من وثبة؛ الدراسات المذكورة قاست العضدية الكعبرية والبايسبس فقط.','The hand and finger-flexor description is a WATHBA anatomical note; the cited studies measured only the brachioradialis and biceps.')
+    },
+    sections:[
+      section('types',t('ثلاثة أنواع من القبضة','Three kinds of grip'),
+        t('قوة الإغلاق: أن تغلق يدك على شيء يقاومك، مثل الهاند جريبر. تحمّل التعلق: أن تبقى ممسكًا بالبار مدة طويلة تحت وزن جسمك. وسطح الإمساك: إذا كان المقبض مبللًا أو أملس، ستنزلق يدك حتى لو كانت قوية.','Crushing strength: closing your hand against resistance, as with a hand gripper. Hanging endurance: holding a bar for a long time under your body weight. Surface: if the handle is wet or slick, your hand slips even when it is strong.'),
+        t('قاعدة وثبة: لا تتوقع أن يرفع الجريبر مدة تعليقك تلقائيًا. إذا كان هدفك العقلة أو المونكي بار، اجعل التعلق هو تمرينك الأساسي والجريبر إضافة.','WATHBA rule: do not expect a gripper to raise your hang time automatically. If your goal is pull-ups or monkey bars, make hanging your main drill and the gripper an extra.')),
+      section('health',t('لماذا تهمّ قوة القبضة؟','Why does grip strength matter?'),
+        t('في دراسة PURE المنشورة في The Lancet، كانت قوة القبضة مؤشرًا على خطر الوفاة القلبية أقوى من ضغط الدم الانقباضي: كل 5 كغ أقل ارتبطت بزيادة 17% في الوفاة القلبية {{leong-grip-2015}}. هذا ارتباط، والباحثون أنفسهم يطلبون دراسات تثبت أن تقوية القبضة تقلل الخطر {{leong-grip-2015}}.','In the PURE study in The Lancet, grip strength predicted cardiovascular death better than systolic blood pressure: each 5 kg lower was linked to 17% higher cardiovascular death {{leong-grip-2015}}. It is an association, and the authors themselves call for research on whether building grip lowers the risk {{leong-grip-2015}}.')),
+      section('tape',t('متى يفيد الجريب تيب؟','When does grip tape help?'),
+        t('الجريب تيب يغيّر ملمس المقبض فيقلل الانزلاق، خاصة مع العرق. لا يقوّي اليد ولا يعالج ألمًا. ركّبه على مقبض نظيف وجاف وسليم، واستبدله عندما تتحرك أطرافه.','Grip tape changes the handle surface to reduce slipping, especially with sweat. It does not strengthen the hand or treat pain. Fit it to a clean, dry, sound handle and replace it when the edges lift.'))
+    ],
+    ladderNote:t('مراحل التعلق تتبع سلسلة ACE للعقلة {{ace-progressions}}. المقادير وعمود «انتقل عندما» ومراحل الجريبر قواعد عملية من وثبة.','The hanging stages follow the ACE pull-up chain {{ace-progressions}}. Doses, the “Move on when” column and the gripper stages are WATHBA working rules.'),
+    levels:[
+      level(t('تعلق والقدمان مدعومتان','Foot-supported hang'),t('3 × 15–30 ثانية','3 × 15–30 seconds'),t('قدماك على درجة تخفف جزءًا من الوزن، والقبضة كاملة حول البار.','Feet on a step to take some weight, a full grip around the bar.'),t('تكمل 3 × 30 ثانية.','You complete 3 × 30 seconds.')),
+      level(t('التعلق بذراعين ممدودتين','Straight-arm hang'),t('3 × 10–30 ثانية','3 × 10–30 seconds'),t('الكتفان مشدودان للأسفل، دون تأرجح {{ace-pull-up}}.','Shoulders drawn down, no swinging {{ace-pull-up}}.'),t('تتعلق 45 ثانية ثلاث مرات.','You hang 45 seconds three times.')),
+      level(t('التعلق بذراعين مثنيتين','Flexed-arm hang'),t('3 × 5–15 ثانية','3 × 5–15 seconds'),t('الذقن فوق البار، وتعمل البايسبس والساعد معًا {{ace-progressions}}.','Chin over the bar, biceps and forearms working together {{ace-progressions}}.'),t('تثبت 3 × 15 ثانية.','You hold 3 × 15 seconds.')),
+      level(t('الهاند جريبر','Hand gripper'),t('2–3 × 8–12 لكل يد','2–3 × 8–12 per hand'),t('أغلق ببطء وافتح ببطء، والمعصم مستقيم، دون مساعدة اليد الأخرى.','Close slowly and open slowly with a straight wrist, without help from the other hand.'),t('تكمل 3 × 12 بسهولة، فانتقل لمقاومة أعلى.','You complete 3 × 12 easily; move to a stiffer gripper.'))
+    ],
+    program:[
+      t('أضف القبضة في نهاية جلستين أو ثلاث أسبوعيًا، بعد العقلة لا قبلها، حتى لا تتعب يداك قبل التمرين الأساسي. 2–3 مجموعات تكفي {{acsm-2026}}.','Add grip work at the end of 2 or 3 sessions a week, after pull-ups rather than before, so your hands are fresh for the main work. 2–3 sets are enough {{acsm-2026}}.'),
+      t('الراحة 60–90 ثانية قاعدة من وثبة. ألم الساعد المستمر ليس علامة نجاح؛ خفف الحجم إذا بقي في اليوم التالي.','Resting 60–90 seconds is a WATHBA rule. Lasting forearm pain is not a sign of success; cut the volume if it is still there the next day.')
+    ],
+    week:[
+      day(t('الأحد','Sunday'),t('بعد العقلة: تعلق 3 مجموعات من مرحلتك.','After pull-ups: 3 sets of hangs at your stage.')),
+      day(t('الثلاثاء','Tuesday'),t('هاند جريبر 2–3 مجموعات لكل يد.','Hand gripper, 2–3 sets per hand.')),
+      day(t('الأربعاء','Wednesday'),t('بعد العقلة: تعلق بذراعين مثنيتين 3 مجموعات.','After pull-ups: 3 sets of flexed-arm hangs.')),
+      day(t('باقي الأيام','Other days'),t('راحة لليدين.','Rest for your hands.'))
+    ],
+    mistakes:[
+      mistake(t('الإمساك بأطراف الأصابع.','Holding with the fingertips.'),t('لفّ أصابعك وإبهامك حول البار بالكامل.','Wrap your fingers and thumb fully around the bar.')),
+      mistake(t('تدريب القبضة قبل العقلة.','Training grip before pull-ups.'),t('ضعه بعدها حتى لا تحدّ يداك المتعبتان تمرينك الأساسي.','Do it after, so tired hands do not limit your main work.')),
+      mistake(t('الاعتماد على الجريبر وحده.','Relying only on the gripper.'),t('إذا كان هدفك التعلق، تدرّب على التعلق نفسه {{ace-progressions}}.','If hanging is the goal, train hanging itself {{ace-progressions}}.')),
+      mistake(t('تغطية مقبض تالف بالجريب تيب.','Taping over a damaged handle.'),t('افحص المقبض أولًا؛ الشريط لا يصلح عيبًا في المعدّة.','Check the handle first; tape does not fix a fault in the equipment.'))
+    ],
+    faqs:[
+      faq(t('هل الهاند جريبر يكفي للعقلة؟','Is a hand gripper enough for pull-ups?'),t('لا. الجريبر يقوّي إغلاق اليد، أما العقلة فتحتاج تحمّل التعلق تحت وزن جسمك. اجعل التعلق تمرينك الأساسي والجريبر إضافة.','No. A gripper builds hand closing, while pull-ups need hanging endurance under your body weight. Make hanging your main drill and the gripper an extra.')),
+      faq(t('هل أتدرب على القبضة كل يوم؟','Should I train grip every day?'),t('لا حاجة. يومان أو ثلاثة أسبوعيًا ضمن جلساتك تكفي، مع راحة لليدين بينها.','No need. Two or three days a week inside your sessions is enough, with rest days for your hands.')),
+      faq(t('لماذا يقولون إن قوة القبضة مهمة للصحة؟','Why is grip strength said to matter for health?'),t('لأن دراسة كبيرة في The Lancet وجدت أن ضعف القبضة يرتبط بزيادة خطر الوفاة وأمراض القلب، وكانت مؤشرًا أقوى من ضغط الدم الانقباضي. هذا ارتباط وليس إثباتًا أن تقوية القبضة وحدها تحمي.','Because a large Lancet study found weaker grip linked to higher risk of death and heart disease, a stronger predictor than systolic blood pressure. It is an association, not proof that grip training alone protects you.')),
+      faq(t('هل ألم الساعد يعني أن التمرين ناجح؟','Does forearm pain mean the training is working?'),t('لا. التعب الخفيف طبيعي، أما الألم الذي يبقى لليوم التالي فعلامة على حجم زائد. خففه.','No. Mild fatigue is normal; pain that lasts into the next day means too much volume. Cut back.')),
+      faq(t('هل الجريب تيب يقوّي القبضة؟','Does grip tape make my grip stronger?'),t('لا. يحسّن ملمس المقبض ويقلل الانزلاق فقط.','No. It only improves the handle surface and reduces slipping.'))
+    ],
+    related:['first-pull-up','monkey-bars','rings','beginner'],
+    products:['hand-gripper','grip-tape','wall-pull-up-bar'],
+    sources:['leong-grip-2015','ace-progressions','dickie-2017','acsm-2026','youdas-2010','ace-pull-up']
+  },
+  {
+    slug:'monkey-bars', reviewed:'2026-11-27',
+    title:t('كيف تتدرّب على المونكي بار؟ القبضة والانتقال خطوة بخطوة','How to Train on Monkey Bars: Grip and Traversing Step by Step'),
+    description:t('تعلّم الانتقال على المونكي بار: التعلق، نقل اليد، تحمل القبضة، سلّم تدرّج وجدول أسبوعي، والعضلات العاملة بحسب دراسات العقلة.','Learn to traverse monkey bars: hangs, hand transfers, grip endurance, a progression ladder and weekly plan, and the muscles involved per pull-up studies.'),
+    tags:[t('سحب وقبضة','Pulling and grip'),t('مبتدئ إلى متوسط','Beginner to intermediate'),t('مونكي بار','Monkey bars')],
+    lead:t('المونكي بار مجموعة قضبان تنتقل بينها بيديك. التحدي ليس القبضة وحدها: عليك أن تنقل وزنك من يد ليد بتوقيت هادئ، وأن تعرف كيف تنزل قبل أن تتعب.','Monkey bars are a row of rungs you cross hand over hand. The challenge is not grip alone: you shift your weight from hand to hand with calm timing, and you plan how to get down before you tire.'),
+    summary:[
+      t('المونكي بار يجمع التعلق والسحب: العضلة الظهرية العريضة والبايسبس هما الأعلى عملًا في السحب {{youdas-2010}}، والساعد يحمل وزنك طوال المسار.','Monkey bars combine hanging and pulling: the lats and biceps do the most work when pulling {{youdas-2010}}, and the forearms carry your weight the whole way.'),
+      t('ابدأ بالتعلق قبل الانتقال: تعلق بذراعين ممدودتين ثم مثنيتين {{ace-progressions}}، والكتفان للأسفل دون تأرجح {{ace-pull-up}}.','Hang before you traverse: straight-arm then flexed-arm hangs {{ace-progressions}}, shoulders down and no swinging {{ace-pull-up}}.'),
+      t('قاعدة وثبة: لا تبدأ الانتقال قبل أن تتعلق 30 ثانية ثلاث مرات، وحدد دائمًا نقطة نزول في منتصف المسار.','WATHBA rule: do not start traversing until you can hang 30 seconds three times, and always plan a mid-route exit.'),
+      t('القبضة القوية مفيدة صحيًا أيضًا: ضعفها ارتبط بزيادة خطر الوفاة في دراسة The Lancet {{leong-grip-2015}}.','A strong grip matters for health too: weaker grip was linked to higher mortality in a Lancet study {{leong-grip-2015}}.'),
+      t('تمرّن جلستين أسبوعيًا على الأقل {{acsm-2026}}، وراعِ تعب الساعدين إذا كانت عندك جلسة عقلة في نفس الأسبوع.','Train at least twice a week {{acsm-2026}}, minding forearm fatigue if you also do pull-up sessions that week.')
+    ],
+    images:{
+      hero:{file:'dheeb-monkey-bars-hero',character:'dheeb',pose:'side view mid-traverse on horizontal monkey bars (a plain black steel ladder overhead), one hand on a rung and the other reaching for the next, body calm, feet off the ground.',alt:t('ذيب ينتقل بين قضبان المونكي بار','Dheeb crossing the monkey bars')},
+      muscles:{file:'muscles-monkey-bars',character:'sakhr',pose:'three-quarter back view hanging from one rung of plain black steel monkey bars with his right hand while reaching forward with his left hand.',red:{strong:'the forearm of the hanging arm, and the large back muscles (latissimus dorsi)',light:'the biceps and the back of the shoulders'},alt:t('صخر معلق بيد واحدة على المونكي بار، والعضلات العاملة ملوّنة بالأحمر','Sakhr hanging by one hand on monkey bars with the working muscles shaded red')},
+      mistake:{file:'sakhr-monkey-bars-swinging',character:'sakhr',pose:'on plain black steel monkey bars showing a clear mistake: swinging wildly with legs kicking, lunging for a far rung with one hand, the other hand slipping.',alt:t('صخر يتأرجح بقوة ويقفز لقضيب بعيد، وهذا خطأ شائع','Sakhr swinging wildly and lunging for a far rung, a common mistake')},
+      closing:{file:'sakhr-monkey-bars-done',character:'sakhr',pose:'standing below plain black steel monkey bars after finishing the route, one hand raised in a victory sign.',alt:t('صخر بعد أن أنهى مسار المونكي بار','Sakhr after finishing the monkey bars')}
+    },
+    muscles:{
+      primary:[t('الساعد والقبضة: يحملان وزنك في كل لحظة على المسار، والعضدية الكعبرية تعمل أكثر عند السحب {{dickie-2017}}','Forearms and grip: they carry your weight at every moment, with the brachioradialis working harder when you pull {{dickie-2017}}'),t('الظهر: الظهرية العريضة، الأعلى نشاطًا في حركات السحب {{youdas-2010}}','Back: the lats, the most active muscle in pulling movements {{youdas-2010}}')],
+      secondary:[t('البايسبس وخلف الكتف {{youdas-2010}}','Biceps and the back of the shoulder {{youdas-2010}}'),t('الجذع: يمنع التأرجح الزائد بين النقلات','Trunk: stops excess swinging between reaches')],
+      note:t('الدراسات المذكورة قاست العقلة لا المونكي بار؛ نستخدمها لأن الانتقال يعتمد على التعلق والسحب نفسيهما.','The cited studies measured pull-ups, not monkey bars; we use them because traversing relies on the same hanging and pulling.')
+    },
+    sections:[
+      section('plan',t('خطط للبداية والنهاية قبل أن تتعلق','Plan your start and exit before you hang'),
+        t('افحص أن القضبان جافة، وأن المسافة بينها تناسبك، وأن الأرض تحتها آمنة للنزول. حدد كيف تصل لأول قضيب وكيف تنزل من منتصف المسار إذا تعبت. قاعدة وثبة: لا تجعل الإفلات عند العجز خطة نهاية.','Check the rungs are dry, the spacing suits you and the ground below is safe to drop onto. Decide how you reach the first rung and how you get down mid-route if you tire. WATHBA rule: letting go at failure is not an exit plan.')),
+      section('transfer',t('تعلّم نقل اليد قبل رفع القدمين','Learn the hand transfer before lifting your feet'),
+        t('على جهاز منخفض، أبقِ قدميك على الأرض وامسك قضيبًا بيديك. انقل وزنك قليلًا إلى يد، ثم حرر الأخرى وضعها على القضيب التالي دون نفض الجسم. بعد أن يصبح ذلك سهلًا، خفف دعم القدمين تدريجيًا.','On a low setup, keep your feet on the ground and hold a rung with both hands. Shift some weight to one hand, then free the other and place it on the next rung without jerking your body. Once that is easy, reduce foot support gradually.'),
+        t('في التعلق، أبقِ كتفيك مشدودتين للأسفل ولا تتأرجح {{ace-pull-up}}. التأرجح الهادئ الصغير يساعد التوقيت، أما الركل والقفز للقضيب البعيد فيزيد خطر الانزلاق.','While hanging, keep your shoulders drawn down and avoid swinging {{ace-pull-up}}. A small, calm sway helps timing; kicking and lunging for far rungs raises the risk of slipping.')),
+      section('grip',t('قوة القبضة أم تحمّلها؟','Grip strength or grip endurance?'),
+        t('المونكي بار يحتاج تحمّل القبضة أكثر من قوتها القصوى، لأن يدك تبقى ممسكة طوال المسار. تقدّم بزيادة عدد النقلات أو وقت التعلق، لا بالاثنين معًا. التفاصيل في دليل تقوية القبضة.','Monkey bars need grip endurance more than maximal grip, because your hands hold on the whole route. Progress by adding reaches or hang time, not both at once. Details are in the grip guide.'))
+    ],
+    ladderNote:t('مراحل التعلق من سلسلة ACE {{ace-progressions}}. مراحل الانتقال والمقادير وعمود «انتقل عندما» قواعد عملية من وثبة.','The hanging stages come from the ACE chain {{ace-progressions}}. The traversing stages, doses and the “Move on when” column are WATHBA working rules.'),
+    levels:[
+      level(t('التعلق بذراعين ممدودتين','Straight-arm hang'),t('3 × 15–30 ثانية','3 × 15–30 seconds'),t('الكتفان للأسفل، دون تأرجح {{ace-pull-up}}.','Shoulders down, no swinging {{ace-pull-up}}.'),t('تتعلق 30 ثانية ثلاث مرات.','You hang 30 seconds three times.')),
+      level(t('نقلات والقدمان مدعومتان','Reaches with feet supported'),t('3 × 4 نقلات','3 × 4 reaches'),t('على جهاز منخفض، انقل يدًا بعد يد دون نفض.','On a low setup, move hand over hand without jerking.'),t('تكمل 3 جولات بهدوء.','You complete 3 rounds smoothly.')),
+      level(t('انتقال قصير','Short traverse'),t('3 × 2–4 نقلات','3 × 2–4 reaches'),t('القدمان في الهواء، مع نقطة نزول واضحة.','Feet off the ground, with a clear exit point.'),t('تكمل 3 × 4 نقلات دون تأرجح كبير.','You complete 3 × 4 reaches without big swings.')),
+      level(t('مسار كامل','Full route'),t('3 × 4–8 نقلات','3 × 4–8 reaches'),t('توقيت هادئ وقبضة كاملة في كل نقلة.','Calm timing and a full grip on every reach.'),t('تعبر المسار 3 مرات بثبات، ثم جرّب تخطي قضيب.','You cross the route 3 times steadily; then try skipping a rung.'))
+    ],
+    program:[
+      t('جلستان أسبوعيًا على الأقل {{acsm-2026}}، مع يوم راحة بينهما. إذا كانت عندك جلسات عقلة، اجعل المونكي بار في يوم مختلف أو بعد العقلة بحجم أقل، لأن الساعدين يتعبان من الاثنين.','At least two sessions a week {{acsm-2026}} with a rest day between. If you also do pull-up sessions, put monkey bars on a different day or after pull-ups at lower volume, since both tire the forearms.'),
+      t('الراحة 90 ثانية بين الجولات قاعدة من وثبة.','Resting 90 seconds between rounds is a WATHBA rule.')
+    ],
+    week:[
+      day(t('الأحد','Sunday'),t('تعلق 3 مجموعات، ثم 3 جولات من مرحلتك في الانتقال.','3 sets of hangs, then 3 rounds of traversing at your stage.')),
+      day(t('الثلاثاء','Tuesday'),t('راحة لليدين، أو رجلين ودفع.','Rest for the hands, or legs and pushing.')),
+      day(t('الأربعاء','Wednesday'),t('نفس جلسة الأحد، مع نقلة إضافية واحدة إذا كانت سهلة.','Sunday\'s session, adding one reach if it feels easy.')),
+      day(t('الجمعة','Friday'),t('اختياري: تعلق بذراعين مثنيتين 3 مجموعات.','Optional: 3 sets of flexed-arm hangs.'))
+    ],
+    mistakes:[
+      mistake(t('الركل والقفز للقضيب البعيد.','Kicking and lunging for far rungs.'),t('انقل وزنك بهدوء ولا تتأرجح {{ace-pull-up}}.','Shift your weight calmly and avoid swinging {{ace-pull-up}}.')),
+      mistake(t('البدء بمسار كامل.','Starting with a full route.'),t('ابدأ بنقلات والقدمان مدعومتان، ثم مسار قصير.','Start with supported reaches, then a short route.')),
+      mistake(t('لا خطة للنزول.','No exit plan.'),t('حدد قبل أن تبدأ كيف تنزل من منتصف المسار.','Decide before you start how to get down mid-route.')),
+      mistake(t('المونكي بار مباشرة بعد جلسة عقلة ثقيلة.','Monkey bars right after a heavy pull-up session.'),t('الساعد متعب، فالقبضة تنزلق أسرع. خفف الحجم أو غيّر اليوم.','Your forearms are tired and your grip slips sooner. Cut the volume or change the day.'))
+    ],
+    faqs:[
+      faq(t('هل المونكي بار تمرين ظهر أم قبضة؟','Is monkey bars a back or a grip exercise?'),t('الاثنان. الساعد والقبضة يحملان وزنك طوال المسار، والظهر والبايسبس يعملان عند السحب والوصول للقضيب التالي.','Both. Forearms and grip carry your weight the whole way, while the back and biceps work as you pull and reach for the next rung.')),
+      faq(t('هل أنتقل يدًا بعد يد أم باليدين على نفس القضيب؟','Hand over hand, or both hands on each rung?'),t('ابدأ باليدين على نفس القضيب في كل نقلة لأنه أسهل، ثم انتقل ليد بعد يد عندما تصبح النقلات هادئة.','Start with both hands on each rung because it is easier, then go hand over hand once your reaches are calm.')),
+      faq(t('هل المونكي بار بديل عن بار العقلة؟','Do monkey bars replace a pull-up bar?'),t('لا تمامًا. المونكي بار يضيف الانتقال والتحمل، والعقلة تبني قوة السحب في مكان واحد. يكمل كل منهما الآخر.','Not fully. Monkey bars add travel and endurance; a pull-up bar builds pulling strength in one place. They complement each other.')),
+      faq(t('هل أستخدم قفازات؟','Should I wear gloves?'),t('ليس ضروريًا. الأهم أن تكون القضبان واليدان جافة. إذا كانت يداك تتعرقان كثيرًا، فالجريب تيب على القضبان خيار.','Not necessary. Dry rungs and hands matter most. If your hands sweat a lot, grip tape on the rungs is an option.'))
+    ],
+    related:['grip','first-pull-up','rings','beginner'],
+    products:['monkey-bars','hand-gripper','multi-rig'],
+    sources:['youdas-2010','ace-progressions','ace-pull-up','leong-grip-2015','acsm-2026','dickie-2017']
+  },
+  {
+    slug:'jump-rope', reviewed:'2026-11-27',
+    title:t('نط الحبل للمبتدئين: التقنية وبرنامج البداية وكم يحرق','Jump Rope for Beginners: Technique, a Starter Plan and Calories'),
+    description:t('تعلّم نط الحبل من الصفر: التقنية، برنامج ACE للمبتدئين، شدة النشاط من موسوعة الأنشطة البدنية، كم سعرة يحرق تقريبًا، وكيف تدمجه مع الكاليستنكس.','Learn to jump rope from zero: technique, the ACE beginner workout, intensity from the Compendium of Physical Activities, rough calorie burn and how to combine it with calisthenics.'),
+    tags:[t('لياقة وقلب','Conditioning'),t('مبتدئ','Beginner'),t('حبل','Jump rope')],
+    lead:t('نط الحبل نشاط هوائي شديد في مساحة صغيرة. تبدأ بقفزة منخفضة وهبوط هادئ وجولات قصيرة، ثم تطيل الجولات تدريجيًا.','Jumping rope is vigorous cardio in a small space. You start with a low jump, a soft landing and short rounds, then lengthen the rounds over time.'),
+    summary:[
+      t('نط الحبل نشاط شديد: 8.3 MET بالسرعة البطيئة، و11.8 بالمتوسطة، و12.3 بالسريعة، أي أكثر من 8 أضعاف طاقة الراحة {{compendium-2024}}.','Jumping rope is vigorous: 8.3 METs at a slow pace, 11.8 moderate and 12.3 fast, over 8 times resting energy use {{compendium-2024}}.'),
+      t('منظمة الصحة العالمية توصي بـ75–150 دقيقة أسبوعيًا من النشاط الشديد، أو 150–300 من المتوسط {{who-2020}}. نط الحبل من النشاط الشديد.','WHO recommends 75–150 minutes a week of vigorous or 150–300 of moderate activity {{who-2020}}. Jumping rope counts as vigorous.'),
+      t('برنامج ACE للمبتدئ: 18 جولة، 15 ثانية عمل و15 ثانية راحة، وحركات سهلة مثل الهرولة في المكان {{ace-rope}}.','The ACE beginner plan: 18 rounds of 15 seconds work and 15 seconds rest, with easy moves such as jogging in place {{ace-rope}}.'),
+      t('إذا لم تعتد التمارين عالية التأثير، ابدأ بحركات المبتدئ، وأحمِ جسمك وهدّئه، وراجع الطبيب أولًا {{ace-rope}}.','If you are new to high-impact exercise, start with the beginner moves, warm up and cool down, and check with a doctor first {{ace-rope}}.'),
+      t('قاعدة وثبة: زد شيئًا واحدًا كل أسبوع، المدة أو عدد الجولات أو السرعة، لا الثلاثة معًا.','WATHBA rule: increase one thing a week, duration, rounds or speed, never all three.')
+    ],
+    images:{
+      hero:{file:'dheeb-jump-rope-hero',character:'dheeb',pose:'front view jumping rope, feet just off the floor, rope passing under his feet in a smooth arc, elbows close to his sides, relaxed.',alt:t('ذيب ينط الحبل بهدوء','Dheeb jumping rope calmly')},
+      muscles:{file:'muscles-jump-rope',character:'dheeb',pose:'side view landing softly from a small rope jump, on the balls of the feet with knees slightly bent, rope behind him.',red:{strong:'the calves and the front of the thighs',light:'the forearms and shoulders, and the abdominal muscles'},alt:t('ذيب يهبط من قفزة الحبل، والعضلات العاملة ملوّنة بالأحمر','Dheeb landing from a rope jump with the working muscles shaded red')},
+      mistake:{file:'sakhr-jump-rope-high',character:'sakhr',pose:'front view jumping rope showing a clear mistake: jumping far too high with knees pulled up, arms swinging wide over his head, the rope tangled at his feet.',alt:t('صخر يقفز عاليًا جدًا ويحرك ذراعيه بعيدًا فيعلق الحبل، وهذا خطأ شائع','Sakhr jumping too high with wide arms and tangling the rope, a common mistake')},
+      closing:{file:'sakhr-jump-rope-rest',character:'sakhr',pose:'standing relaxed after a round, the jump rope hanging from one hand, catching his breath, smiling posture.',alt:t('صخر يرتاح بين جولات الحبل','Sakhr resting between jump rope rounds')}
+    },
+    muscles:{
+      primary:[t('السمانة: تحمل القفز والهبوط على مقدمة القدم','Calves: they absorb every jump and landing on the balls of the feet'),t('القلب والرئتان: الحبل نشاط هوائي شديد {{compendium-2024}}','Heart and lungs: rope jumping is vigorous aerobic work {{compendium-2024}}')],
+      secondary:[t('مقدمة الفخذ والأرداف في الهبوط المرن','Thighs and glutes in the soft landing'),t('الساعد والكتفان في تدوير الحبل، والبطن لثبات الجذع','Forearms and shoulders to turn the rope, and the abdominals for a steady trunk')],
+      note:t('وصف العضلات هنا تشريحي من وثبة، لأن المصادر المذكورة تقيس شدة النشاط لا العضلات.','The muscle description here is a WATHBA anatomical note, since the cited sources measure intensity, not muscles.')
+    },
+    sections:[
+      section('technique',t('التقنية: يد هادئة وقفزة صغيرة','Technique: quiet hands, small jump'),
+        t('قف مستقيمًا، والمرفقان قرب جسمك، والكتفان مرتخيان. حرّك الحبل من الرسغين لا من الكتفين. اقفز بالقدر الذي يكفي لمرور الحبل فقط، واهبط على مقدمة قدميك بركبتين مرنتين.','Stand tall with elbows close to your body and relaxed shoulders. Turn the rope from the wrists, not the shoulders. Jump only high enough for the rope to pass, and land on the balls of your feet with soft knees.'),
+        t('إذا كان الحبل يعلق، تدرّب على الإيقاع بدون حبل أولًا، أو أمسك المقبضين بيد واحدة ودوّره بجانبك وأنت تقفز.','If the rope keeps catching, practise the rhythm without a rope first, or hold both handles in one hand and turn it at your side as you jump.')),
+      section('calories',t('كم سعرة يحرق نط الحبل؟','How many calories does jumping rope burn?'),
+        t('الشدة تقاس بوحدة MET، أي كم مرة تزيد طاقتك عن الراحة. نط الحبل البطيء 8.3 MET، والمتوسط 11.8، والسريع 12.3 {{compendium-2024}}.','Intensity is measured in METs, how many times your energy use exceeds rest. Slow rope jumping is 8.3 METs, moderate 11.8 and fast 12.3 {{compendium-2024}}.'),
+        t('تقدير تقريبي بالمعادلة الشائعة، السعرات تقريبًا تساوي MET × الوزن بالكيلو × الساعات: شخص وزنه 70 كغ ينط ببطء 10 دقائق فعلية يحرق قرابة 95 سعرة. هذا تقدير من وثبة، ويختلف من شخص لآخر، والراحة بين الجولات لا تُحسب.','A rough estimate using the common formula, calories ≈ MET × body weight in kg × hours: a 70 kg person jumping slowly for 10 actual minutes burns roughly 95 calories. This is a WATHBA estimate; it varies by person, and rest between rounds does not count.')),
+      section('combine',t('كيف تدمجه مع الكاليستنكس؟','How to combine it with calisthenics'),
+        t('إذا كان هدفك قوة العقلة أو الضغط، ضع الحبل بعد تمارين القوة أو في يوم منفصل، حتى لا تتعب قبل التمرين الأساسي. جولات خفيفة لدقيقتين تصلح إحماءً. الحبل يساعدك على إكمال دقائق النشاط الهوائي الأسبوعية {{who-2020}}.','If pull-up or push-up strength is your goal, put the rope after strength work or on a separate day, so you are not tired before the main work. Two easy minutes make a good warm-up. The rope helps you reach your weekly aerobic minutes {{who-2020}}.'),
+        t('اختر أرضية مستوية غير زلقة وحذاءً مناسبًا، وتأكد أن السقف وما حولك خالٍ من العوائق. إذا سبب القفز ألمًا في مفصل، أوقفه.','Choose a level, non-slip floor and suitable shoes, and make sure the ceiling and surroundings are clear. If jumping hurts a joint, stop.'))
+    ],
+    ladderNote:t('المستويات وأوقات العمل والراحة من برنامج ACE {{ace-rope}}. مرحلة القفز بدون حبل وعمود «انتقل عندما» قواعد عملية من وثبة.','Levels and work-rest times come from the ACE workout {{ace-rope}}. The no-rope stage and the “Move on when” column are WATHBA working rules.'),
+    levels:[
+      level(t('إيقاع بدون حبل','Rhythm without a rope'),t('6 × 15 ثانية','6 × 15 seconds'),t('قفزات صغيرة على مقدمة القدم مع تحريك الرسغين كأنك تدوّر حبلًا.','Small hops on the balls of your feet while turning your wrists as if holding a rope.'),t('تكمل الجولات بإيقاع ثابت دون تعب في السمانة.','You complete the rounds at a steady rhythm without calf fatigue.')),
+      level(t('مبتدئ','Beginner'),t('18 × 15 ثانية عمل و15 راحة {{ace-rope}}','18 × 15 seconds on, 15 off {{ace-rope}}'),t('هرولة في المكان للأمام وللخلف، وقفز متبادل {{ace-rope}}.','Jogging forward and backward and hop-scotch jumps {{ace-rope}}.'),t('تكمل 18 جولة دون أن يعلق الحبل كثيرًا، في جلستين متتاليتين.','You complete 18 rounds with few misses in two sessions in a row.')),
+      level(t('متوسط','Intermediate'),t('18 × 30 ثانية عمل و30 راحة {{ace-rope}}','18 × 30 seconds on, 30 off {{ace-rope}}'),t('قفز جانبي، وقفزتان مع كل دورة، وقفز على رجل واحدة {{ace-rope}}.','Side hops, double jumps and single-leg hops {{ace-rope}}.'),t('تكمل 18 جولة بإيقاع ثابت.','You complete 18 rounds at a steady rhythm.')),
+      level(t('متقدم','Advanced'),t('18 × 60 ثانية عمل و60 راحة {{ace-rope}}','18 × 60 seconds on, 60 off {{ace-rope}}'),t('رفع الركبتين، والتقاطع، والقفزة المزدوجة {{ace-rope}}.','High knees, criss-cross and double unders {{ace-rope}}.'),t('حافظ على جولاتك وغيّر الحركات للتنويع.','Hold your rounds and vary the moves.'))
+    ],
+    program:[
+      t('2–3 جلسات أسبوعيًا تكفي للبداية. جلسة ACE تستغرق 15–25 دقيقة مع الراحة، مع إحماء وتهدئة {{ace-rope}}.','2–3 sessions a week are enough to start. The ACE session takes 15–25 minutes including rest, with a warm-up and cool-down {{ace-rope}}.'),
+      t('راقب السمانة في اليوم التالي. إذا بقيت متعبة أو مؤلمة، خفف الجولات قبل أن تزيد. قاعدة وثبة: لا تنط الحبل يوميًا في الأسابيع الأولى.','Watch your calves the next day. If they are still tired or sore, cut rounds before adding more. WATHBA rule: do not jump daily in the first weeks.')
+    ],
+    week:[
+      day(t('الأحد','Sunday'),t('تمارين القوة، ثم 10 جولات حبل من مستواك.','Strength work, then 10 rope rounds at your level.')),
+      day(t('الإثنين','Monday'),t('جلسة ACE كاملة من مستواك {{ace-rope}}.','A full ACE session at your level {{ace-rope}}.')),
+      day(t('الأربعاء','Wednesday'),t('تمارين القوة، ثم دقيقتان حبل خفيف كإحماء قبلها.','Strength work, with two easy rope minutes as a warm-up before it.')),
+      day(t('الخميس أو الجمعة','Thursday or Friday'),t('جلسة ACE ثانية، أو مشي سريع إذا كانت السمانة متعبة.','A second ACE session, or a brisk walk if your calves are tired.'))
+    ],
+    mistakes:[
+      mistake(t('القفز عاليًا جدًا.','Jumping far too high.'),t('اقفز بالقدر الذي يمر فيه الحبل فقط.','Jump only high enough for the rope to pass.')),
+      mistake(t('تدوير الحبل من الكتفين.','Turning the rope from the shoulders.'),t('المرفقان قرب الجسم، والحركة من الرسغين.','Elbows close, the movement from the wrists.')),
+      mistake(t('الهبوط على الكعبين بقوة.','Landing hard on the heels.'),t('اهبط على مقدمة القدم بركبتين مرنتين.','Land on the balls of your feet with soft knees.')),
+      mistake(t('زيادة المدة والسرعة والجولات معًا.','Raising duration, speed and rounds together.'),t('غيّر شيئًا واحدًا في الأسبوع.','Change one thing a week.'))
+    ],
+    faqs:[
+      faq(t('كم سعرة يحرق نط الحبل؟','How many calories does jumping rope burn?'),t('نط الحبل البطيء 8.3 MET بحسب موسوعة الأنشطة البدنية. تقديرًا، شخص وزنه 70 كغ يحرق قرابة 95 سعرة في 10 دقائق قفز فعلية ببطء، وأكثر بالسرعة الأعلى. الرقم يختلف من شخص لآخر.','Slow rope jumping is 8.3 METs per the Compendium of Physical Activities. As an estimate, a 70 kg person burns roughly 95 calories in 10 actual minutes of slow jumping, more at higher speed. It varies by person.')),
+      faq(t('كم دقيقة أنط الحبل يوميًا؟','How many minutes a day should I jump rope?'),t('لا حاجة ليوم كامل كل يوم. ابدأ بجلسة ACE للمبتدئ، 18 جولة من 15 ثانية، 2–3 مرات أسبوعيًا، وزد تدريجيًا.','No need for daily sessions. Start with the ACE beginner session, 18 rounds of 15 seconds, 2–3 times a week, and build up gradually.')),
+      faq(t('هل نط الحبل يكفي كتمرين كامل؟','Is jumping rope a complete workout?'),t('هو نشاط هوائي ممتاز، لكن منظمة الصحة العالمية توصي أيضًا بتمارين تقوية العضلات. اجمعه مع تمارين الكاليستنكس.','It is excellent aerobic work, but WHO also recommends muscle-strengthening exercise. Combine it with calisthenics.')),
+      faq(t('لماذا يعلق الحبل في قدمي؟','Why does the rope keep catching my feet?'),t('غالبًا بسبب التوقيت أو تدوير الحبل من الكتفين. تدرّب على الإيقاع بدون حبل، وأبقِ المرفقين قرب جسمك، وتأكد أن طول الحبل مناسب.','Usually timing, or turning the rope from the shoulders. Practise the rhythm without a rope, keep your elbows close, and check the rope length suits you.')),
+      faq(t('هل نط الحبل مناسب للجميع؟','Is jumping rope suitable for everyone?'),t('هو نشاط عالي التأثير. من لم يعتد ذلك يبدأ بحركات المبتدئ ويراجع الطبيب أولًا، ويوقفه إذا سبب ألمًا في المفاصل.','It is high-impact. If you are new to that, start with the beginner moves, check with a doctor first, and stop if your joints hurt.'))
+    ],
+    related:['beginner','grip','push-ups','dips'],
+    products:['jump-rope'],
+    sources:['compendium-2024','who-2020','ace-rope']
+  },
+  {
+    slug:'swiss-ladder', reviewed:'2026-11-27',
+    title:t('السلم السويدي: الاستخدام والتمارين المناسبة في البيت','Swedish Wall Bars: Uses and Home Exercises'),
+    description:t('ما هو السلم السويدي «السويسري» وما فائدته: قرفصاء بمساعدة، إطالات، تعلق ورفع ركبتين، وما الذي لا يفعله مثل زيادة الطول، مع تمارين مستندة إلى NHS وACE.','What Swedish wall bars are for: assisted squats, stretches, hangs and knee raises, and what they do not do, such as making you taller, with exercises based on NHS and ACE.'),
+    tags:[t('مرونة وتحكم','Mobility and control'),t('مبتدئ','Beginner'),t('سلم سويدي','Wall bars')],
+    lead:t('السلم السويدي، ويُسمى أيضًا السلم السويسري أو Wall Bars، قضبان أفقية متدرجة على هيكل مثبت بالحائط. ميزته أنه يعطيك نقطة إمساك على أي ارتفاع: للمساعدة في القرفصاء، وللإطالة، وللتعلق إذا كان مصممًا لذلك.','Swedish wall bars are horizontal rungs on a frame fixed to the wall. Their strength is a handhold at any height: for assisted squats, for stretching, and for hanging if the frame is designed for it.'),
+    summary:[
+      t('أفضل استخدام للمبتدئ: نقطة إمساك تساعدك في القرفصاء والتوازن، كما تستعمل NHS ظهر الكرسي في القرفصاء الصغيرة {{nhs-strength}}.','Best beginner use: a handhold for squats and balance, the way the NHS uses a chair back for mini-squats {{nhs-strength}}.'),
+      t('يصلح للإطالات التي تحتاج سندًا، مثل إطالة السمانة واليدان على السند {{nhs-flexibility}}.','It suits stretches that need support, such as the calf stretch with your hands on a support {{nhs-flexibility}}.'),
+      t('التعلق ورفع الركبتين ممكن فقط إذا كان السلم مصممًا ومثبتًا للتعلق، مع مساحة كافية بينك وبين الحائط.','Hanging and knee raises are possible only if the ladder is designed and fixed for hanging, with enough room between you and the wall.'),
+      t('السلم لا يزيد الطول ولا يعالج الظهر؛ لا يوجد مصدر موثوق يقول ذلك.','Wall bars do not make you taller or treat back problems; no reliable source says so.'),
+      t('السلم السويدي غير معروض حاليًا في متجر وثبة؛ هذا الدليل للتعلم فقط.','Wall bars are not currently sold in the WATHBA store; this guide is for learning only.')
+    ],
+    images:{
+      hero:{file:'dheeb-wall-bars-hero',character:'dheeb',pose:'side view standing at a set of plain wooden Swedish wall bars fixed to a wall, holding a rung at chest height with both hands, calm.',alt:t('ذيب يقف عند السلم السويدي','Dheeb standing at the Swedish wall bars')},
+      muscles:{file:'muscles-wall-bars',character:'sakhr',pose:'side view doing an assisted squat while holding a rung of plain wooden Swedish wall bars at chest height, thighs near parallel, back straight.',red:{strong:'the front of the thighs and the buttocks',light:'the calves and the abdominal muscles'},alt:t('صخر يعمل قرفصاء بمساعدة السلم السويدي، والعضلات العاملة ملوّنة بالأحمر','Sakhr doing an assisted squat at the wall bars with the working muscles shaded red')},
+      mistake:{file:'sakhr-wall-bars-forced-stretch',character:'sakhr',pose:'at plain wooden Swedish wall bars showing a clear mistake: one leg hoisted very high on an upper rung, forcing a split stretch, body twisted, wincing posture.',alt:t('صخر يجبر جسمه على إطالة قسرية على السلم، وهذا خطأ شائع','Sakhr forcing an extreme stretch on the wall bars, a common mistake')},
+      closing:{file:'sakhr-wall-bars-hang',character:'sakhr',pose:'back view in a calm hang from the top rung of plain wooden Swedish wall bars, arms straight, feet just off the floor.',alt:t('صخر يتعلق من أعلى السلم السويدي','Sakhr hanging from the top of the wall bars')}
+    },
+    muscles:{
+      primary:[t('في القرفصاء بمساعدة: الفخذان والأرداف {{ace-squat}}','In assisted squats: thighs and glutes {{ace-squat}}'),t('في التعلق ورفع الركبتين: القبضة والظهر والبطن','In hangs and knee raises: grip, back and abdominals')],
+      secondary:[t('السمانة في الإطالة والوقوف على أطراف القدمين {{nhs-flexibility}}','Calves in stretches and heel raises {{nhs-flexibility}}'),t('الكتفان في التعلق {{ace-pull-up}}','Shoulders in hangs {{ace-pull-up}}')],
+      note:t('العضلات تتبع التمرين لا الجهاز: السلم نقطة إمساك، والتمرين الذي تعمله عليه هو الذي يحدد العضلات.','The muscles follow the exercise, not the equipment: the ladder is a handhold, and what you do on it decides which muscles work.')
+    },
+    sections:[
+      section('uses',t('ما فائدة السلم السويدي؟','What are wall bars good for?'),
+        t('القرفصاء بمساعدة: امسك قضيبًا بمستوى صدرك وانزل في القرفصاء. القضيب يعطيك توازنًا لتنزل بشكل صحيح: الوركان للخلف والظهر مستقيم والركبتان على خط القدم {{ace-squat}}. NHS تستعمل ظهر الكرسي بنفس الفكرة في القرفصاء الصغيرة {{nhs-strength}}، وACE تبدأ سلسلة القرفصاء بقرفصاء بمساعدة {{ace-progressions}}.','Assisted squats: hold a rung at chest height and squat. The rung gives you balance to move well: hips back, back flat, knees in line with your feet {{ace-squat}}. The NHS uses a chair back the same way for mini-squats {{nhs-strength}}, and ACE starts its squat chain with an assisted squat {{ace-progressions}}.'),
+        t('الإطالة: السلم سند ثابت لإطالة السمانة والجوانب {{nhs-flexibility}}. أطل بهدوء ولا تجبر جسمك على مدى أكبر بثقل وزنك.','Stretching: the ladder is a steady support for calf and side stretches {{nhs-flexibility}}. Stretch gently and never force extra range with your body weight.')),
+      section('limits',t('ما الذي لا يفعله السلم؟','What wall bars do not do'),
+        t('لا يزيد الطول، ولا يعالج آلام الظهر، ولم نجد مصدرًا موثوقًا يقول غير ذلك. إذا كان هدفك علاجًا أو تأهيلًا، فهذا يحتاج تقييمًا من مختص.','They do not make you taller or treat back pain, and we found no reliable source saying otherwise. Rehabilitation needs assessment by a professional.'),
+        t('ليس كل سلم سويدي يصلح للتعلق أو العقلة: بعضها قريب جدًا من الحائط، فلا يترك مساحة لوجهك وركبتيك. افحص تعليمات الجهاز والتثبيت قبل أن تتعلق.','Not every set of wall bars suits hanging or pull-ups: some sit too close to the wall to leave room for your face and knees. Check the manufacturer\'s instructions and the fixing before you hang.'))
+    ],
+    ladderNote:t('القرفصاء بمساعدة من سلسلة ACE {{ace-progressions}}، والإطالة من NHS {{nhs-flexibility}}. التعلق ورفع الركبتين والمقادير وعمود «انتقل عندما» قواعد عملية من وثبة.','The assisted squat is from the ACE chain {{ace-progressions}}, the stretch from the NHS {{nhs-flexibility}}. Hangs, knee raises, doses and the “Move on when” column are WATHBA working rules.'),
+    levels:[
+      level(t('إطالة السمانة على السلم','Calf stretch at the ladder'),t('3 مرات لكل رجل {{nhs-flexibility}}','3 times each leg {{nhs-flexibility}}'),t('اليدان على قضيب، والرجل الخلفية مستقيمة والكعب على الأرض {{nhs-flexibility}}.','Hands on a rung, back leg straight, heel down {{nhs-flexibility}}.'),t('جزء من الإحماء في كل جلسة.','Part of every warm-up.')),
+      level(t('القرفصاء بمساعدة','Assisted squat'),t('2–3 × 8–12','2–3 × 8–12'),t('امسك قضيبًا بمستوى الصدر، وانزل حتى يقترب الفخذان من الموازاة {{ace-squat}}.','Hold a rung at chest height and lower until your thighs near parallel {{ace-squat}}.'),t('تكمل 3 × 12 بدون شدّ على القضيب، فانتقل للقرفصاء الحرة.','You complete 3 × 12 without pulling on the rung; move to free squats.')),
+      level(t('التعلق والقدمان مدعومتان','Foot-supported hang'),t('3 × 10–20 ثانية','3 × 10–20 seconds'),t('فقط على سلم مصمم للتعلق، والكتفان للأسفل {{ace-pull-up}}.','Only on a ladder designed for hanging, shoulders down {{ace-pull-up}}.'),t('تتعلق 3 × 20 ثانية بثبات.','You hang 3 × 20 seconds steadily.')),
+      level(t('رفع الركبتين معلقًا','Hanging knee raise'),t('2–3 × 4–8','2–3 × 4–8'),t('ظهرك للسلم، وارفع ركبتيك للصدر ببطء دون تأرجح.','Back to the ladder, lift your knees to your chest slowly without swinging.'),t('تكمل 3 × 8 بتحكم.','You complete 3 × 8 under control.'))
+    ],
+    program:[
+      t('استخدم السلم ضمن جلساتك يومين في الأسبوع على الأقل، فهذا يكمل توصية تدريب كل العضلات الكبرى {{nhs-adults}} {{acsm-2026}}. ابدأ بالإطالة كإحماء، ثم القرفصاء، ثم التعلق إن كان مناسبًا.','Use the ladder in your sessions at least twice a week, toward the advice to train all major muscle groups {{nhs-adults}} {{acsm-2026}}. Warm up with the stretch, then squats, then hangs if suitable.'),
+      t('الراحة 60–90 ثانية قاعدة من وثبة. توقف إذا لاحظت حركة غير طبيعية في التثبيت أو تشققًا في القضبان.','Resting 60–90 seconds is a WATHBA rule. Stop if you notice any unusual movement in the fixing or a crack in a rung.')
+    ],
+    week:[
+      day(t('الأحد','Sunday'),t('إطالة السمانة، ثم 3 مجموعات قرفصاء بمساعدة، ثم تعلق إن أمكن.','Calf stretch, 3 sets of assisted squats, then hangs if possible.')),
+      day(t('الثلاثاء','Tuesday'),t('تمارين ضغط أو مشي.','Push-ups or a walk.')),
+      day(t('الأربعاء','Wednesday'),t('نفس جلسة الأحد، وأضف رفع الركبتين إذا كان التعلق ثابتًا.','Sunday\'s session, adding knee raises if your hang is steady.')),
+      day(t('أي يوم','Any day'),t('إطالة خفيفة لدقائق، بلا إجبار.','A few minutes of gentle stretching, never forced.'))
+    ],
+    mistakes:[
+      mistake(t('الإطالة القسرية بوزن الجسم.','Forcing stretches with body weight.'),t('أطل بهدوء وبالمدى المريح {{nhs-flexibility}}.','Stretch gently within a comfortable range {{nhs-flexibility}}.')),
+      mistake(t('التعلق على سلم غير مصمم لذلك.','Hanging from a ladder not built for it.'),t('افحص تعليمات الجهاز والتثبيت والمسافة من الحائط أولًا.','Check the instructions, the fixing and the wall clearance first.')),
+      mistake(t('الشدّ بقوة على القضيب في القرفصاء.','Hauling on the rung in squats.'),t('القضيب للتوازن فقط؛ رجلاك تقومان بالعمل.','The rung is for balance only; your legs do the work.')),
+      mistake(t('التأرجح في رفع الركبتين.','Swinging in knee raises.'),t('ارفع ببطء، وقلل المدى إذا لزم.','Lift slowly, and shorten the range if needed.'))
+    ],
+    faqs:[
+      faq(t('هل السلم السويدي معروض للبيع في وثبة؟','Does WATHBA sell Swedish wall bars?'),t('غير معروض حاليًا ضمن منتجات المتجر. هذا الدليل للتعلم وفهم الاستخدام فقط.','Not currently in the store. This guide is for learning and understanding their use only.')),
+      faq(t('هل التعلق على السلم السويدي يطوّل القامة؟','Does hanging on wall bars make you taller?'),t('لا. لم نجد مصدرًا موثوقًا يثبت ذلك، فلا نعد به.','No. We found no reliable source showing that, so we do not promise it.')),
+      faq(t('هل السلم السويدي بديل عن بار العقلة؟','Can wall bars replace a pull-up bar?'),t('ليس دائمًا. كثير منها قريب من الحائط، فلا يترك مساحة للعقلة الكاملة. بار العقلة البارز عن الحائط أنسب للسحب.','Not always. Many sit close to the wall and leave no room for a full pull-up. A bar that projects from the wall is better for pulling.')),
+      faq(t('ما أفضل تمرين للمبتدئ على السلم؟','What is the best beginner exercise on wall bars?'),t('القرفصاء بمساعدة وإطالة السمانة. القضيب يعطيك توازنًا لتتعلم الحركة بشكل صحيح.','Assisted squats and the calf stretch. The rung gives you balance to learn good form.'))
+    ],
+    related:['beginner','first-pull-up','grip','rings'],
+    products:[],
+    sources:['nhs-strength','nhs-flexibility','ace-squat','ace-progressions','ace-pull-up','nhs-adults','acsm-2026']
   }
 ];
