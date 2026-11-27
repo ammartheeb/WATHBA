@@ -93,9 +93,18 @@
 .academy-muscles { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 18px; }
 .academy-muscles > div { padding: 20px; border: 1px solid var(--academy-edge); border-radius: 12px; background: var(--wathba-panel); }
 .academy-muscles h3 { margin-top: 0; }
-.academy-muscles-figure { margin: 0 0 22px; }
-.academy-muscles-figure img { display: block; width: min(100%, 520px); height: auto; margin-inline: auto; border-radius: 12px; }
-.academy-muscles-figure figcaption { margin-top: 10px; text-align: center; color: var(--academy-muted); font-size: 14px; }
+.academy-figure { margin: 0 0 22px; }
+.academy-figure img { display: block; width: 100%; height: auto; }
+.academy-figure--muscles img { width: min(100%, 520px); margin-inline: auto; border-radius: 12px; }
+.academy-figure figcaption { margin-top: 10px; text-align: center; color: var(--academy-muted); font-size: 14px; }
+.academy-figure--mistake { float: inline-end; width: min(42%, 260px); margin: 0 0 12px 0; margin-inline-start: 20px; }
+.academy-hero-with-slot:has(.academy-figure--hero) { display: grid; grid-template-columns: minmax(0,1fr) minmax(220px, 34%); column-gap: 40px; align-items: center; }
+.academy-hero-with-slot:has(.academy-figure--hero) > :not(.academy-figure--hero) { grid-column: 1; }
+.academy-figure--hero { grid-column: 2; grid-row: 1 / span 5; margin: 0; }
+.academy-next-with-slot:has(.academy-figure--closing) { display: flex; align-items: center; justify-content: space-between; gap: 32px; }
+.academy-figure--closing { width: min(32%, 320px); margin: 0; flex: none; }
+@media (max-width: 900px) { .academy-desktop-only { display: none; } .academy-hero-with-slot, .academy-next-with-slot { display: block !important; } }
+@media (max-width: 520px) { .academy-figure--mistake { float: none; width: min(100%, 300px); margin-inline: auto; } }
 .academy-cite { font-size: .72em; line-height: 0; margin-inline-start: 2px; }
 .academy-cite a { text-decoration: none; font-weight: 700; }
 .academy-mistakes strong, .academy-evidence strong { color: #fff; }
