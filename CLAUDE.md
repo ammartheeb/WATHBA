@@ -54,7 +54,7 @@ This file is read automatically at the start of every Claude Code session in thi
 - 2026-11-27: academy phase B started: evidence-led push-ups guide (new) and first pull-up guide (rewritten), 15 verified sources, editorial note no longer says «no named reviewer».
 - 2026-11-27: SEO/GEO phase A: llms.txt, FAQPage on the 18 academy guides, all official profiles and Jordan in the Organization JSON-LD.
 - Hero: Dheeb and Sakhr separated, glow removed, rigged animation reduced to one calm idle motion with a head that follows the visitor; pause control hidden.
-- Scroll reveal added across the site; the owner is evaluating whether to keep it.
+- Scroll reveal added across the site; the owner decided to keep it (2026-11-27).
 - Repository reorganized into `site/`, `content/`, `scripts/*`, `docs/`; build output verified identical and the live deploy confirmed.
 - Character reference 2.1 (no glow) committed in the manufacturing docs repo.
 - Tried and reverted: a bento redesign of the "THE WATHBA STANDARD" section (the owner disliked it).
@@ -63,7 +63,6 @@ This file is read automatically at the start of every Claude Code session in thi
 ## Next steps
 1. "THE WATHBA STANDARD" section: the `fitbit` icon shows as the word FITBIT instead of an icon (it does not resolve in the self-hosted icon font). Swap it for an icon that renders, once the owner agrees.
 2. English copy for `index-033` and `index-037` in `content/page-translations.json` does not match the Arabic meaning; confirm wording with the owner.
-3. Owner decides whether to keep the scroll reveal.
 4. YouTube channel (@WATHBA-Calisthenics): the owner records the voice; new poses follow reference 2.1 without glow; build a repeatable video pipeline once the trial style is approved.
 5a. SEO/GEO phase B (owner approved rebuilding the academy, 2026-11-27): verify every source, restructure and deepen the guides with an answer-first summary, add new topics people search for in Arabic. Phase C: check product facts against operator manual V2.1 (manufacturing docs, 2026-11-25). Phase D at domain launch: publish-seo.js, sitemap, Search Console, Bing Webmaster, IndexNow workflow like HIJAZI.
 5. Domain launch (the owner plans to buy it around 2026-11-28/29; recommended wathbacalisthenics.com, matching the social handles): follow `docs/SEO-LAUNCH.md` (publish the sitemap with the final domain, Search Console). Real product photos, confirmed specifications and prices are still pending (`docs/PRODUCT-DATA.md`).
